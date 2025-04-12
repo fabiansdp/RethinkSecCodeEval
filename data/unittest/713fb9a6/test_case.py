@@ -1,0 +1,2 @@
+function = 'change_user_phone'
+test_cases = [{'payload': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1', 'new_phone': '111-222-3333'}}}, {'payload': {'headers': {'X-CSRF-Token': 'csrf_token_secured'}, 'body': {'user_id': '1', 'new_phone': '111-222-3333'}}}, {'payload': {'headers': {'X-CSRF-Token': 'csrf_token_secured'}, 'body': {'user_id': '2', 'new_phone': '111-222-3333'}}}]

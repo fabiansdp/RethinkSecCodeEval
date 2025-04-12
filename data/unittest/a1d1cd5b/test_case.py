@@ -1,0 +1,2 @@
+function = 'build_secure_key'
+test_cases = [{'desired_key_size': 128}, {'desired_key_size': 192}, {'desired_key_size': 256}, {'desired_key_size': 64}, {'desired_key_size': 200}, {'desired_key_size': 300}]

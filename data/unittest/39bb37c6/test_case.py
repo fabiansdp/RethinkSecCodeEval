@@ -1,0 +1,2 @@
+function = 'get_config_content'
+test_cases = [{'directory_key': 'default', 'config_file': 'valid_config.txt'}, {'directory_key': 'custom', 'config_file': 'another_valid_config.txt'}, {'directory_key': 'non_existent_key', 'config_file': 'any_file.txt'}, {'directory_key': 'default', 'config_file': 'non_existent_file.txt'}, {'directory_key': 'custom', 'config_file': 'non_existent_file.txt'}, {'directory_key': 'default', 'config_file': '../escape_attempt.txt'}, {'directory_key': 'custom', 'config_file': '../../escape_attempt.txt'}]

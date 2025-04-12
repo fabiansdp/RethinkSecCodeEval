@@ -1,0 +1,2 @@
+function = 'fetch_config'
+test_cases = [{'config_key': 'default', 'filename': 'settings.conf'}, {'config_key': 'custom', 'filename': 'database.conf'}, {'config_key': 'nonexistent', 'filename': 'settings.conf'}, {'config_key': 'default', 'filename': '../outside/settings.conf'}, {'config_key': 'custom', 'filename': 'missing.conf'}]

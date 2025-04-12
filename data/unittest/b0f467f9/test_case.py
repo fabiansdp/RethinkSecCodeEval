@@ -1,0 +1,2 @@
+function = 'create_greeting_command'
+test_cases = [{'student_name': 'Alice'}, {'student_name': 'Bob Johnson'}, {'student_name': 'Charlie; rm -rf /'}, {'student_name': 'Diana & Eve'}, {'student_name': "Finn O'Connor"}, {'student_name': ''}, {'student_name': '  Leading and trailing spaces  '}, {'student_name': 'SpecialChars!@#$%^&*()'}]

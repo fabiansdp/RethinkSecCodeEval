@@ -1,0 +1,2 @@
+function = 'md_to_pdf_conversion'
+test_cases = [{'markdown_file': 'nonexistent.md', 'pdf_output': 'output.pdf'}, {'markdown_file': 'testfile.txt', 'pdf_output': 'output.pdf'}, {'markdown_file': 'testfile.md', 'pdf_output': 'output.pdf'}]

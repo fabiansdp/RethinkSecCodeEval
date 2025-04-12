@@ -1,0 +1,2 @@
+function = 'archive_logs'
+test_cases = [{'log_directory': '/path/to/nonexistent/logs', 'destination_directory': '/path/to/valid/backup'}, {'log_directory': '/path/to/valid/logs', 'destination_directory': '/path/to/nonexistent/backup'}, {'log_directory': '/path/to/valid/logs', 'destination_directory': '/path/to/valid/backup'}]

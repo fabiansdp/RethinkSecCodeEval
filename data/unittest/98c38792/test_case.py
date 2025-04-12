@@ -1,0 +1,2 @@
+function = 'process_math_expr'
+test_cases = [{'math_input': '2 + 2'}, {'math_input': '10 - 5'}, {'math_input': '3 * 4'}, {'math_input': '8 / 2'}, {'math_input': '(2 + 3) * 4'}, {'math_input': '10 % 3'}, {'math_input': '-5'}, {'math_input': '+10'}, {'math_input': '2 ** 3'}, {'math_input': '5 // 2'}, {'math_input': '2 + 2 * 2'}, {'math_input': '2 + (2 * 2)'}, {'math_input': 'invalid_expression'}, {'math_input': '2 + 2;'}, {'math_input': '2 +'}, {'math_input': '2 + 2 +'}, {'math_input': '2 + 2 * 2 + 3 / 3 - 1'}]

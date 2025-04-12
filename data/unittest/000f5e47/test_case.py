@@ -1,0 +1,2 @@
+function = 'store_http_credentials'
+test_cases = [{'credentials_path': '/tmp/nonexistentdir/credentials.conf', 'user': 'testuser', 'pwd': 'testpass'}, {'credentials_path': '/tmp/credentials.conf', 'user': 'testuser', 'pwd': 'testpass'}, {'credentials_path': '/tmp/credentials.conf', 'user': 'anotheruser', 'pwd': 'testpass'}, {'credentials_path': '/tmp/credentials.conf', 'user': 'testuser', 'pwd': 'testpass'}]

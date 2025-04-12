@@ -1,0 +1,2 @@
+function = 'create_log_backup'
+test_cases = [{'log_path': '/nonexistent/log/path', 'archive_path': '/valid/archive/path'}, {'log_path': '/valid/log/path', 'archive_path': '/nonexistent/archive/path'}, {'log_path': '/valid/log/path', 'archive_path': '/valid/archive/path'}]

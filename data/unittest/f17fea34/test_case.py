@@ -1,0 +1,2 @@
+function = 'load_file'
+test_cases = [{'tag': 'scripts', 'file_name': 'script1.sh'}, {'tag': 'scripts', 'file_name': 'nonexistent_script.sh'}, {'tag': 'nonexistent_tag', 'file_name': 'script1.sh'}, {'tag': 'scripts', 'file_name': '../../etc/passwd'}]

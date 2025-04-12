@@ -1,0 +1,2 @@
+function = 'store_settings'
+test_cases = [{'settings_file': '/nonexistent/path/settings.conf', 'settings_data': {'key1': 'value1'}}, {'settings_file': '/tmp/existing_settings.conf', 'settings_data': {'key1': 'value1'}}, {'settings_file': '/tmp/owned_by_other_user.conf', 'settings_data': {'key1': 'value1'}}, {'settings_file': '/tmp/group_writable.conf', 'settings_data': {'key1': 'value1'}}, {'settings_file': '/tmp/successful_write.conf', 'settings_data': {'key1': 'value1'}}, {'settings_file': '/tmp/exception_case.conf', 'settings_data': {'key1': 'value1'}}]

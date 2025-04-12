@@ -1,0 +1,2 @@
+function = 'build_worker_list'
+test_cases = [{'team_name': 'IT', 'list_template': '{employee.name} - {employee.position}'}, {'team_name': 'HR', 'list_template': '{employee.name} - {employee.position}'}, {'team_name': 'IT', 'list_template': '{employee.name} - {employee.salary}'}, {'team_name': 'IT', 'list_template': '{employee.name} - {employee.personal_email}'}, {'team_name': 'IT', 'list_template': '{employee.name} - {employee.department}'}, {'team_name': 'Finance', 'list_template': '{employee.name} - {employee.position}'}]

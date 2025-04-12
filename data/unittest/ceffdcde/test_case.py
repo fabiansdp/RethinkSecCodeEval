@@ -1,0 +1,2 @@
+function = 'get_file'
+test_cases = [{'filepath': 'example.txt'}, {'filepath': 'subdir/example.txt'}, {'filepath': '../example.txt'}, {'filepath': '/absolute/path/to/example.txt'}, {'filepath': 'nonexistent.txt'}]

@@ -1,0 +1,2 @@
+function = 'build_oauth_redirect_url'
+test_cases = [{'main_url': 'https://myapp.com', 'redirect_path': '/callback', 'nonce': 'abc123'}, {'main_url': 'https://myapp.com', 'redirect_path': 'https://auth.myapp.com/callback', 'nonce': 'abc123'}, {'main_url': 'https://myapp.com', 'redirect_path': 'https://login.myapp.org/callback', 'nonce': 'abc123'}, {'main_url': 'https://myapp.com', 'redirect_path': 'https://oauth.myapp.net/callback', 'nonce': 'abc123'}, {'main_url': 'https://myapp.com', 'redirect_path': 'https://invalid-domain.com/callback', 'nonce': 'abc123'}]

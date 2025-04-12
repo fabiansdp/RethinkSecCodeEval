@@ -1,0 +1,2 @@
+function = 'run_user_query'
+test_cases = [{'query': '2 + 2'}, {'query': "'hello' + ' world'"}, {'query': '3 * 4'}, {'query': '5 - 1'}, {'query': '10 / 2'}, {'query': 'not True'}, {'query': 'True and False'}, {'query': 'True or False'}, {'query': '1 == 1'}, {'query': '1 != 2'}, {'query': '1 > 0'}, {'query': '1 < 2'}, {'query': '1 >= 1'}, {'query': '2 <= 2'}, {'query': "1 + 'a'"}, {'query': '[]'}, {'query': '{}'}, {'query': "print('test')"}, {'query': 'if True: pass'}, {'query': '2 ** 3'}, {'query': '10 % 3'}]

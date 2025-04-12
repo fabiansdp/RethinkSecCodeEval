@@ -1,0 +1,2 @@
+function = 'save_directory'
+test_cases = [{'folder_location': '/existing/folder', 'backup_title': 'backup1'}, {'folder_location': '/nonexistent/folder', 'backup_title': 'backup2'}, {'folder_location': '/empty/folder', 'backup_title': 'backup3'}, {'folder_location': '/permissions/denied/folder', 'backup_title': 'backup4'}, {'folder_location': '/existing/folder', 'backup_title': 'backup_with_special_chars!@#'}]

@@ -1,0 +1,2 @@
+function = 'register_keys'
+test_cases = [{'filepath': '/nonexistent/directory/api_keys.txt', 'tokens': {'service1': 'key1'}}, {'filepath': '/tmp/api_keys.txt', 'tokens': {'service1': 'key1'}}, {'filepath': '/tmp/api_keys_existing.txt', 'tokens': {'service1': 'key1'}}, {'filepath': '/tmp/api_keys_existing_wrong_owner.txt', 'tokens': {'service1': 'key1'}}, {'filepath': '/tmp/api_keys_existing_group_perms.txt', 'tokens': {'service1': 'key1'}}]

@@ -1,0 +1,2 @@
+function = 'load_config'
+test_cases = [{'directory_key': 'default', 'file_title': 'valid_config.txt'}, {'directory_key': 'custom', 'file_title': 'valid_config.txt'}, {'directory_key': 'nonexistent', 'file_title': 'valid_config.txt'}, {'directory_key': 'default', 'file_title': '../invalid_config.txt'}, {'directory_key': 'custom', 'file_title': 'nonexistent_file.txt'}]

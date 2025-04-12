@@ -1,0 +1,2 @@
+function = 'validate_device_packet'
+test_cases = [{'iot_device_id': 'device001', 'iot_signature': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'iot_data': {'temperature': 22.5, 'humidity': 60}}, {'iot_device_id': 'device001', 'iot_signature': 'wrong_signature', 'iot_data': {'temperature': 22.5, 'humidity': 60}}, {'iot_device_id': 'unknown_device', 'iot_signature': 'any_signature', 'iot_data': {'temperature': 22.5, 'humidity': 60}}, {'iot_device_id': 'device002', 'iot_signature': '1dcfa479db7aae3d40b3984cdf202de6', 'iot_data': {'temperature': 22.5, 'humidity': 60}}]

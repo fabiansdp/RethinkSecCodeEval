@@ -1,0 +1,2 @@
+function = 'process_user_code'
+test_cases = [{'code_script': '2 + 2'}, {'code_script': '-5'}, {'code_script': '"hello"'}, {'code_script': '3 * 4 - 2'}, {'code_script': 'True or False'}, {'code_script': '10 == 5'}, {'code_script': 'import os'}, {'code_script': "print('test')"}, {'code_script': '2 ** 3'}, {'code_script': 'not True'}]

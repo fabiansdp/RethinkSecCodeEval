@@ -1,0 +1,2 @@
+function = 'compute_expression'
+test_cases = [{'input_expr': '1 + 2'}, {'input_expr': '3 * (4 - 5)'}, {'input_expr': '10 / 2'}, {'input_expr': '2 ** 3'}, {'input_expr': 'invalid!'}, {'input_expr': '1 + 2 * (3 / 4)'}, {'input_expr': '1 + two'}, {'input_expr': "print('hello')"}, {'input_expr': 'import os'}, {'input_expr': 'def myfunc(): pass'}]

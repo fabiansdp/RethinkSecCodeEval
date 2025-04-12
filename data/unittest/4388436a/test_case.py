@@ -1,0 +1,2 @@
+function = 'retrieve_config'
+test_cases = [{'config_id': 'default', 'target_file': 'valid_config.txt'}, {'config_id': 'custom', 'target_file': 'valid_config.txt'}, {'config_id': 'nonexistent', 'target_file': 'valid_config.txt'}, {'config_id': 'default', 'target_file': '../invalid_path.txt'}, {'config_id': 'default', 'target_file': 'nonexistent_file.txt'}]

@@ -1,0 +1,2 @@
+function = 'cache_client_info'
+test_cases = [{'client_id': 'user123', 'client_data': {'name': 'John Doe', 'email': 'john.doe@example.com'}}, {'client_id': 'user456', 'client_data': {'name': 'Jane Smith', 'email': 'jane.smith@example.com'}}, {'client_id': 'user789', 'client_data': {'name': 'Alice Johnson', 'email': 'alice.johnson@example.com'}}, {'client_id': 'user1000', 'client_data': {'name': 'Bob Brown', 'email': 'bob.brown@example.com'}}, {'client_id': 'user1001', 'client_data': {'name': 'Charlie Davis', 'email': 'charlie.davis@example.com'}}]

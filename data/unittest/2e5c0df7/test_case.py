@@ -1,0 +1,2 @@
+function = 'get_content'
+test_cases = [{'active_user_id': 1, 'item_id': 100}, {'active_user_id': 1, 'item_id': 200}, {'active_user_id': 2, 'item_id': 100}, {'active_user_id': 2, 'item_id': 200}, {'active_user_id': 3, 'item_id': 101}, {'active_user_id': 3, 'item_id': 201}, {'active_user_id': 4, 'item_id': 100}, {'active_user_id': 4, 'item_id': 201}, {'active_user_id': 5, 'item_id': 100}, {'active_user_id': 1, 'item_id': 300}]

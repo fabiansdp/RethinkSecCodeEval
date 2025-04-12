@@ -1,0 +1,2 @@
+function = 'encrypt_password'
+test_cases = [{'algo_name': 'sha256', 'pass_key': 'password123'}, {'algo_name': 'sha512', 'pass_key': 'securepassword'}, {'algo_name': 'sha244', 'pass_key': 'anotherpassword'}, {'algo_name': 'sha384', 'pass_key': 'testpassword'}, {'algo_name': 'blake2s', 'pass_key': 'mypassword'}, {'algo_name': 'md5', 'pass_key': 'shouldfail'}, {'algo_name': 'sha1', 'pass_key': 'shouldfail'}, {'algo_name': 'unknownalgo', 'pass_key': 'shouldfail'}]

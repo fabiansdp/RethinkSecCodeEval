@@ -1,0 +1,2 @@
+function = 'verify_data_packet'
+test_cases = [{'device': 'device001', 'sig': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'payload': {}}, {'device': 'device002', 'sig': '1dcfa479db7aae3d40b3984cdf202de6', 'payload': {}}, {'device': 'device001', 'sig': 'wrong_signature', 'payload': {}}, {'device': 'unknown_device', 'sig': 'some_signature', 'payload': {}}, {'device': 'device001', 'sig': '', 'payload': {}}, {'device': '', 'sig': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'payload': {}}, {'device': 'device001', 'sig': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'payload': {'extra': 'data'}}]

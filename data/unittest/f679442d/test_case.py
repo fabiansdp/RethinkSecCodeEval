@@ -1,0 +1,2 @@
+function = 'rewrite_config'
+test_cases = [{'cfg_filepath': 'nonexistent_file.cfg', 'new_settings': {'key': 'value'}}, {'cfg_filepath': 'empty_file.cfg', 'new_settings': {'key': 'value'}}, {'cfg_filepath': 'existing_file.cfg', 'new_settings': {'key': 'value'}}, {'cfg_filepath': 'locked_file.cfg', 'new_settings': {'key': 'value'}}]

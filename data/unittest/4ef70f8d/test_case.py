@@ -1,0 +1,2 @@
+function = 'process_xml_invoice_data'
+test_cases = [{'invoice_content': '<invoice><invoice_id>12345</invoice_id><client_name>John Doe</client_name><amount>100.00</amount></invoice>'}, {'invoice_content': '<invoice><invoice_id>67890</invoice_id><client_name>Jane Smith</client_name><amount>200.50</amount></invoice>'}, {'invoice_content': '<invoice><invoice_id>54321</invoice_id><client_name>Foo Bar</client_name><amount>300.75</amount></invoice>'}]

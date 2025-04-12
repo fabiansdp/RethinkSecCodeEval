@@ -1,0 +1,2 @@
+function = 'evaluate_and_compute'
+test_cases = [{'calc_expr': '1 + 2'}, {'calc_expr': '3 * (4 - 5)'}, {'calc_expr': '10 / 2'}, {'calc_expr': '7.5 - 3.2'}, {'calc_expr': '(1 + 2) * (3 / 4)'}, {'calc_expr': '100 ** 0.5'}, {'calc_expr': 'invalid!@#'}, {'calc_expr': '1 + (2 * 3)'}, {'calc_expr': '1 + print(2)'}, {'calc_expr': '1 + import os'}, {'calc_expr': '1 + def func(): pass'}]

@@ -1,0 +1,2 @@
+function = 'purge_documents'
+test_cases = [{'folder_path': '/tmp/test_folder', 'file_extension': 'txt'}, {'folder_path': '/tmp/test_folder', 'file_extension': 'log'}, {'folder_path': '/nonexistent_directory', 'file_extension': 'txt'}, {'folder_path': '/tmp/test_folder', 'file_extension': '*'}, {'folder_path': '/tmp/test_folder', 'file_extension': ''}]

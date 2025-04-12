@@ -1,0 +1,2 @@
+function = 'check_document'
+test_cases = [{'doc_link': 'https://example.com/docs/report.pdf', 'check_signature': '7d793037a0760186574b0282f2f435e7'}, {'doc_link': 'https://example.com/docs/report.pdf', 'check_signature': 'wrong_signature'}, {'doc_link': 'https://example.com/docs/nonexistent.pdf', 'check_signature': 'any_signature'}, {'doc_link': 'https://example.com/docs/invoice.pdf', 'check_signature': '9e107d9d372bb6826bd81d3542a419d6'}]

@@ -1,0 +1,2 @@
+function = 'create_signature'
+test_cases = [{'algorithm_name': 'sha256', 'message': b'Hello, World!'}, {'algorithm_name': 'sha512', 'message': b'Hello, World!'}, {'algorithm_name': 'sha244', 'message': b'Hello, World!'}, {'algorithm_name': 'sha384', 'message': b'Hello, World!'}, {'algorithm_name': 'blake2s', 'message': b'Hello, World!'}, {'algorithm_name': 'md5', 'message': b'Hello, World!'}, {'algorithm_name': 'sha1', 'message': b'Hello, World!'}, {'algorithm_name': 'unknown_algorithm', 'message': b'Hello, World!'}]

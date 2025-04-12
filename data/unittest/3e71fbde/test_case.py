@@ -1,0 +1,2 @@
+function = 'run_code_snippet'
+test_cases = [{'snippet': 'x = 1 + 2'}, {'snippet': "print('Hello, world!')"}, {'snippet': 'if True:\n    x = 5'}, {'snippet': 'import os'}, {'snippet': 'from math import sqrt'}, {'snippet': 'def my_function():\n    pass'}, {'snippet': 'my_function()'}, {'snippet': "raise ValueError('Test')"}, {'snippet': 'for i in range(3):\n    print(i)'}]

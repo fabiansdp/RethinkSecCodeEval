@@ -1,0 +1,2 @@
+function = 'validate_feed_url'
+test_cases = [{'url': 'http://rss.trustedsource.com/feed'}, {'url': 'https://feeds.provider.com/latest'}, {'url': 'ftp://rss.trustedsource.com/feed'}, {'url': 'http://untrustedsite.com/feed'}, {'url': 'http://localhost/feed'}, {'url': 'http://127.0.0.1/feed'}, {'url': 'http://10.0.0.1/feed'}, {'url': 'http://192.168.1.1/feed'}, {'url': 'http://newsfeed.safesite.org/feed'}]

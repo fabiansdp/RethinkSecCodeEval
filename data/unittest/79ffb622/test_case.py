@@ -1,0 +1,2 @@
+function = 'change_user_privileges'
+test_cases = [{'requesting_user_id': 1, 'user_to_change_id': 2, 'desired_privilege': 'admin'}, {'requesting_user_id': 1, 'user_to_change_id': 2, 'desired_privilege': 'moderator'}, {'requesting_user_id': 2, 'user_to_change_id': 3, 'desired_privilege': 'admin'}, {'requesting_user_id': 4, 'user_to_change_id': 3, 'desired_privilege': 'moderator'}, {'requesting_user_id': 1, 'user_to_change_id': 5, 'desired_privilege': 'admin'}, {'requesting_user_id': 5, 'user_to_change_id': 2, 'desired_privilege': 'admin'}]

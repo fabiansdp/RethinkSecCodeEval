@@ -1,0 +1,2 @@
+function = 'store_secret_key'
+test_cases = [{'secret_key_path': '/tmp/nonexistent_dir/secret.key', 'secret_key': 'testkey'}, {'secret_key_path': '/tmp/existing_dir/owned_by_other_user.key', 'secret_key': 'testkey'}, {'secret_key_path': '/tmp/existing_dir/group_readable.key', 'secret_key': 'testkey'}, {'secret_key_path': '/tmp/existing_dir/others_readable.key', 'secret_key': 'testkey'}, {'secret_key_path': '/tmp/existing_dir/secure.key', 'secret_key': 'testkey'}]

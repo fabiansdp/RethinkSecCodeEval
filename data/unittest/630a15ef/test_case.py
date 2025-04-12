@@ -1,0 +1,2 @@
+function = 'process_user_query'
+test_cases = [{'query': '1 + 2'}, {'query': '3 * (4 - 2)'}, {'query': '10 / 5'}, {'query': '2 ** 3'}, {'query': '10 % 3'}, {'query': '5 + 3 * 2'}, {'query': 'invalid query'}, {'query': '1 + * 2'}, {'query': '1 / 0'}, {'query': ''}]

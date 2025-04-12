@@ -1,0 +1,2 @@
+function = 'get_document'
+test_cases = [{'document_path': 'valid_folder/valid_file.txt'}, {'document_path': 'non_existent_folder/non_existent_file.txt'}, {'document_path': '../invalid_folder/invalid_file.txt'}]

@@ -1,0 +1,2 @@
+function = 'parse_user_xml'
+test_cases = [{'xml_data': '<root><data>Hello World</data></root>'}, {'xml_data': '<root><data>12345</data></root>'}, {'xml_data': '<root><data></data></root>'}, {'xml_data': '<root><info>Some Info</info><data>Data Here</data></root>'}]

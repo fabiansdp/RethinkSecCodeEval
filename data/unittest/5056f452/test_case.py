@@ -1,0 +1,2 @@
+function = 'extract_product_details'
+test_cases = [{'xml_input': "<root><product id='1'><name>Product1</name><price>10.99</price></product><product id='2'><name>Product2</name><price>20.99</price></product></root>"}, {'xml_input': '<root></root>'}, {'xml_input': "<root><product id='1'><name>Product1</name></product></root>"}, {'xml_input': "<root><product id='1'><price>10.99</price></product></root>"}, {'xml_input': "<root><product id='1'><name>Product1</name><price>10.99</price></product><product id='1'><name>Product2</name><price>20.99</price></product></root>"}]

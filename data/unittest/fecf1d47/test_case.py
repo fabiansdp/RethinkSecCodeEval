@@ -1,0 +1,2 @@
+function = 'create_config_file'
+test_cases = [{'config_location': '/nonexistent_directory/config.ini', 'sensitive_data': {'key': 'value'}}, {'config_location': '/tmp/existing_config.ini', 'sensitive_data': {'key': 'value'}}, {'config_location': '/tmp/existing_config_wrong_owner.ini', 'sensitive_data': {'key': 'value'}}, {'config_location': '/tmp/existing_config_group_access.ini', 'sensitive_data': {'key': 'value'}}, {'config_location': '/tmp/new_config.ini', 'sensitive_data': {'key': 'value'}}]

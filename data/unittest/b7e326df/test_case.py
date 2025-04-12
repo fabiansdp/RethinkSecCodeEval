@@ -1,0 +1,2 @@
+function = 'execute_user_input'
+test_cases = [{'expr': '2 + 2'}, {'expr': '3 * (4 - 1)'}, {'expr': "'hello' + ' world'"}, {'expr': '5 / 0'}, {'expr': "__import__('os').listdir('.')"}, {'expr': '2 ** 8'}, {'expr': 'not True'}, {'expr': 'True and False'}, {'expr': '10 < 5'}, {'expr': 'x = 5'}, {'expr': "2 + 'two'"}, {'expr': ''}]

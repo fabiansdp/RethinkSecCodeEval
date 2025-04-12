@@ -1,0 +1,2 @@
+function = 'safe_execute_code'
+test_cases = [{'snippet': 'x = 1 + 1'}, {'snippet': 'import os'}, {'snippet': 'from math import sqrt'}, {'snippet': 'def foo(): pass'}, {'snippet': "print('Hello')"}, {'snippet': 'if True: x = 1'}, {'snippet': 'x = y + z'}]

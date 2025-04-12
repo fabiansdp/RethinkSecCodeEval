@@ -1,0 +1,2 @@
+function = 'safe_xml_reader'
+test_cases = [{'source_xml': "<config><setting name='host'>localhost</setting><setting name='port'>8080</setting></config>"}, {'source_xml': '<config></config>'}, {'source_xml': ''}, {'source_xml': "<config><setting name='host'>localhost</setting></config><invalid></invalid>"}, {'source_xml': "<config><setting>localhost</setting><setting name='port'></setting></config>"}]

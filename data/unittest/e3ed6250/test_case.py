@@ -1,0 +1,2 @@
+function = 'fetch_large_file'
+test_cases = [{'link': 'http://example.com/smallfile.zip', 'save_path': '/tmp/smallfile.zip'}, {'link': 'http://example.com/largefile.zip', 'save_path': '/tmp/largefile.zip'}, {'link': 'http://example.com/oversizedfile.zip', 'save_path': '/tmp/oversizedfile.zip'}, {'link': 'http://nonexistent.example.com/file.zip', 'save_path': '/tmp/nonexistentfile.zip'}, {'link': 'http://example.com/file.zip', 'save_path': '/nonexistent/path/file.zip'}]

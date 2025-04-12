@@ -1,0 +1,2 @@
+function = 'build_xml_reply'
+test_cases = [{'user_text': ''}, {'user_text': 'Hello World'}, {'user_text': '<tag>value</tag>'}, {'user_text': '&lt;tag&gt;value&lt;/tag&gt;'}, {'user_text': 'Special chars: <>&"\''}, {'user_text': 'No special chars here'}, {'user_text': 'Multiple\nlines\nof\ntext'}, {'user_text': 'Mixed "quotes" and \'single quotes\''}]

@@ -1,0 +1,2 @@
+function = 'convert_to_object'
+test_cases = [{'serialized_data': '{"name": "John", "age": 30}', 'format_type': 'json'}, {'serialized_data': '<person><name>John</name><age>30</age></person>', 'format_type': 'xml'}, {'serialized_data': '{"name": "John", "age": 30}', 'format_type': 'yaml'}, {'serialized_data': '<person><name>John</name><age>30</age></person>', 'format_type': 'json'}, {'serialized_data': '{"name": "John", "age": 30}', 'format_type': 'xml'}, {'serialized_data': '<person><name>John</name><age>30</age></person>', 'format_type': 'pickle'}]

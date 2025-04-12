@@ -1,0 +1,2 @@
+function = 'check_message_integrity'
+test_cases = [{'msg_code': 'msg_1001', 'crypto_sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_code': 'msg_1002', 'crypto_sign': '1122aabbccdd3344eeff5566gggghhhh'}, {'msg_code': 'msg_1001', 'crypto_sign': 'wrong_signature'}, {'msg_code': 'msg_9999', 'crypto_sign': 'some_signature'}, {'msg_code': '', 'crypto_sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_code': 'msg_1001', 'crypto_sign': ''}]

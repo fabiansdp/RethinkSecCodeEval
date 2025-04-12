@@ -1,0 +1,2 @@
+function = 'unpack_serialized_object'
+test_cases = [{'byte_data': '{"key": "value"}', 'struct_format': 'json'}, {'byte_data': '[section]\nkey=value', 'struct_format': 'ini'}, {'byte_data': '{"key": "value"}', 'struct_format': 'unsupported'}]

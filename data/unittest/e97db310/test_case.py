@@ -1,0 +1,2 @@
+function = 'load_file'
+test_cases = [{'file_name': '/tmp/example.txt', 'signature': '5d41402abc4b2a76b9719d911017c592'}, {'file_name': '/tmp/sample.txt', 'signature': '2dcd14d9f59bb42477979fdb6e67e86a'}, {'file_name': '/tmp/nonexistent.txt', 'signature': 'invalid_signature'}, {'file_name': '/tmp/example.txt', 'signature': 'invalid_signature'}, {'file_name': '/tmp/sample.txt', 'signature': '5d41402abc4b2a76b9719d911017c592'}, {'file_name': '', 'signature': ''}, {'file_name': '/tmp/example.txt', 'signature': ''}]

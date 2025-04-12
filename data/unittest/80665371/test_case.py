@@ -1,0 +1,2 @@
+function = 'process_data_packet'
+test_cases = [{'dev_id': 'device001', 'sign': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'payload': {}}, {'dev_id': 'device001', 'sign': 'incorrect_signature', 'payload': {}}, {'dev_id': 'invalid_device', 'sign': 'some_signature', 'payload': {}}]

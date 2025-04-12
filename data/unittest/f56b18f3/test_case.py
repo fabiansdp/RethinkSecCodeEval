@@ -1,0 +1,2 @@
+function = 'create_blog_post'
+test_cases = [{'heading': 'Hello World', 'text': 'This is a blog post.'}, {'heading': '', 'text': ''}, {'heading': 'Special <chars> & more', 'text': 'Check out these symbols: < > & " \''}, {'heading': 'A very long heading that should test how the function handles long strings', 'text': 'Short text'}, {'heading': 'Normal Heading', 'text': 'A very long text that should test how the function handles long strings and see if it escapes everything properly without any issues.'}]

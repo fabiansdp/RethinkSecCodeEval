@@ -1,0 +1,2 @@
+function = 'check_api_signature'
+test_cases = [{'api_message': 'msg_1001', 'sig': 'abcd1234efgh5678ijkl9012mnop3456'}, {'api_message': 'msg_1001', 'sig': 'wrong_signature'}, {'api_message': 'msg_1002', 'sig': '1122aabbccdd3344eeff5566gggghhhh'}, {'api_message': 'msg_1002', 'sig': 'another_wrong_signature'}, {'api_message': 'non_existent_msg', 'sig': 'abcd1234efgh5678ijkl9012mnop3456'}]

@@ -1,0 +1,2 @@
+function = 'deserialize_file_data'
+test_cases = [{'input_filepath': 'test.json', 'input_format': 'json'}, {'input_filepath': 'test.txt', 'input_format': 'text'}, {'input_filepath': 'test.pkl', 'input_format': 'pickle'}, {'input_filepath': 'test.unknown', 'input_format': 'unknown'}]

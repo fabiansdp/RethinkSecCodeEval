@@ -1,0 +1,2 @@
+function = 'read_serialized_file'
+test_cases = [{'file_path': 'test.json', 'file_format': 'json'}, {'file_path': 'test.txt', 'file_format': 'text'}, {'file_path': 'test.pkl', 'file_format': 'pickle'}, {'file_path': 'test.unknown', 'file_format': 'unknown'}, {'file_path': 'non_existent_file.json', 'file_format': 'json'}, {'file_path': 'non_existent_file.txt', 'file_format': 'text'}]

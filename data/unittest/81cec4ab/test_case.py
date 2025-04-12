@@ -1,0 +1,2 @@
+function = 'retrieve_user_file'
+test_cases = [{'user_key': 'user123', 'rel_path': 'documents/report.txt'}, {'user_key': 'user456', 'rel_path': 'pictures/photo.png'}, {'user_key': 'nonexistentuser', 'rel_path': 'documents/report.txt'}, {'user_key': 'user123', 'rel_path': '../otheruser/secretfile.txt'}, {'user_key': 'user456', 'rel_path': '/absolute/path/to/file.txt'}, {'user_key': 'user123', 'rel_path': 'documents/nonexistentfile.txt'}, {'user_key': 'user456', 'rel_path': 'pictures/nonexistentphoto.png'}]

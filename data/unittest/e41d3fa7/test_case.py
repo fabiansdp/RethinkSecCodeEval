@@ -1,0 +1,2 @@
+function = 'generate_redirect_link'
+test_cases = [{'base_url': 'https://api.myservice.com', 'endpoint_path': '/v1/data', 'query_info': {'param1': 'value1', 'param2': 'value2'}}, {'base_url': 'https://api-test.myservice.com', 'endpoint_path': '/v1/user'}, {'base_url': 'https://api-staging.myservice.com', 'endpoint_path': '/v2/analytics', 'query_info': {'key': 'value'}}, {'base_url': 'https://api.myservice.com', 'endpoint_path': '/health'}, {'base_url': 'https://api-test.myservice.com', 'endpoint_path': '/v1/data', 'query_info': {}}]

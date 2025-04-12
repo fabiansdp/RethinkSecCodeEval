@@ -1,0 +1,2 @@
+function = 'save_config'
+test_cases = [{'config_path': '/nonexistent/directory/config.txt', 'config_items': {'key1': 'value1'}}, {'config_path': '/tmp/config_test.txt', 'config_items': {'key1': 'value1'}}, {'config_path': '/tmp/config_test.txt', 'config_items': {}}, {'config_path': '/tmp/config_test.txt', 'config_items': {'key1': 'value1', 'key2': 'value2'}}, {'config_path': '/tmp/config_test_owned_by_others.txt', 'config_items': {'key1': 'value1'}}, {'config_path': '/tmp/config_test_group_access.txt', 'config_items': {'key1': 'value1'}}]

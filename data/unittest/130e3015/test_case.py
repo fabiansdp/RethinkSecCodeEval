@@ -1,0 +1,2 @@
+function = 'format_post_content'
+test_cases = [{'post_title': '', 'post_body': ''}, {'post_title': 'Hello World', 'post_body': 'This is a blog post.'}, {'post_title': "<script>alert('xss')</script>", 'post_body': 'Safe content'}, {'post_title': 'Normal Title', 'post_body': '<b>Bold Text</b>'}, {'post_title': 'Multiple <br> Lines', 'post_body': 'Line1<br>Line2'}]

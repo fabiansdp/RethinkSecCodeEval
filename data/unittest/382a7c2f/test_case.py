@@ -1,0 +1,2 @@
+function = 'retrieve_employee_data'
+test_cases = [{'emp_xml': '<employees><employee><name>John Doe</name><role>Developer</role><salary>75000</salary></employee><employee><name>Jane Smith</name><role>Manager</role><salary>90000</salary></employee></employees>'}, {'emp_xml': '<employees><employee><name>Emily Johnson</name><role>Designer</role><salary>65000</salary></employee></employees>'}, {'emp_xml': '<employees></employees>'}]

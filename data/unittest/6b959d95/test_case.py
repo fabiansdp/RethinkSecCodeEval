@@ -1,0 +1,2 @@
+function = 'authenticate_message'
+test_cases = [{'algorithm': 'sha256', 'content': b'test content', 'secret': b'secret key'}, {'algorithm': 'sha512', 'content': b'another test', 'secret': b'another secret'}, {'algorithm': 'sha244', 'content': b'more test data', 'secret': b'more secret'}, {'algorithm': 'sha384', 'content': b'even more test', 'secret': b'even more secret'}, {'algorithm': 'blake2s', 'content': b'final test', 'secret': b'final secret'}, {'algorithm': 'md5', 'content': b'invalid algorithm test', 'secret': b'invalid secret'}]

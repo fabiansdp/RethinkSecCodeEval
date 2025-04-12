@@ -1,0 +1,2 @@
+function = 'exec_calculation'
+test_cases = [{'calc_string': '2 + 2'}, {'calc_string': '10 - 5'}, {'calc_string': '3 * 4'}, {'calc_string': '8 / 2'}, {'calc_string': '(1 + 2) * 3'}, {'calc_string': '-5'}, {'calc_string': '+3'}, {'calc_string': '5 ** 2'}, {'calc_string': '10 // 3'}, {'calc_string': '10 % 3'}, {'calc_string': 'invalid code'}, {'calc_string': "2 + 'a'"}, {'calc_string': "__import__('os')"}]

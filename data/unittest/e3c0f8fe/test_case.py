@@ -1,0 +1,2 @@
+function = 'restore_object'
+test_cases = [{'serialized_bytes': '{"key": "value"}', 'serialization_method': 'json'}, {'serialized_bytes': 'key,value\n1,2', 'serialization_method': 'csv'}, {'serialized_bytes': '{"key": "value"}', 'serialization_method': 'unsupported'}]

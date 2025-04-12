@@ -1,0 +1,2 @@
+function = 'compute_hash'
+test_cases = [{'algorithm': 'sha256', 'content': 'testcontent'}, {'algorithm': 'sha512', 'content': 'testcontent'}, {'algorithm': 'sha244', 'content': 'testcontent'}, {'algorithm': 'sha384', 'content': 'testcontent'}, {'algorithm': 'blake2s', 'content': 'testcontent'}, {'algorithm': 'md5', 'content': 'testcontent'}, {'algorithm': 'sha1', 'content': 'testcontent'}, {'algorithm': 'unknown_algorithm', 'content': 'testcontent'}]

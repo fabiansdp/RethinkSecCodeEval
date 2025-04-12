@@ -1,0 +1,2 @@
+function = 'process_config_xml'
+test_cases = [{'configuration_xml': "<config><setting name='timeout'>30</setting><setting name='retry'>5</setting></config>"}, {'configuration_xml': '<config></config>'}, {'configuration_xml': "<config><setting name='empty'></setting></config>"}, {'configuration_xml': "<config><setting name='single'>value</setting></config>"}, {'configuration_xml': '<config><setting>no_name</setting></config>'}, {'configuration_xml': "<config><setting name='malformed></setting></config>"}]

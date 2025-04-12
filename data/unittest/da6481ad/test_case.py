@@ -1,0 +1,2 @@
+function = 'secure_math_eval'
+test_cases = [{'expr_str': '2 + 2'}, {'expr_str': '10 - 5'}, {'expr_str': '3 * 7'}, {'expr_str': '8 / 2'}, {'expr_str': '(3 + 5) * 2'}, {'expr_str': '100 / (5 - 3)'}, {'expr_str': '1 + 2 * 3'}, {'expr_str': '4 / 2 + 3'}, {'expr_str': 'invalid'}, {'expr_str': '2 ** 2'}, {'expr_str': 'import os'}, {'expr_str': "os.system('ls')"}, {'expr_str': 'print(10)'}, {'expr_str': 'lambda x: x * 2'}, {'expr_str': 'def func(): return 10'}, {'expr_str': '10 + 5; print(15)'}]

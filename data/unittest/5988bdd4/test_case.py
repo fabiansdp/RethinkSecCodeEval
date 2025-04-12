@@ -1,0 +1,2 @@
+function = 'run_python_snippet'
+test_cases = [{'snippet_string': 'x = 10'}, {'snippet_string': 'y = x + 5'}, {'snippet_string': "print('Hello, world!')"}, {'snippet_string': 'import os'}, {'snippet_string': 'from math import sqrt'}, {'snippet_string': 'def my_function(): pass'}, {'snippet_string': 'my_function()'}, {'snippet_string': "raise Exception('Test exception')"}, {'snippet_string': 'z = 1 / 0'}, {'snippet_string': 'if True: print(1)'}]

@@ -1,0 +1,2 @@
+function = 'locate_document'
+test_cases = [{'requested_path': 'file.txt'}, {'requested_path': 'subdir/file.txt'}, {'requested_path': '../forbidden/file.txt'}, {'requested_path': '/absolute/path/to/file.txt'}, {'requested_path': ''}]

@@ -1,0 +1,2 @@
+function = 'evaluate_expression_safely'
+test_cases = [{'expr': '2 + 2'}, {'expr': '10 * (3 - 1)'}, {'expr': '5 / 2'}, {'expr': '8 - 3 * 2'}, {'expr': 'invalid!@#'}, {'expr': '1 + 2 * (3 / 4)'}, {'expr': "print('hello')"}, {'expr': 'import os'}, {'expr': "os.system('ls')"}, {'expr': 'lambda x: x + 1'}, {'expr': 'def my_func(): return 42'}, {'expr': '[]'}, {'expr': '{}'}, {'expr': '()'}]

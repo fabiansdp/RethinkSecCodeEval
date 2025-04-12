@@ -1,0 +1,2 @@
+function = 'alter_user_email'
+test_cases = [{'payload': {'headers': {'X-CSRF-Token': 'incorrect_token'}, 'body': {'user_id': '1', 'new_email': 'new.email@example.com'}}}, {'payload': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '2', 'new_email': 'new.email@example.com'}}}, {'payload': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1', 'new_email': 'updated.email@example.com'}}}]

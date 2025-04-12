@@ -1,0 +1,2 @@
+function = 'hash_password'
+test_cases = [{'hash_type': 'sha256', 'secret': 'password123'}, {'hash_type': 'sha512', 'secret': 'securepassword'}, {'hash_type': 'sha244', 'secret': 'anotherpassword'}, {'hash_type': 'sha384', 'secret': 'testpassword'}, {'hash_type': 'blake2s', 'secret': 'mypassword'}, {'hash_type': 'md5', 'secret': 'shouldfail'}, {'hash_type': 'sha1', 'secret': 'shouldfailtoo'}]

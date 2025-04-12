@@ -1,0 +1,2 @@
+function = 'generate_html_response'
+test_cases = [{'user_content': ''}, {'user_content': 'Hello World!'}, {'user_content': "<script>alert('XSS');</script>"}, {'user_content': '&copy; 2023'}, {'user_content': 'Line\nBreak'}, {'user_content': 'Special\tCharacters'}, {'user_content': 'Multiple    Spaces'}, {'user_content': '😊 Emoji'}]

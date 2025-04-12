@@ -1,0 +1,2 @@
+function = 'verify_document'
+test_cases = [{'doc_url': 'https://example.com/docs/report.pdf', 'signature': '7d793037a0760186574b0282f2f435e7'}, {'doc_url': 'https://example.com/docs/invoice.pdf', 'signature': '9e107d9d372bb6826bd81d3542a419d6'}, {'doc_url': 'https://example.com/docs/report.pdf', 'signature': 'wrong_signature'}, {'doc_url': 'https://example.com/docs/nonexistent.pdf', 'signature': 'some_signature'}, {'doc_url': '', 'signature': 'some_signature'}, {'doc_url': 'https://example.com/docs/report.pdf', 'signature': ''}]

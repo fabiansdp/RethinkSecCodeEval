@@ -1,0 +1,2 @@
+function = 'create_employee_report'
+test_cases = [{'emp_id': 'E101', 'template_str': 'Employee: {employee.name}, Rating: {performance.rating}'}, {'emp_id': 'E102', 'template_str': 'Employee: {employee.name}, Department: {employee.department}, Bonus: {performance.bonus}'}, {'emp_id': 'E101', 'template_str': 'Feedback: {performance.feedback}'}, {'emp_id': 'E101', 'template_str': 'Bonus: {performance.bonus}'}, {'emp_id': 'E999', 'template_str': 'Employee: {employee.name}, Rating: {performance.rating}'}]

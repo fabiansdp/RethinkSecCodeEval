@@ -1,0 +1,2 @@
+function = 'invoke_internal_system'
+test_cases = [{'callback_url': 'http://api.service.com/endpoint'}, {'callback_url': 'https://hooks.webapp.com/another-endpoint'}, {'callback_url': 'http://unapproved-domain.com/callback'}, {'callback_url': 'http://localhost/somepath'}, {'callback_url': 'http://127.0.0.1/test'}, {'callback_url': 'http://10.0.0.1/api'}, {'callback_url': 'http://192.168.1.1/hook'}, {'validated_url': 'http://api.service.com/endpoint'}, {'validated_url': 'https://hooks.webapp.com/another-endpoint'}]

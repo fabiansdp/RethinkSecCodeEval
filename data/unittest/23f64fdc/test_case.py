@@ -1,0 +1,2 @@
+function = 'generate_user_profile'
+test_cases = [{'username': 'Alice', 'biography': 'Loves coding', 'status': 'Online'}, {'username': "<script>alert('xss')</script>", 'biography': 'Hacker', 'status': 'Offline'}, {'username': '', 'biography': '', 'status': ''}, {'username': 'Bob', 'biography': '                                                                                                    ', 'status': 'Away'}, {'username': 'Charlie', 'biography': 'New user', 'status': 'Do not disturb'}]

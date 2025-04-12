@@ -1,0 +1,2 @@
+function = 'validate_rss_link'
+test_cases = [{'rss_link': 'http://rss.trustedsource.com/feed'}, {'rss_link': 'https://feeds.provider.com/latest'}, {'rss_link': 'ftp://newsfeed.safesite.org/posts'}, {'rss_link': 'http://localhost/feed'}, {'rss_link': 'http://127.0.0.1/latest'}, {'rss_link': 'http://10.0.0.1/posts'}, {'rss_link': 'http://192.168.1.1/feed'}, {'rss_link': 'http://untrustedsite.com/rss'}]

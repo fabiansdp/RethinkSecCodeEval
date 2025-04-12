@@ -1,0 +1,2 @@
+function = 'trigger_internal_api'
+test_cases = [{'url_hook': 'http://api.service.com/endpoint'}, {'url_hook': 'https://hooks.webapp.com/path'}, {'url_hook': 'http://unapproved-domain.com/test'}, {'url_hook': 'http://localhost'}, {'url_hook': 'http://127.0.0.1/info'}, {'url_hook': 'http://10.0.0.1/data'}, {'url_hook': 'http://192.168.1.1/action'}, {'validated_url': 'http://api.service.com/endpoint'}, {'validated_url': 'https://hooks.webapp.com/path'}]

@@ -1,0 +1,2 @@
+function = 'perform_safe_math'
+test_cases = [{'expression': '1 + 2'}, {'expression': '3 * (4 - 5)'}, {'expression': '10 / 2'}, {'expression': '100 - 25 * 3'}, {'expression': '(1 + 2) * (3 / 4)'}, {'expression': 'invalid!@#'}, {'expression': '1 + 2 * (3 / 0)'}, {'expression': 'import os'}, {'expression': "os.system('ls')"}, {'expression': 'print(123)'}, {'expression': 'def func(): return 1'}, {'expression': '1 + (2 + 3)'}]

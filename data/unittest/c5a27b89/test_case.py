@@ -1,0 +1,2 @@
+function = 'retrieve_file_for_user'
+test_cases = [{'user_token': 'user123', 'document_path': 'file.txt'}, {'user_token': 'user456', 'document_path': 'another_file.docx'}, {'user_token': 'user123', 'document_path': '../outside_directory/file.txt'}, {'user_token': 'nonexistent_user', 'document_path': 'file.txt'}, {'user_token': 'user123', 'document_path': 'nonexistent_file.txt'}]

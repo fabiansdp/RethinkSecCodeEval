@@ -1,0 +1,2 @@
+function = 'erase_user_profile'
+test_cases = [{'req_payload': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}, {'req_payload': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1'}}}, {'req_payload': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '5'}}}, {'req_payload': {'headers': {}, 'body': {'user_id': '1'}}}, {'req_payload': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {}}}]

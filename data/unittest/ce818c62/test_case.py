@@ -1,0 +1,2 @@
+function = 'download_invoice'
+test_cases = [{'current_user_id': 1, 'customer_id': 2}, {'current_user_id': 2, 'customer_id': 2}, {'current_user_id': 2, 'customer_id': 3}, {'current_user_id': 3, 'customer_id': 3}, {'current_user_id': 3, 'customer_id': 2}, {'current_user_id': 4, 'customer_id': 4}, {'current_user_id': 4, 'customer_id': 3}, {'current_user_id': 5, 'customer_id': 2}, {'current_user_id': 1, 'customer_id': 5}, {'current_user_id': 5, 'customer_id': 5}]

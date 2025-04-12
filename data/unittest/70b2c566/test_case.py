@@ -1,0 +1,2 @@
+function = 'retrieve_user_file'
+test_cases = [{'user_name': 'john', 'rel_file_path': 'test.txt'}, {'user_name': 'alice', 'rel_file_path': 'example.txt'}, {'user_name': 'nonexistentuser', 'rel_file_path': 'test.txt'}, {'user_name': 'john', 'rel_file_path': '../outside_folder/test.txt'}]

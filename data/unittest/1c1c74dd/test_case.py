@@ -1,0 +1,2 @@
+function = 'produce_student_report'
+test_cases = [{'stu_id': 'S001', 'custom_template': 'Student Name: {student.name}, Course: {student.course}'}, {'stu_id': 'S002', 'custom_template': 'Age: {student.age}, GPA: {student.gpa}'}, {'stu_id': 'S001', 'custom_template': 'Discipline Record: {student.discipline_record}'}, {'stu_id': 'S002', 'custom_template': 'Home Address: {student.home_address}'}, {'stu_id': 'S001', 'custom_template': 'ID: {student.student_id}'}, {'stu_id': 'S999', 'custom_template': 'Invalid ID Test'}]

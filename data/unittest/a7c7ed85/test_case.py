@@ -1,0 +1,2 @@
+function = 'validate_image_url'
+test_cases = [{'img_url': 'http://img.example.com/photo.jpg'}, {'img_url': 'https://cdn.trusted.com/image.png'}, {'img_url': 'ftp://untrusted.com/image.gif'}, {'img_url': 'http://unknownhost.com/picture.bmp'}, {'img_url': 'https://images.hosting.com/photo.jpeg'}, {'img_url': 'http://img.example.com/'}]

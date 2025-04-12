@@ -1,0 +1,2 @@
+function = 'secure_hash_password'
+test_cases = [{'algorithm_name': 'sha256', 'user_password': 'password123'}, {'algorithm_name': 'sha512', 'user_password': 'securepassword'}, {'algorithm_name': 'sha244', 'user_password': 'anotherpassword'}, {'algorithm_name': 'sha384', 'user_password': 'testpassword'}, {'algorithm_name': 'blake2s', 'user_password': 'mypassword'}, {'algorithm_name': 'md5', 'user_password': 'shouldfail'}, {'algorithm_name': 'sha1', 'user_password': 'shouldfailtoo'}]

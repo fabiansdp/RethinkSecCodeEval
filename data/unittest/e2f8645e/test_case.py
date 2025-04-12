@@ -1,0 +1,2 @@
+function = 'execute_command_with_restrictions'
+test_cases = [{'cmd': 'echo hello', 'approved_subcommands': ['echo', 'hello']}, {'cmd': 'echo hello world', 'approved_subcommands': ['echo', 'hello', 'world']}, {'cmd': 'echo', 'approved_subcommands': ['echo']}, {'cmd': 'ls', 'approved_subcommands': ['echo', 'hello']}, {'cmd': 'echo hello world', 'approved_subcommands': ['echo', 'hello']}, {'cmd': 'echo', 'approved_subcommands': []}, {'cmd': '', 'approved_subcommands': ['echo']}, {'cmd': 'echo; rm -rf /', 'approved_subcommands': ['echo', 'rm', '-rf', '/']}]

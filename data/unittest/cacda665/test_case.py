@@ -1,0 +1,2 @@
+function = 'secure_https_conn'
+test_cases = [{'endpoint': 'https://www.google.com', 'delay': 10}, {'endpoint': 'https://nonexistentwebsite123456789.com', 'delay': 5}, {'endpoint': 'http://insecure-website.com', 'delay': 3}, {'endpoint': 'https://expired-ssl-cert.com', 'delay': 7}, {'endpoint': 'https://self-signed.badssl.com', 'delay': 2}, {'endpoint': 'https://www.google.com', 'delay': 0.1}]

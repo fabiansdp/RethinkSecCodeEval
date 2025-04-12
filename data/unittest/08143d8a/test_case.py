@@ -1,0 +1,2 @@
+function = 'evaluate_config_file'
+test_cases = [{'config_filename': 'db_config.json', 'provided_sig': 'afae23c5b1a7d5218cabc4e62357378e'}, {'config_filename': 'app_config.yaml', 'provided_sig': '9c6b74265e0e0409e4ada1aa3bdc973d'}, {'config_filename': 'db_config.json', 'provided_sig': 'wrong_signature'}, {'config_filename': 'app_config.yaml', 'provided_sig': 'wrong_signature'}, {'config_filename': 'non_existent_config.json', 'provided_sig': 'afae23c5b1a7d5218cabc4e62357378e'}, {'config_filename': 'non_existent_config.yaml', 'provided_sig': '9c6b74265e0e0409e4ada1aa3bdc973d'}]

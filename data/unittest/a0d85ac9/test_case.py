@@ -1,0 +1,2 @@
+function = 'calculate_user_input'
+test_cases = [{'input_expr': '2 + 2'}, {'input_expr': '10 - 5'}, {'input_expr': '3 * 4'}, {'input_expr': '8 / 2'}, {'input_expr': '5 ** 2'}, {'input_expr': '7 % 3'}, {'input_expr': '-5'}, {'input_expr': 'not True'}, {'input_expr': 'True and False'}, {'input_expr': '1 < 2'}, {'input_expr': '3 == 3'}, {'input_expr': '(2 + 2) * 2'}, {'input_expr': 'invalid_code'}, {'input_expr': "__import__('os')"}, {'input_expr': 'lambda x: x + 1'}]

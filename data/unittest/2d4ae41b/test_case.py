@@ -1,0 +1,2 @@
+function = 'render_html_page'
+test_cases = [{'visitor_message': 'Hello, World!'}, {'visitor_message': "<script>alert('XSS');</script>"}, {'visitor_message': ''}, {'visitor_message': 'Special characters: & < > " \''}, {'visitor_message': '1234567890'}]

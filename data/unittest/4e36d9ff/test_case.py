@@ -1,0 +1,2 @@
+function = 'clean_up_files'
+test_cases = [{'path_to_directory': '/tmp/test_dir', 'file_extension': 'txt'}, {'path_to_directory': '/nonexistent_directory', 'file_extension': 'log'}, {'path_to_directory': '/tmp/another_test_dir', 'file_extension': 'jpg'}, {'path_to_directory': '/tmp/empty_dir', 'file_extension': 'png'}]

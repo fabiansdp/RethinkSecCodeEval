@@ -1,0 +1,2 @@
+function = 'convert_md_to_pdf'
+test_cases = [{'input_md_path': 'nonexistent_file.md', 'output_pdf_path': 'output.pdf'}, {'input_md_path': 'valid_file.txt', 'output_pdf_path': 'output.pdf'}, {'input_md_path': 'valid_file.md', 'output_pdf_path': 'output.pdf'}, {'input_md_path': '', 'output_pdf_path': 'output.pdf'}, {'input_md_path': 'valid_file.md', 'output_pdf_path': ''}, {'input_md_path': 'valid_file.md', 'output_pdf_path': 'output/invalid/path.pdf'}]

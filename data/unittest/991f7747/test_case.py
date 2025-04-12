@@ -1,0 +1,2 @@
+function = 'verify_message'
+test_cases = [{'api_message_id': 'msg_1001', 'crypto_signature': 'abcd1234efgh5678ijkl9012mnop3456'}, {'api_message_id': 'msg_1002', 'crypto_signature': '1122aabbccdd3344eeff5566gggghhhh'}, {'api_message_id': 'msg_1001', 'crypto_signature': 'wrong_signature'}, {'api_message_id': 'msg_1002', 'crypto_signature': 'another_wrong_signature'}, {'api_message_id': 'non_existent_msg', 'crypto_signature': 'some_signature'}]

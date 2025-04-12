@@ -1,0 +1,2 @@
+function = 'parse_xml_config'
+test_cases = [{'xml_data': "<config><setting name='host'>localhost</setting><setting name='port'>8080</setting></config>"}, {'xml_data': "<config><setting name='timeout'>30</setting></config>"}, {'xml_data': '<config></config>'}, {'xml_data': "<config><setting name='empty'></setting></config>"}, {'xml_data': '<config><setting>no_name</setting></config>'}]

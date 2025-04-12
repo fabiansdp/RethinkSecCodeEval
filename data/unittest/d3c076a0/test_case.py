@@ -1,0 +1,2 @@
+function = 'retrieve_file'
+test_cases = [{'identifier': 'catalog', 'resource_path': 'item1.txt'}, {'identifier': 'nonexistent', 'resource_path': 'item1.txt'}, {'identifier': 'catalog', 'resource_path': '../outside_catalog/item1.txt'}, {'identifier': 'catalog', 'resource_path': ''}, {'identifier': 'catalog', 'resource_path': '/absolute/path/item1.txt'}]

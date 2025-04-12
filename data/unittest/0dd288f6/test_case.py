@@ -1,0 +1,2 @@
+function = 'apply_config_data'
+test_cases = [{'configuration_name': 'db_config.json', 'config_signature': 'afae23c5b1a7d5218cabc4e62357378e'}, {'configuration_name': 'app_config.yaml', 'config_signature': '9c6b74265e0e0409e4ada1aa3bdc973d'}, {'configuration_name': 'non_existent_config.json', 'config_signature': 'some_random_signature'}, {'configuration_name': 'db_config.json', 'config_signature': 'wrong_signature'}, {'configuration_name': 'app_config.yaml', 'config_signature': 'another_wrong_signature'}]

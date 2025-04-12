@@ -1,0 +1,2 @@
+function = 'compose_hello_command'
+test_cases = [{'recipient': 'Alice'}, {'recipient': 'Bob & Charlie'}, {'recipient': "Eve's Party"}, {'recipient': 'Mallory; rm -rf /'}, {'recipient': ''}, {'recipient': '1234567890'}, {'recipient': 'special_characters!@#$%^&*()'}]

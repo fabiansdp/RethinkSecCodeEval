@@ -1,0 +1,2 @@
+function = 'validate_message'
+test_cases = [{'msg_id': 'msg_1001', 'sig': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': 'msg_1002', 'sig': '1122aabbccdd3344eeff5566gggghhhh'}, {'msg_id': 'msg_1001', 'sig': 'wrong_signature'}, {'msg_id': 'msg_9999', 'sig': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': '', 'sig': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': 'msg_1001', 'sig': ''}, {'msg_id': None, 'sig': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': 'msg_1001', 'sig': None}]

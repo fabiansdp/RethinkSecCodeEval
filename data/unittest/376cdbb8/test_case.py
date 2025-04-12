@@ -1,0 +1,2 @@
+function = 'save_private_key'
+test_cases = [{'key_path': '/nonexistent/directory/private_key.txt', 'private_key': 'PRIVATE_KEY_CONTENT'}, {'key_path': '/tmp/existing_private_key.txt', 'private_key': 'PRIVATE_KEY_CONTENT'}, {'key_path': '/tmp/existing_private_key_wrong_owner.txt', 'private_key': 'PRIVATE_KEY_CONTENT'}, {'key_path': '/tmp/existing_private_key_group_others_perm.txt', 'private_key': 'PRIVATE_KEY_CONTENT'}, {'key_path': '/tmp/valid_private_key.txt', 'private_key': 'PRIVATE_KEY_CONTENT'}]

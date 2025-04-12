@@ -1,0 +1,2 @@
+function = 'safely_deserialize_data'
+test_cases = [{'serialized_bytes': '{"key": "value"}', 'method_format': 'json'}, {'serialized_bytes': '[section]\nkey=value', 'method_format': 'ini'}, {'serialized_bytes': '{"key": "value"}', 'method_format': 'unsupported'}]

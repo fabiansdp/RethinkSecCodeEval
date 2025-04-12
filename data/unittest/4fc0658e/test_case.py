@@ -1,0 +1,2 @@
+function = 'fetch_content'
+test_cases = [{'given_user_id': 1, 'target_content_id': 100}, {'given_user_id': 1, 'target_content_id': 200}, {'given_user_id': 2, 'target_content_id': 100}, {'given_user_id': 2, 'target_content_id': 200}, {'given_user_id': 4, 'target_content_id': 200}, {'given_user_id': 3, 'target_content_id': 100}, {'given_user_id': 5, 'target_content_id': 100}, {'given_user_id': 1, 'target_content_id': 300}]

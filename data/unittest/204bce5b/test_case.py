@@ -1,0 +1,2 @@
+function = 'fetch_file'
+test_cases = [{'requested_filename': 'example.txt'}, {'requested_filename': 'subdir/example.txt'}, {'requested_filename': '../example.txt'}, {'requested_filename': '/absolute/path/to/example.txt'}, {'requested_filename': ''}]

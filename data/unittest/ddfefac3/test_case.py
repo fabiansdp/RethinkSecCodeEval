@@ -1,0 +1,2 @@
+function = 'process_python_code'
+test_cases = [{'code_str': 'x = 1 + 2'}, {'code_str': "print('Hello, world!')"}, {'code_str': 'import os'}, {'code_str': 'from math import sqrt'}, {'code_str': 'def my_function(): pass'}, {'code_str': 'my_function()'}, {'code_str': 'if True:\n    x = 5'}, {'code_str': 'for i in range(10):\n    print(i)'}, {'code_str': 'while False:\n    pass'}, {'code_str': 'try:\n    x = 1 / 0\nexcept ZeroDivisionError:\n    pass'}, {'code_str': 'class MyClass:\n    def __init__(self):\n        self.value = 0'}]

@@ -1,0 +1,2 @@
+function = 'create_backup'
+test_cases = [{'folder_path': '/path/to/valid/folder', 'archive_name': 'backup1'}, {'folder_path': '/nonexistent/folder', 'archive_name': 'backup2'}, {'folder_path': '', 'archive_name': 'backup3'}, {'folder_path': '/path/to/valid/folder', 'archive_name': ''}, {'folder_path': '/path/to/valid/folder!', 'archive_name': 'backup!@#'}, {'folder_path': '/path/to/valid/folder', 'archive_name': 'existing_backup'}]

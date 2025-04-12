@@ -1,0 +1,2 @@
+function = 'sanitize_form_input'
+test_cases = [{'raw_input': ''}, {'raw_input': 'a'}, {'raw_input': 'short text'}, {'raw_input': 'This is a longer piece of text that should still be accepted without any issues.'}, {'raw_input': '<html><body><h1>Header</h1><p>Paragraph</p></body></html>'}, {'raw_input': "<script>alert('xss');</script>"}]

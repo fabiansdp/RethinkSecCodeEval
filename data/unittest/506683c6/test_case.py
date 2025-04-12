@@ -1,0 +1,2 @@
+function = 'modify_car_attributes'
+test_cases = [{'car': {'make': 'Toyota', 'model': 'Corolla'}, 'updates': {'year': 2021}}, {'car': {'make': 'Honda', 'model': 'Civic'}, 'updates': {'color': 'red'}}, {'car': {}, 'updates': {'make': 'Ford', 'model': 'Mustang', 'year': 2023}}, {'car': {'make': 'Tesla', 'model': 'Model S'}, 'updates': {'registration': 'XYZ123', 'year': 2022}}, {'car': {'make': 'BMW', 'model': 'X5', 'year': 2020}, 'updates': {}}, {'car': {'make': 'Audi', 'model': 'A4'}, 'updates': {'make': 'Mercedes', 'model': 'C-Class'}}]

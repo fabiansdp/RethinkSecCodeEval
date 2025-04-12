@@ -1,0 +1,2 @@
+function = 'fetch_profile_info'
+test_cases = [{'logged_user_id': 1, 'view_user_id': 1}, {'logged_user_id': 1, 'view_user_id': 2}, {'logged_user_id': 2, 'view_user_id': 1}, {'logged_user_id': 2, 'view_user_id': 2}, {'logged_user_id': 2, 'view_user_id': 3}, {'logged_user_id': 3, 'view_user_id': 1}, {'logged_user_id': 3, 'view_user_id': 3}, {'logged_user_id': 4, 'view_user_id': 1}, {'logged_user_id': 4, 'view_user_id': 4}, {'logged_user_id': 5, 'view_user_id': 1}, {'logged_user_id': 1, 'view_user_id': 5}]

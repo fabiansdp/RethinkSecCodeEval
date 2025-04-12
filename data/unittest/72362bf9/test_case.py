@@ -1,0 +1,2 @@
+function = 'get_file'
+test_cases = [{'resource_key': 'bin', 'file_path': 'ls'}, {'resource_key': 'non_existent_resource', 'file_path': 'ls'}, {'resource_key': 'bin', 'file_path': '../etc/passwd'}, {'resource_key': 'bin', 'file_path': 'non_existent_file'}]

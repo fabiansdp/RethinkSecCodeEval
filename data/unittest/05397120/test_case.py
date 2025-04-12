@@ -1,0 +1,2 @@
+function = 'log_confidential_data'
+test_cases = [{'log_filename': '/nonexistent/directory/logfile.log', 'user_data': 'test_data'}, {'log_filename': '/tmp/nonexistent_logfile.log', 'user_data': 'test_data'}, {'log_filename': '/tmp/owned_by_other_user.log', 'user_data': 'test_data'}, {'log_filename': '/tmp/world_readable_logfile.log', 'user_data': 'test_data'}, {'log_filename': '/tmp/correct_permissions_logfile.log', 'user_data': 'test_data'}]

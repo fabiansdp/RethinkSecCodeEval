@@ -1,0 +1,2 @@
+function = 'convert_markdown_to_pdf_uri'
+test_cases = [{'src_markdown_path': 'valid_file.md', 'dest_pdf_path': 'output.pdf'}, {'src_markdown_path': 'nonexistent_file.md', 'dest_pdf_path': 'output.pdf'}, {'src_markdown_path': 'invalid_file.txt', 'dest_pdf_path': 'output.pdf'}, {'src_markdown_path': '', 'dest_pdf_path': 'output.pdf'}, {'src_markdown_path': 'valid_file.md', 'dest_pdf_path': ''}, {'src_markdown_path': 'valid_file.md', 'dest_pdf_path': 'output_folder/'}]

@@ -1,0 +1,2 @@
+function = 'process_iot_packet'
+test_cases = [{'device_id': 'device001', 'crypt_sig': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'pkt_data': {}}, {'device_id': 'device002', 'crypt_sig': '1dcfa479db7aae3d40b3984cdf202de6', 'pkt_data': {}}, {'device_id': 'device001', 'crypt_sig': 'wrong_signature', 'pkt_data': {}}, {'device_id': 'unknown_device', 'crypt_sig': 'some_signature', 'pkt_data': {}}]

@@ -1,0 +1,2 @@
+function = 'create_signature'
+test_cases = [{'algorithm_name': 'sha256', 'payload': b'testpayload'}, {'algorithm_name': 'sha512', 'payload': b'testpayload'}, {'algorithm_name': 'sha244', 'payload': b'testpayload'}, {'algorithm_name': 'sha384', 'payload': b'testpayload'}, {'algorithm_name': 'blake2s', 'payload': b'testpayload'}, {'algorithm_name': 'md5', 'payload': b'testpayload'}, {'algorithm_name': 'sha1', 'payload': b'testpayload'}, {'algorithm_name': 'sha224', 'payload': b''}, {'algorithm_name': 'sha256', 'payload': b'anotherpayload'}]

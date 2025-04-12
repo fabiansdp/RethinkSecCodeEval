@@ -1,0 +1,2 @@
+function = 'deserialize_stream'
+test_cases = [{'serialized_data': '{"key": "value"}', 'stream_format': 'json'}, {'serialized_data': "<tag attribute='value'></tag>", 'stream_format': 'html'}, {'serialized_data': '{"key": "value"}', 'stream_format': 'json'}, {'serialized_data': "<tag1 attribute1='value1'></tag1><tag2 attribute2='value2'></tag2>", 'stream_format': 'html'}, {'serialized_data': '{"key": "value"}', 'stream_format': 'json'}, {'serialized_data': "<tag attribute='value'></tag>", 'stream_format': 'html'}]

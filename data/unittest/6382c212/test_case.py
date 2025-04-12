@@ -1,0 +1,2 @@
+function = 'save_secure_key'
+test_cases = [{'key_file_path': '/nonexistent/directory/private_key.txt', 'secure_key': 'test_key'}, {'key_file_path': '/tmp/private_key.txt', 'secure_key': 'test_key'}, {'key_file_path': '/tmp/private_key.txt', 'secure_key': 'test_key'}, {'key_file_path': '/tmp/private_key.txt', 'secure_key': 'test_key'}, {'key_file_path': '/tmp/private_key.txt', 'secure_key': 'test_key'}]

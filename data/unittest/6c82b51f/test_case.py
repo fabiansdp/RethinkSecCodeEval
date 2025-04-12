@@ -1,0 +1,2 @@
+function = 'check_feed_url'
+test_cases = [{'rss_link': 'http://rss.trustedsource.com/feed'}, {'rss_link': 'https://feeds.provider.com/latest'}, {'rss_link': 'ftp://rss.trustedsource.com/feed'}, {'rss_link': 'http://example.com/feed'}, {'rss_link': 'http://127.0.0.1/feed'}, {'rss_link': 'http://10.0.0.1/feed'}, {'rss_link': 'http://192.168.1.1/feed'}, {'rss_link': 'http://localhost/feed'}]

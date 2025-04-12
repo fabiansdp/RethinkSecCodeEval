@@ -1,0 +1,2 @@
+function = 'find_html_tags'
+test_cases = [{'html_content': ''}, {'html_content': '<html>'}, {'html_content': '<html><body></body></html>'}, {'html_content': '<div>Hello World</div>'}, {'html_content': '<p>This is a <strong>test</strong> paragraph.</p>'}, {'html_content': "<a href='#'>Link</a>"}, {'html_content': "<img src='image.jpg' alt='Image'>"}, {'html_content': '<!-- This is a comment -->'}, {'html_content': 'No tags here!'}, {'html_content': '<tag1><tag2><tag3></tag3></tag2></tag1>'}]

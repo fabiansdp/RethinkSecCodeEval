@@ -1,0 +1,2 @@
+function = 'manage_client_rate_limit'
+test_cases = [{'user_identifier': 'user1', 'req_tracker': {}}, {'user_identifier': 'user1', 'req_tracker': {'user1': (99, 1672531200)}}, {'user_identifier': 'user1', 'req_tracker': {'user1': (100, 1672531200)}}, {'user_identifier': 'user1', 'req_tracker': {'user1': (100, 1672527600)}}, {'user_identifier': 'user2', 'req_tracker': {'user1': (50, 1672531200)}}]

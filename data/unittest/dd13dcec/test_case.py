@@ -1,0 +1,2 @@
+function = 'sanitize_feed_url'
+test_cases = [{'feed_url': 'http://rss.trustedsource.com/feed'}, {'feed_url': 'https://feeds.provider.com/latest'}, {'feed_url': 'ftp://rss.trustedsource.com/feed'}, {'feed_url': 'http://localhost/feed'}, {'feed_url': 'http://127.0.0.1/feed'}, {'feed_url': 'http://10.0.0.1/feed'}, {'feed_url': 'http://192.168.1.1/feed'}, {'feed_url': 'http://untrustedsite.com/feed'}]

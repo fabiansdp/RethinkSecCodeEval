@@ -1,0 +1,2 @@
+function = 'build_greeting_command'
+test_cases = [{'nickname': 'Alice'}, {'nickname': 'Bob123'}, {'nickname': 'special!@#'}, {'nickname': ''}, {'nickname': '   '}, {'nickname': "single'quote"}, {'nickname': 'double"quote'}, {'nickname': 'back\\slash'}, {'nickname': 'newline\ncharacter'}, {'nickname': 'tab\tcharacter'}]

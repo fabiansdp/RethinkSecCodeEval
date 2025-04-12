@@ -1,0 +1,2 @@
+function = 'generate_staff_listing'
+test_cases = [{'dep': 'IT', 'format_template': '{employee.name} - {employee.designation}'}, {'dep': 'HR', 'format_template': '{employee.name} - {employee.designation}'}, {'dep': 'IT', 'format_template': '{employee.salary}'}, {'dep': 'IT', 'format_template': '{employee.personal_email}'}]

@@ -1,0 +1,2 @@
+function = 'fetch_product_xml'
+test_cases = [{'xml_data': "<catalogue><product id='1'><name>Widget</name><price>10.99</price></product></catalogue>"}, {'xml_data': "<catalogue><product id='2'><name>Gadget</name><price>20.99</price></product><product id='3'><name>Doodad</name><price>30.99</price></product></catalogue>"}, {'xml_data': '<catalogue></catalogue>'}, {'xml_data': "<catalogue><product id='4'><name>Thingamajig</name></product></catalogue>"}, {'xml_data': '<catalogue><product><name>Thingamajig</name><price>50.00</price></product></catalogue>'}]

@@ -1,0 +1,2 @@
+function = 'create_xml_output'
+test_cases = [{'user_input': ''}, {'user_input': 'Hello World'}, {'user_input': "<script>alert('xss');</script>"}, {'user_input': "&lt;script&gt;alert('xss');&lt;/script&gt;"}, {'user_input': 'Special Characters !@#$%^&*()_+[]{}|;\':",.<>?/\\`~'}, {'user_input': 'Unicode Characters: ☺ © ® ™ ¥ ₩ € £ ¤ ₹ ₽ ₾ ₿ ₡ ₢ ₣ ₤ ₥ ₦ ₧ ₨ ₩ ₪ ₫ € ₭ ₮ ₯ ₰ ₱ ₲ ₳ ₴ ₵ ₶ ₷ ₸ ₹ ₺ ₻ ₼ ₽ ₾ ₿'}, {'user_input': 'Line\nBreaks\rAre\r\nHandled\nCorrectly'}]

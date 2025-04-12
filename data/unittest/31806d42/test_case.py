@@ -1,0 +1,2 @@
+function = 'evaluate_expression'
+test_cases = [{'expr': '2 + 2'}, {'expr': '10 * (3 - 5)'}, {'expr': '100 / 25'}, {'expr': '5 ** 2'}, {'expr': '8 % 3'}, {'expr': 'invalid'}, {'expr': '2 + 2 * (3 / 0)'}, {'expr': '2 + two'}, {'expr': '2 + 2; import os'}, {'expr': "2 + 2; os.system('echo hello')"}, {'expr': '2 + 2; def my_func(): pass'}]

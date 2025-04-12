@@ -1,0 +1,2 @@
+function = 'process_translations_xml'
+test_cases = [{'xml_payload': "<translations><translation id='1'>Hello</translation><translation id='2'>World</translation></translations>"}, {'xml_payload': '<translations></translations>'}, {'xml_payload': "<translations><translation id='1'/></translations>"}, {'xml_payload': '<translations><translation>Hello</translation></translations>'}, {'xml_payload': "<translations><translation id='1'>Hello</translation><translation id='1'>Duplicate</translation></translations>"}]

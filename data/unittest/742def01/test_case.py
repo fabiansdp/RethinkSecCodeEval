@@ -1,0 +1,2 @@
+function = 'convert_markdown_to_pdf'
+test_cases = [{'markdown_path': 'valid_file.md', 'pdf_path': 'output.pdf'}, {'markdown_path': 'nonexistent_file.md', 'pdf_path': 'output.pdf'}, {'markdown_path': 'valid_file.txt', 'pdf_path': 'output.pdf'}, {'markdown_path': '', 'pdf_path': 'output.pdf'}, {'markdown_path': 'valid_file.md', 'pdf_path': ''}, {'markdown_path': 'valid_file.md', 'pdf_path': 'output_folder/'}]

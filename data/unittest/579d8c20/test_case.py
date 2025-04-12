@@ -1,0 +1,2 @@
+function = 'create_html_response'
+test_cases = [{'visitor_content': 'Hello, World!'}, {'visitor_content': "<script>alert('XSS');</script>"}, {'visitor_content': ''}, {'visitor_content': '   '}, {'visitor_content': '&lt;tag&gt;content&lt;/tag&gt;'}, {'visitor_content': 'Special characters: & < > " \' /'}]

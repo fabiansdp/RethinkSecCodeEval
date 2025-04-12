@@ -1,0 +1,2 @@
+function = 'validated_https_query'
+test_cases = [{'endpoint_url': 'https://www.google.com', 'delay_limit': 5}, {'endpoint_url': 'https://nonexistentwebsite1234567890.com', 'delay_limit': 5}, {'endpoint_url': 'https://www.google.com', 'delay_limit': 0}, {'endpoint_url': 'http://www.google.com', 'delay_limit': 5}, {'endpoint_url': 'https://www.google.com', 'delay_limit': -1}, {'endpoint_url': 'https://www.google.com', 'delay_limit': 30}]

@@ -1,0 +1,2 @@
+function = 'check_message_authenticity'
+test_cases = [{'msg_identifier': 'msg_1001', 'crypto_sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_identifier': 'msg_1001', 'crypto_sign': 'wrong_signature'}, {'msg_identifier': 'msg_1002', 'crypto_sign': '1122aabbccdd3344eeff5566gggghhhh'}, {'msg_identifier': 'msg_1002', 'crypto_sign': 'incorrect_signature'}, {'msg_identifier': 'non_existent_msg', 'crypto_sign': 'some_signature'}, {'msg_identifier': '', 'crypto_sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_identifier': 'msg_1001', 'crypto_sign': ''}]

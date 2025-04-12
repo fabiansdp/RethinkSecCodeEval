@@ -1,0 +1,2 @@
+function = 'amend_product_features'
+test_cases = [{'item': {'name': 'Laptop'}, 'payload': {'price': 999}}, {'item': {'name': 'Smartphone'}, 'payload': {'color': 'red'}}, {'item': {'name': 'Tablet'}, 'payload': {'price': 499, 'color': 'blue'}}, {'item': {'name': 'Monitor'}, 'payload': {}}, {'item': {'name': 'Keyboard'}, 'payload': {'price': 29, 'description': 'Mechanical', 'stock': 100}}, {'item': {'name': 'Mouse'}, 'payload': {'weight': '100g', 'brand': 'Logitech'}}]

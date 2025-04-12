@@ -1,0 +1,2 @@
+function = 'render_user_profile'
+test_cases = [{'username': 'alice', 'bio': 'Loves cats', 'status_message': 'Available'}, {'username': "<script>alert('xss')</script>", 'bio': '<p>Malicious bio</p>', 'status_message': '<img src=x onerror=alert(1)>'}, {'username': '', 'bio': '', 'status_message': ''}, {'username': '1234567890', 'bio': '1234567890', 'status_message': '1234567890'}, {'username': 'special_chars!@#$%^&*()', 'bio': 'special_chars!@#$%^&*()', 'status_message': 'special_chars!@#$%^&*()'}]

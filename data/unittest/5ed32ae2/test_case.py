@@ -1,0 +1,2 @@
+function = 'discard_temp_file'
+test_cases = [{'temp_file_to_discard': '/nonexistent/path/to/file.txt'}, {'temp_file_to_discard': '/path/to/locked/file.txt'}, {'temp_file_to_discard': '/path/to/deletable/file.txt'}, {'temp_file_to_discard': '/path/to/unremovable/file.txt'}]

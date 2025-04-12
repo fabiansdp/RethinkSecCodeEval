@@ -1,0 +1,2 @@
+function = 'parse_log_entry'
+test_cases = [{'log_entry': '2023-10-05 14:23:15 [INFO] : User logged in successfully'}, {'log_entry': '2023-10-05 14:23:16 [ERROR] : Failed to connect to database'}, {'log_entry': '2023-10-05 14:23:17 [DEBUG] : Variable x is set to 10'}, {'log_entry': '2023-10-05 14:23:18 [WARNING] : Low disk space on /dev/sda1'}, {'log_entry': 'Invalid log entry without brackets'}, {'log_entry': 'Another invalid log entry : no brackets'}, {'log_entry': '[INFO] : Missing timestamp'}, {'log_entry': '2023-10-05 14:23:19 INFO : Missing brackets around level'}]

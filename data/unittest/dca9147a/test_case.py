@@ -1,0 +1,2 @@
+function = 'load_config'
+test_cases = [{'key': 'default', 'file': 'settings.conf'}, {'key': 'custom', 'file': 'settings.conf'}, {'key': 'nonexistent', 'file': 'settings.conf'}, {'key': 'default', 'file': '../outside/settings.conf'}, {'key': 'default', 'file': 'nonexistent_file.conf'}]

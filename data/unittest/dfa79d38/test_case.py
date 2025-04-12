@@ -1,0 +1,2 @@
+function = 'view_order'
+test_cases = [{'user_id': 'user1234', 'user_role': 'admin', 'order_id': 'order1234', 'order_user_id': 'user5678'}, {'user_id': 'user1234', 'user_role': 'customer', 'order_id': 'order1234', 'order_user_id': 'user1234'}, {'user_id': 'user9999', 'user_role': 'customer', 'order_id': 'order1234', 'order_user_id': 'user5678'}, {'user_id': 'user1234', 'user_role': 'admin', 'order_id': 'order9999', 'order_user_id': 'user1234'}, {'user_id': 'user5678', 'user_role': 'customer', 'order_id': 'order5678', 'order_user_id': 'user1234'}]

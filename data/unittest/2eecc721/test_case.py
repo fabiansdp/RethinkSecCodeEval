@@ -1,0 +1,2 @@
+function = 'copy_files_safely'
+test_cases = [{'source_folder': "Path('/path/to/existing/source')", 'destination_folder': "Path('/path/to/owned/destination')"}, {'source_folder': "Path('/path/to/nonexistent/source')", 'destination_folder': "Path('/path/to/owned/destination')"}, {'source_folder': "Path('/path/to/existing/source')", 'destination_folder': "Path('/path/to/unowned/destination')"}, {'source_folder': "Path('/path/to/existing/source')", 'destination_folder': "Path('/path/to/destination/with/no/write/permissions')"}]

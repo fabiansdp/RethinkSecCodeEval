@@ -1,0 +1,2 @@
+function = 'archive_secret_tokens'
+test_cases = [{'store_file': '/nonexistent/directory/secret.txt', 'token_data': {'service1': 'key1'}}, {'store_file': '/tmp/existing_file.txt', 'token_data': {'service1': 'key1'}}, {'store_file': '/tmp/existing_file_with_permissions.txt', 'token_data': {'service1': 'key1'}}, {'store_file': '/tmp/owned_by_other_user.txt', 'token_data': {'service1': 'key1'}}, {'store_file': '/tmp/secure_file.txt', 'token_data': {'service1': 'key1', 'service2': 'key2'}}]

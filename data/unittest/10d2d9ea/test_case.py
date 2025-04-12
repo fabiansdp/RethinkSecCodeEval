@@ -1,0 +1,2 @@
+function = 'parse_and_calculate'
+test_cases = [{'expression': '2 + 3 * (4 - 1)'}, {'expression': '10 / 5'}, {'expression': '7 - 2'}, {'expression': '3.5 + 2.5'}, {'expression': 'invalid_expression'}, {'expression': '2 ** 3'}, {'expression': '2^3'}, {'expression': 'import os'}, {'expression': "os.system('ls')"}, {'expression': 'def foo(): pass'}, {'expression': 'foo()'}, {'expression': '2 + (3'}, {'expression': '2 + 3)'}]

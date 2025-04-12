@@ -1,0 +1,2 @@
+function = 'process_data_file'
+test_cases = [{'file_location': 'non_existent_file.txt'}, {'file_location': 'empty_file.txt'}, {'file_location': 'locked_file.txt'}, {'file_location': 'ready_for_processing_file.txt'}]

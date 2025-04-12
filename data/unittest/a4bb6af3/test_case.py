@@ -1,0 +1,2 @@
+function = 'compress_directory'
+test_cases = [{'dir_path': '/tmp/test_dir', 'compressed_name': 'test_archive'}, {'dir_path': '/nonexistent_dir', 'compressed_name': 'should_fail'}, {'dir_path': '/tmp/empty_dir', 'compressed_name': 'empty_archive'}, {'dir_path': '/tmp/large_dir', 'compressed_name': 'large_archive'}, {'dir_path': '/tmp/special_chars&?#dir', 'compressed_name': 'special_chars_archive'}, {'dir_path': '/tmp/symlink_to_dir', 'compressed_name': 'symlink_archive'}]

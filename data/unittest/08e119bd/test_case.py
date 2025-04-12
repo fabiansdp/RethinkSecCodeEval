@@ -1,0 +1,2 @@
+function = 'generate_external_resource_link'
+test_cases = [{'cdn_host_url': 'https://cdn.example.com', 'resource_tag': 'style.css', 'resource_category': 'css'}, {'cdn_host_url': 'http://assets.example.net', 'resource_tag': 'script.js', 'resource_category': 'js'}, {'cdn_host_url': 'https://static.example.org', 'resource_tag': 'image.png', 'resource_category': 'images'}, {'cdn_host_url': 'https://invalid.cdn.com', 'resource_tag': 'logo.svg', 'resource_category': 'icons'}]

@@ -1,0 +1,2 @@
+function = 'calculate_from_input'
+test_cases = [{'user_input': '1 + 2'}, {'user_input': '3 * 4 - 5'}, {'user_input': '10 / 2'}, {'user_input': '100 - 50 * 2'}, {'user_input': '(1 + 2) * 3'}, {'user_input': '1 + 2 * 3 / (4 - 5)'}, {'user_input': 'invalid'}, {'user_input': '1 ** 2'}, {'user_input': '1 + 2 + 3 + 4 + 5'}, {'user_input': '100 / 0'}]

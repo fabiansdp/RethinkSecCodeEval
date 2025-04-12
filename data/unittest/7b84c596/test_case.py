@@ -1,0 +1,2 @@
+function = 'save_api_tokens'
+test_cases = [{'token_file': '/nonexistent_directory/api_tokens.txt', 'secrets': {'service1': 'key1'}}, {'token_file': '/tmp/api_tokens_nonexistent.txt', 'secrets': {'service2': 'key2'}}, {'token_file': '/tmp/api_tokens_wrong_owner.txt', 'secrets': {'service3': 'key3'}}, {'token_file': '/tmp/api_tokens_group_perms.txt', 'secrets': {'service4': 'key4'}}, {'token_file': '/tmp/api_tokens_secure.txt', 'secrets': {'service5': 'key5'}}, {'token_file': '/tmp/api_tokens_exception.txt', 'secrets': {'service6': 'key6'}}]

@@ -1,0 +1,2 @@
+function = 'generate_client_receipt'
+test_cases = [{'order_id': 'ORD001', 'template': 'Order ID: {order.id}, Customer Name: {customer.name}, Total: {order.total}'}, {'order_id': 'ORD002', 'template': 'Order ID: {order.id}, Customer Name: {customer.name}, Total: {order.total}'}]

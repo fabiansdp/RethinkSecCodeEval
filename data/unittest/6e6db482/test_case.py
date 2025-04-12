@@ -1,0 +1,2 @@
+function = 'save_configurations'
+test_cases = [{'config_path': '/nonexistent/directory/config.txt', 'data_to_write': {'key1': 'value1'}}, {'config_path': '/existing/directory/config_owned_by_other_user.txt', 'data_to_write': {'key1': 'value1'}}, {'config_path': '/existing/directory/config_accessible_by_group.txt', 'data_to_write': {'key1': 'value1'}}, {'config_path': '/existing/directory/config_correct_permissions.txt', 'data_to_write': {'key1': 'value1'}}, {'config_path': '/existing/directory/config_exception_on_write.txt', 'data_to_write': {'key1': 'value1'}}]

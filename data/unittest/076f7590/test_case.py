@@ -1,0 +1,2 @@
+function = 'compile_student_report'
+test_cases = [{'student_token': 'S005', 'report_template': 'Student Name: {student.name}, Course: {student.course}, Age: {student.age}'}, {'student_token': 'S006', 'report_template': 'Student Name: {student.name}, GPA: {student.gpa}'}]

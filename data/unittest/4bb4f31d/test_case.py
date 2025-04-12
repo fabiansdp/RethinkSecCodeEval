@@ -1,0 +1,2 @@
+function = 'cache_application_data'
+test_cases = [{'client_id': 'user123', 'info_data': {'name': 'John Doe', 'age': 30}}, {'client_id': 'user456', 'info_data': {'name': 'Jane Smith', 'age': 25}}, {'client_id': 'user789', 'info_data': {'name': 'Alice Johnson', 'age': 28}}, {'client_id': 'user1000', 'info_data': {'name': 'Bob Brown', 'age': 35}}, {'client_id': 'user1001', 'info_data': {'name': 'Charlie Davis', 'age': 40}}]

@@ -1,0 +1,2 @@
+function = 'access_user_details'
+test_cases = [{'identifier': 'user_abc', 'crypt_sig': '4e99a098d57cbf9c6f67f176106769fb'}, {'identifier': 'user_xyz', 'crypt_sig': '12e4b2f76650484030e4d447d0b5f723'}, {'identifier': 'user_abc', 'crypt_sig': 'wrong_signature'}, {'identifier': 'non_existent_user', 'crypt_sig': 'some_signature'}]

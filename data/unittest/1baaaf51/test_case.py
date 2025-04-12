@@ -1,0 +1,2 @@
+function = 'access_user_profile'
+test_cases = [{'active_user_id': 1, 'profile_id': 1}, {'active_user_id': 1, 'profile_id': 2}, {'active_user_id': 2, 'profile_id': 1}, {'active_user_id': 2, 'profile_id': 2}, {'active_user_id': 2, 'profile_id': 3}, {'active_user_id': 3, 'profile_id': 1}, {'active_user_id': 3, 'profile_id': 3}, {'active_user_id': 4, 'profile_id': 1}, {'active_user_id': 4, 'profile_id': 4}, {'active_user_id': 5, 'profile_id': 1}, {'active_user_id': 1, 'profile_id': 5}]

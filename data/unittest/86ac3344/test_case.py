@@ -1,0 +1,2 @@
+function = 'secure_eval_expression'
+test_cases = [{'exp': '2 + 2'}, {'exp': '10 * (3 - 1)'}, {'exp': '100 / 25'}, {'exp': '5 - 3 * 2'}, {'exp': '(8 + 2) * 5'}, {'exp': 'invalid!'}, {'exp': '2 ** 2'}, {'exp': '2 + invalid'}, {'exp': 'import os'}, {'exp': "os.system('ls')"}, {'exp': 'def func(): pass'}, {'exp': 'func()'}, {'exp': "print('hello')"}, {'exp': '1 + 1; 2 + 2'}]

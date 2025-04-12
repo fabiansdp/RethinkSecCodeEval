@@ -1,0 +1,2 @@
+function = 'run_command_with_args'
+test_cases = [{'base_command': 'echo', 'parameters': ['hello', 'world']}, {'base_command': 'ls', 'parameters': []}, {'base_command': 'echo', 'parameters': ['single_argument']}, {'base_command': 'invalid_command', 'parameters': []}, {'base_command': 'echo', 'parameters': ['with spaces', 'and special!chars#']}]

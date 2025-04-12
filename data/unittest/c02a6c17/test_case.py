@@ -1,0 +1,2 @@
+function = 'handle_large_file_processing'
+test_cases = [{'path_to_file': 'nonexistent_file.txt'}, {'path_to_file': 'empty_file.txt'}, {'path_to_file': 'locked_file.txt'}, {'path_to_file': 'ready_for_processing_file.txt'}, {'path_to_file': 'error_causing_file.txt'}]

@@ -1,0 +1,2 @@
+function = 'save_http_auth'
+test_cases = [{'file_path': '/nonexistent/directory/config.txt', 'user_name': 'testuser', 'user_password': 'testpass'}, {'file_path': '/tmp/existing_config.txt', 'user_name': 'testuser', 'user_password': 'testpass'}, {'file_path': '/tmp/owned_by_another_user_config.txt', 'user_name': 'testuser', 'user_password': 'testpass'}, {'file_path': '/tmp/world_accessible_config.txt', 'user_name': 'testuser', 'user_password': 'testpass'}]

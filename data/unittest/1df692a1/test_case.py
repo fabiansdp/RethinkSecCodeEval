@@ -1,0 +1,2 @@
+function = 'create_html_from_template'
+test_cases = [{'template': '<div>{{name}}</div>', 'data_mapping': {'name': 'Alice'}}, {'template': '<div>{{name}}</div><span>{{age}}</span>', 'data_mapping': {'name': 'Bob', 'age': 30}}, {'template': '<div>{{name}}</div><span>{{age}}</span>', 'data_mapping': {'name': 'Charlie'}}, {'template': '<div>{{name}}</div><span>{{age}}</span>', 'data_mapping': {}}, {'template': '', 'data_mapping': {'name': 'David'}}, {'template': '<div>{{name}}</div>', 'data_mapping': {'name': "<script>alert('XSS')</script>"}}]

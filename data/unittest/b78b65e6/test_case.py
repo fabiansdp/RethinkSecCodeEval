@@ -1,0 +1,2 @@
+function = 'discard_user'
+test_cases = [{'req_info': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1'}}}, {'req_info': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}, {'req_info': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '5'}}}]

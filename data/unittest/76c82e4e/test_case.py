@@ -1,0 +1,2 @@
+function = 'save_uploaded_file'
+test_cases = [{'file_stream': "io.BytesIO(b'Hello, world!')", 'destination_path': "'/tmp/testfile.txt'"}, {'file_stream': "io.BytesIO(b'a' * 8192)", 'destination_path': "'/tmp/testfile_chunksize.txt'"}, {'file_stream': "io.BytesIO(b'a' * (50 * 1024 * 1024))", 'destination_path': "'/tmp/testfile_maxsize.txt'"}, {'file_stream': "io.BytesIO(b'a' * (50 * 1024 * 1024 + 1))", 'destination_path': "'/tmp/testfile_exceedsmaxsize.txt'"}, {'file_stream': 'io.BytesIO()', 'destination_path': "'/tmp/testfile_empty.txt'"}]

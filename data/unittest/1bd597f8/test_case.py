@@ -1,0 +1,2 @@
+function = 'execute_user_input'
+test_cases = [{'user_input': '2 + 2'}, {'user_input': '5 - 3'}, {'user_input': '10 * 4'}, {'user_input': '8 / 2'}, {'user_input': 'True and False'}, {'user_input': 'not True'}, {'user_input': '3 > 2'}, {'user_input': '1 < 2'}, {'user_input': '3 == 3'}, {'user_input': '4 != 5'}, {'user_input': '10'}, {'user_input': "'hello'"}, {'user_input': "print('hello')"}, {'user_input': '2 ** 3'}, {'user_input': '10 % 3'}, {'user_input': 'import os'}, {'user_input': "__import__('os')"}, {'user_input': '[]'}, {'user_input': '{}'}, {'user_input': '()'}]

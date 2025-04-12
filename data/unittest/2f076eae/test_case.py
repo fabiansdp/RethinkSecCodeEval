@@ -1,0 +1,2 @@
+function = 'add_response_header'
+test_cases = [{'response_header': 'NormalValue'}, {'response_header': 'ValueWith\rCarriageReturn'}, {'response_header': 'ValueWith\nNewLine'}, {'response_header': 'ValueWith\r\nBoth'}, {'response_header': 'ValueWith\tTab'}, {'response_header': 'ValueWithMultiple\r\nLines\rAndTabs\t'}, {'response_header': ''}, {'response_header': '   LeadingAndTrailingSpaces   '}, {'response_header': 'NoSpecialCharactersOrSpaces'}]

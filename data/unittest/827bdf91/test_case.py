@@ -1,0 +1,2 @@
+function = 'secure_feed_link'
+test_cases = [{'rss_url': 'http://rss.trustedsource.com/feed'}, {'rss_url': 'https://feeds.provider.com/latest'}, {'rss_url': 'ftp://rss.trustedsource.com/feed'}, {'rss_url': 'http://untrustedsite.com/feed'}, {'rss_url': 'http://localhost/feed'}, {'rss_url': 'http://127.0.0.1/feed'}, {'rss_url': 'http://10.0.0.1/feed'}, {'rss_url': 'http://192.168.1.1/feed'}]

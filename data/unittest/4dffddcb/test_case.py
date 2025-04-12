@@ -1,0 +1,2 @@
+function = 'https_request_secure'
+test_cases = [{'link': 'https://www.google.com', 'wait_duration': 5}, {'link': 'https://nonexistentwebsite123456789.com', 'wait_duration': 5}, {'link': 'https://expired.badssl.com/', 'wait_duration': 5}, {'link': 'https://self-signed.badssl.com/', 'wait_duration': 5}, {'link': 'https://wrong.host.badssl.com/', 'wait_duration': 5}, {'link': 'https://untrusted-root.badssl.com/', 'wait_duration': 5}, {'link': 'https://www.google.com', 'wait_duration': 0.01}]

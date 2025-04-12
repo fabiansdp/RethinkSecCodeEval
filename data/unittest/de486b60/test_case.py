@@ -1,0 +1,2 @@
+function = 'view_content'
+test_cases = [{'uid': 1, 'cont_id': 100}, {'uid': 1, 'cont_id': 200}, {'uid': 2, 'cont_id': 100}, {'uid': 2, 'cont_id': 200}, {'uid': 3, 'cont_id': 101}, {'uid': 3, 'cont_id': 201}, {'uid': 4, 'cont_id': 100}, {'uid': 4, 'cont_id': 201}, {'uid': 5, 'cont_id': 100}, {'uid': 1, 'cont_id': 300}]

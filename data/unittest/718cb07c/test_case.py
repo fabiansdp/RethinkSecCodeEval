@@ -1,0 +1,2 @@
+function = 'get_config'
+test_cases = [{'key': 'default', 'file_name': 'settings.conf'}, {'key': 'custom', 'file_name': 'settings.conf'}, {'key': 'nonexistent', 'file_name': 'settings.conf'}, {'key': 'default', 'file_name': '../outside_folder/settings.conf'}]

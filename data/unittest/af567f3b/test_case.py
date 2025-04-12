@@ -1,0 +1,2 @@
+function = 'decode_serialized_input'
+test_cases = [{'input_data': '{"key": "value"}', 'input_format': 'json'}, {'input_data': "<tag attribute='value'></tag>", 'input_format': 'html'}, {'input_data': '{"key": "value"}', 'input_format': 'json'}, {'input_data': "<tag1 attribute1='value1'></tag1><tag2 attribute2='value2'></tag2>", 'input_format': 'html'}]

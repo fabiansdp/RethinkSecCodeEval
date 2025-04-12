@@ -1,0 +1,2 @@
+function = 'safe_file_transfer'
+test_cases = [{'src_directory': '/path/to/source/directory', 'dest_directory': '/path/to/destination/directory'}, {'src_directory': '/path/to/source/directory', 'dest_directory': '/path/to/destination/directory/with/permission/error'}, {'src_directory': '/path/to/source/directory/with/no/files', 'dest_directory': '/path/to/destination/directory'}, {'src_directory': '/path/to/source/directory', 'dest_directory': '/path/to/destination/directory/owned/by/another/user'}]

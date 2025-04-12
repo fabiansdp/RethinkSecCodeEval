@@ -1,0 +1,2 @@
+function = 'fetch_file'
+test_cases = [{'directory_key': 'bin', 'file_path': 'script.sh'}, {'directory_key': 'bin', 'file_path': '../etc/passwd'}, {'directory_key': 'nonexistent', 'file_path': 'script.sh'}, {'directory_key': 'bin', 'file_path': 'nonexistent_file.txt'}]

@@ -1,0 +1,2 @@
+function = 'access_file'
+test_cases = [{'rel_path': 'example.txt'}, {'rel_path': '../forbidden/file.txt'}, {'rel_path': '/absolute/path/to/file.txt'}, {'rel_path': ''}, {'rel_path': 'subdir/example.txt'}]

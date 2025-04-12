@@ -1,0 +1,2 @@
+function = 'create_employee_directory'
+test_cases = [{'department': 'IT', 'template': '{employee.name} - {employee.position}'}, {'department': 'HR', 'template': '{employee.name} - {employee.position}'}, {'department': 'IT', 'template': '{employee.salary}'}, {'department': 'IT', 'template': '{employee.personal_email}'}, {'department': 'IT', 'template': '{employee.name} - {employee.position} - {employee.salary}'}]

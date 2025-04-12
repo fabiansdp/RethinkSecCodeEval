@@ -1,0 +1,2 @@
+function = 'deserialize_data'
+test_cases = [{'data': '{}', 'signature': 'json'}, {'data': '[]', 'signature': 'json'}, {'data': '{"key": "value"}', 'signature': 'json'}, {'data': '[]', 'signature': 'yaml'}, {'data': '{}', 'signature': 'yaml'}, {'data': '{key: value}', 'signature': 'yaml'}, {'data': 'invalid json', 'signature': 'json'}, {'data': 'invalid yaml', 'signature': 'yaml'}, {'data': 'some data', 'signature': 'pickle'}, {'data': 'some data', 'signature': 'unknown'}]

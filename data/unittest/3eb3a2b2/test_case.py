@@ -1,0 +1,2 @@
+function = 'fetch_employee_info'
+test_cases = [{'employee_info_xml': '<employees><employee><name>John Doe</name><role>Developer</role><salary>75000</salary></employee></employees>'}, {'employee_info_xml': '<employees><employee><name>Jane Smith</name><role>Manager</role><salary>85000</salary></employee><employee><name>Emily Johnson</name><role>Analyst</role><salary>65000</salary></employee></employees>'}, {'employee_info_xml': '<employees></employees>'}]

@@ -1,0 +1,2 @@
+function = 'save_configurations'
+test_cases = [{'target_file': '/nonexistent_directory/config.txt', 'data_dict': {'key': 'value'}}, {'target_file': '/tmp/nonexistent_config.txt', 'data_dict': {'key': 'value'}}, {'target_file': '/tmp/existing_config.txt', 'data_dict': {'key': 'value'}}, {'target_file': '/tmp/existing_config.txt', 'data_dict': {'key': 'value'}}, {'target_file': '/tmp/existing_config.txt', 'data_dict': {'key': 'value'}}]

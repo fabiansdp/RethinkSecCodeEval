@@ -1,0 +1,2 @@
+function = 'generate_user_report'
+test_cases = [{'patient_id': 'P001', 'template': 'Patient Name: {patient.name}, Age: {patient.age}'}, {'patient_id': 'P001', 'template': 'Patient Gender: {patient.gender}'}, {'patient_id': 'P002', 'template': 'Patient Name: {patient.name}'}, {'patient_id': 'P001', 'template': 'Diagnosis: {patient.diagnosis}'}, {'patient_id': 'P001', 'template': 'Treatment Plan: {patient.treatment_plan}'}]

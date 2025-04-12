@@ -1,0 +1,2 @@
+function = 'evaluate_user_math'
+test_cases = [{'math_expression': '2 + 2'}, {'math_expression': '10 * 5'}, {'math_expression': '3 - 8'}, {'math_expression': '4 / 2'}, {'math_expression': '2 + 3 * 4'}, {'math_expression': '(2 + 3) * 4'}, {'math_expression': '2 + 3 * (4 / 2)'}, {'math_expression': '2 ** 3'}, {'math_expression': '10 % 3'}, {'math_expression': ' '}, {'math_expression': '2 + -3'}, {'math_expression': '-2 + 3'}, {'math_expression': '2+3*4/2'}, {'math_expression': 'invalid'}, {'math_expression': '2 + 3 * 4 /'}, {'math_expression': '2 + 3 * 4 a'}]

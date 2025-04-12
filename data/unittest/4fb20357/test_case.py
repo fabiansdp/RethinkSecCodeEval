@@ -1,0 +1,2 @@
+function = 'display_blog'
+test_cases = [{'heading': 'Hello World', 'description': 'This is a blog post.'}, {'heading': "<script>alert('xss')</script>", 'description': 'Malicious content'}, {'heading': '', 'description': ''}, {'heading': 'A very long heading that should not cause any issues and is designed to test how the function handles longer strings', 'description': 'Short description'}, {'heading': 'Special characters !@#$%^&*()_+', 'description': 'More special characters ~`}{[]|":?><,./-='}]

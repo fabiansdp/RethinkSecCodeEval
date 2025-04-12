@@ -1,0 +1,2 @@
+function = 'persist_api_tokens'
+test_cases = [{'path_to_file': '/nonexistent_directory/api_tokens.txt', 'token_map': {'service1': 'token1'}}, {'path_to_file': '/tmp/nonexistent_file.txt', 'token_map': {'service1': 'token1'}}, {'path_to_file': '/tmp/existing_file_not_owned_by_user.txt', 'token_map': {'service1': 'token1'}}, {'path_to_file': '/tmp/existing_file_with_group_permissions.txt', 'token_map': {'service1': 'token1'}}, {'path_to_file': '/tmp/existing_file_secure.txt', 'token_map': {'service1': 'token1'}}]

@@ -1,0 +1,2 @@
+function = 'build_cdn_resource_url'
+test_cases = [{'cdn_url_base': 'http://cdn.example.com', 'file_id': '12345', 'file_type': 'images'}, {'cdn_url_base': 'https://assets.example.net', 'file_id': 'abcde', 'file_type': 'videos'}, {'cdn_url_base': 'https://static.example.org', 'file_id': '67890', 'file_type': 'documents'}, {'cdn_url_base': 'http://cdn.example.com/', 'file_id': '12345', 'file_type': 'images'}, {'cdn_url_base': 'https://unknown-domain.com', 'file_id': '12345', 'file_type': 'images'}]

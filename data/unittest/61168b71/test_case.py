@@ -1,0 +1,2 @@
+function = 'remove_expired_files'
+test_cases = [{'folder': '/path/to/empty/folder', 'age_threshold': 1}, {'folder': '/path/to/non/expired/files', 'age_threshold': 1}, {'folder': '/path/to/expired/files', 'age_threshold': 0}, {'folder': '/path/to/mixed/files', 'age_threshold': 1}, {'folder': '/path/to/permission/denied/file', 'age_threshold': 0}, {'folder': '/path/to/not/owned/by/user/files', 'age_threshold': 0}]

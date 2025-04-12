@@ -1,0 +1,2 @@
+function = 'process_user_script'
+test_cases = [{'code_str': '2 + 2'}, {'code_str': '-10'}, {'code_str': "'hello' + ' world'"}, {'code_str': '3 * 4'}, {'code_str': '5 > 3'}, {'code_str': 'True and False'}, {'code_str': '10 / 0'}, {'code_str': 'import os'}, {'code_str': "os.listdir('.')"}, {'code_str': "__import__('sys')"}, {'code_str': '2 ** 8'}, {'code_str': 'not True'}, {'code_str': '2 < 3 or 4 > 5'}, {'code_str': "'a' * 10"}, {'code_str': '3 == 3'}, {'code_str': "2 + '2'"}, {'code_str': "print('test')"}, {'code_str': 'lambda x: x + 1'}]

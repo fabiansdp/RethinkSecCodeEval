@@ -1,0 +1,2 @@
+function = 'run_code_snippet'
+test_cases = [{'user_code': 'x = 1 + 2'}, {'user_code': "print('Hello World')"}, {'user_code': 'import os'}, {'user_code': 'from math import sqrt'}, {'user_code': 'def my_function(): pass'}, {'user_code': 'my_function()'}, {'user_code': 'x = [1, 2, 3]; y = [i*2 for i in x]'}, {'user_code': "raise Exception('Test Exception')"}]

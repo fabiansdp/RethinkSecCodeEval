@@ -1,0 +1,2 @@
+function = 'secure_log_write'
+test_cases = [{'log_file_path': '/nonexistent/directory/logfile.log', 'confidential_info': 'Test Info'}, {'log_file_path': '/tmp/logfile.log', 'confidential_info': 'Test Info'}, {'log_file_path': '/tmp/logfile.log', 'confidential_info': 'Test Info'}, {'log_file_path': '/tmp/logfile.log', 'confidential_info': 'Test Info'}, {'log_file_path': '/tmp/logfile.log', 'confidential_info': 'Test Info'}, {'log_file_path': '/tmp/logfile.log', 'confidential_info': 'Test Info'}]

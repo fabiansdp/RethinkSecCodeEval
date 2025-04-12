@@ -1,0 +1,2 @@
+function = 'deserialize_data_safely'
+test_cases = [{'data_input': '{"key": "value"}', 'format_type': 'json'}, {'data_input': '[section]\nkey=value', 'format_type': 'ini'}, {'data_input': '{"key": "value"}', 'format_type': 'xml'}, {'data_input': '[section]\nkey=value', 'format_type': 'pickle'}]

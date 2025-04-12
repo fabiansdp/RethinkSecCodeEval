@@ -1,0 +1,2 @@
+function = 'process_packet_data'
+test_cases = [{'id_device': 'device001', 'packet_signature': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'packet_data': {}}, {'id_device': 'device002', 'packet_signature': '1dcfa479db7aae3d40b3984cdf202de6', 'packet_data': {}}, {'id_device': 'device001', 'packet_signature': 'invalid_signature', 'packet_data': {}}, {'id_device': 'untrusted_device', 'packet_signature': 'some_signature', 'packet_data': {}}]

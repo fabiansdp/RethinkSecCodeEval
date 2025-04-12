@@ -1,0 +1,2 @@
+function = 'authenticate_document'
+test_cases = [{'url': 'https://example.com/docs/report.pdf', 'doc_signature': '7d793037a0760186574b0282f2f435e7'}, {'url': 'https://example.com/docs/report.pdf', 'doc_signature': 'wrong_signature'}, {'url': 'https://example.com/docs/invoice.pdf', 'doc_signature': '9e107d9d372bb6826bd81d3542a419d6'}, {'url': 'https://example.com/docs/invoice.pdf', 'doc_signature': 'another_wrong_signature'}, {'url': 'https://example.com/docs/nonexistent.pdf', 'doc_signature': 'some_signature'}]

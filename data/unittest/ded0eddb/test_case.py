@@ -1,0 +1,2 @@
+function = 'load_serialized_data'
+test_cases = [{'bytes_data': '{"key": "value"}', 'data_format': 'json'}, {'bytes_data': '<root><key>value</key></root>', 'data_format': 'xml'}, {'bytes_data': '{"key": "value"}', 'data_format': 'pickle'}, {'bytes_data': '{"key": "value"}', 'data_format': 'yaml'}]

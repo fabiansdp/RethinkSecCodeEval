@@ -1,0 +1,2 @@
+function = 'get_user_file'
+test_cases = [{'person_name': 'john', 'path_to_file': 'test.txt'}, {'person_name': 'john', 'path_to_file': 'nonexistentfile.txt'}, {'person_name': 'john', 'path_to_file': '../outside_folder/file.txt'}, {'person_name': 'invalid_user', 'path_to_file': 'test.txt'}]

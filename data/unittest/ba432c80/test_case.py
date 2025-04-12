@@ -1,0 +1,2 @@
+function = 'check_document'
+test_cases = [{'url': 'https://example.com/docs/report.pdf', 'sign_hash': '7d793037a0760186574b0282f2f435e7'}, {'url': 'https://example.com/docs/report.pdf', 'sign_hash': 'wrong_hash'}, {'url': 'https://example.com/docs/invoice.pdf', 'sign_hash': '9e107d9d372bb6826bd81d3542a419d6'}, {'url': 'https://example.com/docs/invoice.pdf', 'sign_hash': 'another_wrong_hash'}, {'url': 'https://example.com/docs/nonexistent.pdf', 'sign_hash': 'some_hash'}]

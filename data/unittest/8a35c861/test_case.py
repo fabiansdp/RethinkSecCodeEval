@@ -1,0 +1,2 @@
+function = 'secure_hash'
+test_cases = [{'algo_name': 'sha256', 'pw': b'password123'}, {'algo_name': 'sha512', 'pw': b'securepassword'}, {'algo_name': 'sha244', 'pw': b'anotherpassword'}, {'algo_name': 'sha384', 'pw': b'testpassword'}, {'algo_name': 'blake2s', 'pw': b'mypassword'}, {'algo_name': 'md5', 'pw': b'shouldfail'}, {'algo_name': 'sha1', 'pw': b'shouldfail'}, {'algo_name': 'unknownalgo', 'pw': b'shouldfail'}]

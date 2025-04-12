@@ -1,0 +1,2 @@
+function = 'create_greeting_command'
+test_cases = [{'person_name': 'Alice'}, {'person_name': 'Bob Smith'}, {'person_name': 'Charlie Brown'}, {'person_name': 'Daisy'}, {'person_name': ''}, {'person_name': '   '}, {'person_name': 'Eve!@#'}, {'person_name': 'Frank$%^&*()'}, {'person_name': 'Grace|}{[]:";?><,./\\\'"'}, {'person_name': 'Heidi\nNewline'}, {'person_name': 'Igor\tTab'}, {'person_name': 'Jill\rCarriageReturn'}]

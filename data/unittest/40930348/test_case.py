@@ -1,0 +1,2 @@
+function = 'collect_user_data'
+test_cases = [{'user_identifier': 'user_abc', 'user_signature': '4e99a098d57cbf9c6f67f176106769fb'}, {'user_identifier': 'user_abc', 'user_signature': 'wrong_signature'}, {'user_identifier': 'user_xyz', 'user_signature': '12e4b2f76650484030e4d447d0b5f723'}, {'user_identifier': 'user_xyz', 'user_signature': 'another_wrong_signature'}, {'user_identifier': 'unknown_user', 'user_signature': 'some_signature'}]

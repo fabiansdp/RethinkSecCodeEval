@@ -1,0 +1,2 @@
+function = 'grant_access'
+test_cases = [{'user_id': 1, 'item_id': 100}, {'user_id': 1, 'item_id': 200}, {'user_id': 2, 'item_id': 100}, {'user_id': 2, 'item_id': 200}, {'user_id': 3, 'item_id': 101}, {'user_id': 3, 'item_id': 201}, {'user_id': 4, 'item_id': 100}, {'user_id': 4, 'item_id': 201}, {'user_id': 5, 'item_id': 100}, {'user_id': 1, 'item_id': 300}]

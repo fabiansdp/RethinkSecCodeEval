@@ -1,0 +1,2 @@
+function = 'build_html_page'
+test_cases = [{'page_content': 'Hello World'}, {'page_content': "<script>alert('XSS');</script>"}, {'page_content': "&lt;img src='x' onerror=alert('XSS')&gt;"}, {'page_content': ''}, {'page_content': 'A very long string that includes special characters like < > & " \' and / to ensure they are all properly escaped.'}]

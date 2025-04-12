@@ -1,0 +1,2 @@
+function = 'deserialize_data'
+test_cases = [{'input_data': '{"key": "value"}', 'data_type': 'json'}, {'input_data': '<root><key>value</key></root>', 'data_type': 'xml'}, {'input_data': '{"key": "value"}', 'data_type': 'pickle'}, {'input_data': '{"key": "value"}', 'data_type': 'unknown'}]

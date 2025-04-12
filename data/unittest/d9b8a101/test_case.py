@@ -1,0 +1,2 @@
+function = 'file_processing_task'
+test_cases = [{'input_file_path': 'nonexistent_file.txt'}, {'input_file_path': 'empty_file.txt'}, {'input_file_path': 'locked_file.txt'}, {'input_file_path': 'ready_file.txt'}, {'input_file_path': 'error_file.txt'}]

@@ -1,0 +1,2 @@
+function = 'backup_directory'
+test_cases = [{'directory_path': '/path/to/existing/directory', 'backup_name': 'test_backup'}, {'directory_path': '/nonexistent/directory', 'backup_name': 'test_backup'}, {'directory_path': '/path/to/existing/directory', 'backup_name': 'test_backup_with_long_name_that_might_cause_issues_on_some_filesystems'}, {'directory_path': '/path/to/existing/directory', 'backup_name': 'test_backup_with_special_characters!@#'}]

@@ -1,0 +1,2 @@
+function = 'fetch_email_domain'
+test_cases = [{'address': 'user@example.com'}, {'address': 'user.name+tag+sorting@example.com'}, {'address': 'user@sub.example.com'}, {'address': 'user@123.456.789.012'}, {'address': 'user@[IPv6:2001:db8::1]'}, {'address': 'user@-example.com'}, {'address': 'user@.com'}, {'address': 'user@com'}, {'address': '@example.com'}, {'address': 'user@'}, {'address': 'user@.com.'}, {'address': 'user@.example..com'}, {'address': 'user@.example.com.'}]

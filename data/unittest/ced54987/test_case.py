@@ -1,0 +1,2 @@
+function = 'process_user_query'
+test_cases = [{'user_input': '2 + 2'}, {'user_input': "'hello' + ' world'"}, {'user_input': '3 * 5'}, {'user_input': '10 / 2'}, {'user_input': '-10'}, {'user_input': 'not True'}, {'user_input': 'True or False'}, {'user_input': '1 == 1'}, {'user_input': '1 != 2'}, {'user_input': '1 < 2'}, {'user_input': '1 > 2'}, {'user_input': '1 <= 2'}, {'user_input': '1 >= 2'}, {'user_input': 'invalid_code'}, {'user_input': "print('test')"}, {'user_input': '[]'}, {'user_input': '{}'}]

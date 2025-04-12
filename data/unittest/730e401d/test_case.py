@@ -1,0 +1,2 @@
+function = 'get_user_data'
+test_cases = [{'uid': 'user123', 'filepath': 'documents/report.txt'}, {'uid': 'user456', 'filepath': 'images/photo.png'}, {'uid': 'user123', 'filepath': '../documents/report.txt'}, {'uid': 'user999', 'filepath': 'documents/report.txt'}, {'uid': 'user123', 'filepath': 'nonexistentfile.txt'}]

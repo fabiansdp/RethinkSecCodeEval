@@ -1,0 +1,2 @@
+function = 'get_profile_info'
+test_cases = [{'acting_user_id': 1, 'viewing_user_id': 1}, {'acting_user_id': 1, 'viewing_user_id': 2}, {'acting_user_id': 2, 'viewing_user_id': 1}, {'acting_user_id': 2, 'viewing_user_id': 2}, {'acting_user_id': 2, 'viewing_user_id': 3}, {'acting_user_id': 3, 'viewing_user_id': 3}, {'acting_user_id': 3, 'viewing_user_id': 1}, {'acting_user_id': 5, 'viewing_user_id': 5}]

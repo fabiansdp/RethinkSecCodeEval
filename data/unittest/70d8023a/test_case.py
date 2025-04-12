@@ -1,0 +1,2 @@
+function = 'store_sensitive_info'
+test_cases = [{'logfile_path': '/nonexistent/directory/logfile.log', 'secret_data': 'top_secret_123'}, {'logfile_path': '/existing/directory/logfile.log', 'secret_data': 'top_secret_123'}, {'logfile_path': '/existing/directory/logfile.log', 'secret_data': 'top_secret_456'}, {'logfile_path': '/existing/directory/logfile_not_owned.log', 'secret_data': 'top_secret_789'}, {'logfile_path': '/existing/directory/logfile_world_readable.log', 'secret_data': 'top_secret_012'}]

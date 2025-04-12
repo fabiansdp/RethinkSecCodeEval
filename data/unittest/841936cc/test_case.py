@@ -1,0 +1,2 @@
+function = 'deliver_file'
+test_cases = [{'resource_name': 'bin', 'relative_path': 'ls'}, {'resource_name': 'bin', 'relative_path': '../etc/passwd'}, {'resource_name': 'bin', 'relative_path': 'nonexistentfile'}, {'resource_name': 'nonexistentresource', 'relative_path': 'ls'}]

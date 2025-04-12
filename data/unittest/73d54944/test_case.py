@@ -1,0 +1,2 @@
+function = 'remove_user_data'
+test_cases = [{'data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}, {'data': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1'}}}, {'data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '999'}}}, {'data': {'headers': {}, 'body': {'user_id': '1'}}}, {'data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {}}}, {'data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}]

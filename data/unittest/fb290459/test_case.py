@@ -1,0 +1,2 @@
+function = 'process_math_expression'
+test_cases = [{'math_expr': '2 + 2'}, {'math_expr': '10 - 5'}, {'math_expr': '3 * 4'}, {'math_expr': '8 / 2'}, {'math_expr': '(3 + 5) * 2'}, {'math_expr': '100 / (5 - 3)'}, {'math_expr': '2 ** 2'}, {'math_expr': '2 + 2 * 2'}, {'math_expr': '2 + (2 * 2)'}, {'math_expr': 'invalid'}, {'math_expr': '2 + invalid'}, {'math_expr': "2 + 2; print('hello')"}, {'math_expr': 'import os'}, {'math_expr': "os.system('ls')"}, {'math_expr': 'def func(): pass'}, {'math_expr': '2 + 2\n3 + 3'}, {'math_expr': '2 + 2 '}]

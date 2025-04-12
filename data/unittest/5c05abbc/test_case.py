@@ -1,0 +1,2 @@
+function = 'verify_api_message'
+test_cases = [{'msg_id': 'msg_1001', 'sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': 'msg_1002', 'sign': '1122aabbccdd3344eeff5566gggghhhh'}, {'msg_id': 'msg_1001', 'sign': 'wrong_signature'}, {'msg_id': 'non_existent_msg', 'sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': '', 'sign': 'abcd1234efgh5678ijkl9012mnop3456'}, {'msg_id': 'msg_1001', 'sign': ''}]

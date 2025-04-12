@@ -1,0 +1,2 @@
+function = 'change_profile_info'
+test_cases = [{'profile_id': '123', 'profile_info_update': {'name': 'John Doe'}}, {'profile_id': '456', 'profile_info_update': {'email': 'john.doe@example.com'}}, {'profile_id': '789', 'profile_info_update': {'age': 30}}, {'profile_id': '000', 'profile_info_update': {'name': 'Jane Doe', 'email': 'jane.doe@example.com'}}, {'profile_id': '999', 'profile_info_update': {}}]

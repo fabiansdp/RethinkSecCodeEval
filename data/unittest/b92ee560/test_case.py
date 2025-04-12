@@ -1,0 +1,2 @@
+function = 'get_file_contents'
+test_cases = [{'usr': 'john', 'rel_path': 'documents/report.txt'}, {'usr': 'alice', 'rel_path': 'photos/vacation.jpg'}, {'usr': 'john', 'rel_path': '../secret/file.txt'}, {'usr': 'bob', 'rel_path': 'documents/report.txt'}, {'usr': 'alice', 'rel_path': 'nonexistentfile.txt'}]

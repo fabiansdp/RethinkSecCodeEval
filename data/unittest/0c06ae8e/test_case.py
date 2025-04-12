@@ -1,0 +1,2 @@
+function = 'adjust_config'
+test_cases = [{'file_path': 'non_existent_file.json', 'new_values': {'key': 'value'}}, {'file_path': 'test_empty_file.json', 'new_values': {'key': 'value'}}, {'file_path': 'test_non_empty_file.json', 'new_values': {'key': 'value'}}, {'file_path': 'locked_file.json', 'new_values': {'key': 'value'}}]

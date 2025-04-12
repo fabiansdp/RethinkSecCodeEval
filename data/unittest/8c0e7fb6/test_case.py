@@ -1,0 +1,2 @@
+function = 'client_request_manager'
+test_cases = [{'client_identifier': 'client1', 'request_data': {}}, {'client_identifier': 'client1', 'request_data': {'client1': (99, 1672531200)}}, {'client_identifier': 'client1', 'request_data': {'client1': (100, 1672531200)}}, {'client_identifier': 'client1', 'request_data': {'client1': (100, 1672527600)}}, {'client_identifier': 'client2', 'request_data': {'client1': (50, 1672531200)}}, {'client_identifier': 'client1', 'request_data': {'client1': (1, 1672531200), 'client2': (1, 1672531200)}}]

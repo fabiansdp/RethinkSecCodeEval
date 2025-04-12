@@ -1,0 +1,2 @@
+function = 'see_user_profile'
+test_cases = [{'current_id': 1, 'target_id': 1}, {'current_id': 1, 'target_id': 2}, {'current_id': 2, 'target_id': 2}, {'current_id': 2, 'target_id': 1}, {'current_id': 2, 'target_id': 3}, {'current_id': 3, 'target_id': 3}, {'current_id': 3, 'target_id': 1}, {'current_id': 4, 'target_id': 4}, {'current_id': 4, 'target_id': 1}, {'current_id': 5, 'target_id': 5}]

@@ -1,0 +1,2 @@
+function = 'handle_data_packet'
+test_cases = [{'device_id': 'device001', 'signature': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'data': {}}, {'device_id': 'device002', 'signature': '1dcfa479db7aae3d40b3984cdf202de6', 'data': {}}, {'device_id': 'device001', 'signature': 'wrong_signature', 'data': {}}, {'device_id': 'unknown_device', 'signature': 'some_signature', 'data': {}}]

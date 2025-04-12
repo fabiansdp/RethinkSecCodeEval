@@ -1,0 +1,2 @@
+function = 'fetch_file_content'
+test_cases = [{'uname': 'john', 'relative_file_path': 'test.txt'}, {'uname': 'alice', 'relative_file_path': 'notes.txt'}, {'uname': 'john', 'relative_file_path': '../sensitive/file.txt'}, {'uname': 'bob', 'relative_file_path': 'test.txt'}, {'uname': 'john', 'relative_file_path': 'nonexistentfile.txt'}]

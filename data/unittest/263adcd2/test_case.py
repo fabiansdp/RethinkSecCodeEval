@@ -1,0 +1,2 @@
+function = 'evaluate_student_response'
+test_cases = [{'student_query': '2 + 2'}, {'student_query': '10 * 5 - 3'}, {'student_query': "'hello' + ' world'"}, {'student_query': '10 / 3'}, {'student_query': '2 ** 3'}, {'student_query': '-5'}, {'student_query': 'True or False'}, {'student_query': '3 < 5'}, {'student_query': 'invalid_syntax'}, {'student_query': "print('test')"}, {'student_query': '[1, 2, 3]'}, {'student_query': "{'key': 'value'}"}, {'student_query': "2 + 'string'"}, {'student_query': '1/0'}]

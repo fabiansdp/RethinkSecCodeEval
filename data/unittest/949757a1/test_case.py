@@ -1,0 +1,2 @@
+function = 'change_user_contact'
+test_cases = [{'transaction_request': {'headers': {'X-CSRF-Token': 'incorrect_token'}, 'body': {'user_id': '1', 'new_phone': '098-765-4321'}}}, {'transaction_request': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '2', 'new_phone': '098-765-4321'}}}, {'transaction_request': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1', 'new_phone': '098-765-4321'}}}]

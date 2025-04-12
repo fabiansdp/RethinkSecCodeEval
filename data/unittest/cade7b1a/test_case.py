@@ -1,0 +1,2 @@
+function = 'process_config_data'
+test_cases = [{'config_name': 'db_config.json', 'signature': 'afae23c5b1a7d5218cabc4e62357378e'}, {'config_name': 'app_config.yaml', 'signature': '9c6b74265e0e0409e4ada1aa3bdc973d'}, {'config_name': 'unknown_config.json', 'signature': 'some_signature'}, {'config_name': 'db_config.json', 'signature': 'wrong_signature'}, {'config_name': 'app_config.yaml', 'signature': 'wrong_signature'}]

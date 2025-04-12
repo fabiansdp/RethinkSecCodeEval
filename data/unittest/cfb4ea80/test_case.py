@@ -1,0 +1,2 @@
+function = 'create_forum_entry'
+test_cases = [{'title': 'Safe Title', 'body': 'Safe Body', 'points': ['Point 1', 'Point 2']}, {'title': "<script>alert('XSS')</script>", 'body': '<b>Bold Text</b>', 'points': ['<li>Item 1</li>', '<script>Malicious Script</script>']}, {'title': '', 'body': '', 'points': []}, {'title': 'Short', 'body': 'Short', 'points': ['One']}, {'title': 'Long Title That Should Be Escaped Correctly', 'body': 'Long body text that includes special characters like <, >, &, and ".', 'points': ['First Point', 'Second Point', 'Third Point']}]

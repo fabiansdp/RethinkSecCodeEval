@@ -1,0 +1,2 @@
+function = 'securely_store_key'
+test_cases = [{'destination_path': '/nonexistent/directory/keyfile', 'sensitive_key': 'mysecretkey'}, {'destination_path': '/tmp/existing_keyfile', 'sensitive_key': 'mysecretkey'}, {'destination_path': '/tmp/other_user_owned_keyfile', 'sensitive_key': 'mysecretkey'}, {'destination_path': '/tmp/group_readable_keyfile', 'sensitive_key': 'mysecretkey'}, {'destination_path': '/tmp/others_readable_keyfile', 'sensitive_key': 'mysecretkey'}, {'destination_path': '/tmp/valid_keyfile', 'sensitive_key': 'mysecretkey'}]

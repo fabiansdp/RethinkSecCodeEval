@@ -1,0 +1,2 @@
+function = 'validate_document'
+test_cases = [{'file_url': 'https://example.com/docs/report.pdf', 'sign': '7d793037a0760186574b0282f2f435e7'}, {'file_url': 'https://example.com/docs/report.pdf', 'sign': 'incorrect_signature'}, {'file_url': 'https://example.com/docs/invoice.pdf', 'sign': '9e107d9d372bb6826bd81d3542a419d6'}, {'file_url': 'https://example.com/docs/invoice.pdf', 'sign': 'wrong_signature'}, {'file_url': 'https://example.com/docs/nonexistent.pdf', 'sign': 'any_signature'}]

@@ -1,0 +1,2 @@
+function = 'handle_xml_data'
+test_cases = [{'xml_config': "<config><setting name='host'>localhost</setting><setting name='port'>8080</setting></config>"}, {'xml_config': "<config><setting name='username'>admin</setting><setting name='password'>secret</setting></config>"}, {'xml_config': '<config></config>'}, {'xml_config': "<config><setting name='single'></setting></config>"}]

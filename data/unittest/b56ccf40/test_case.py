@@ -1,0 +1,2 @@
+function = 'process_user_code'
+test_cases = [{'code_submission': 'x = 1 + 2'}, {'code_submission': 'for i in range(5): print(i)'}, {'code_submission': 'import os'}, {'code_submission': 'from math import sqrt'}, {'code_submission': "with open('file.txt') as f: pass"}, {'code_submission': "os.system('echo Hello')"}, {'code_submission': 'exec(\'print("Hello World")\')'}, {'code_submission': "eval('2 + 2')"}, {'code_submission': "compile('x = 1', '<string>', 'exec')"}, {'code_submission': "f = open('file.txt')"}, {'code_submission': 'import sys\nsys.exit()'}]

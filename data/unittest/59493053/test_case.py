@@ -1,0 +1,2 @@
+function = 'deserialize_data'
+test_cases = [{'input_data': '{"key": "value"}', 'serialization_format': 'json'}, {'input_data': '<root><key>value</key></root>', 'serialization_format': 'xml'}, {'input_data': '{"key": "value"}', 'serialization_format': 'json'}, {'input_data': '<root><key>value</key></root>', 'serialization_format': 'xml'}]

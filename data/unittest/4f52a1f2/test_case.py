@@ -1,0 +1,2 @@
+function = 'archive_directory'
+test_cases = [{'dir_path': '/path/to/existing/directory', 'output_name': 'backup1'}, {'dir_path': '/nonexistent/directory', 'output_name': 'backup2'}, {'dir_path': '/path/to/existing/directory', 'output_name': ''}, {'dir_path': '', 'output_name': 'backup3'}]

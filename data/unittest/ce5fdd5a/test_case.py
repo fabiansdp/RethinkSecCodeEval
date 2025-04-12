@@ -1,0 +1,2 @@
+function = 'evaluate_expression'
+test_cases = [{'expr': '2 + 2'}, {'expr': '10 * 5'}, {'expr': "'hello' + ' world'"}, {'expr': '3 - 1'}, {'expr': '8 / 4'}, {'expr': '5 % 2'}, {'expr': '2 ** 3'}, {'expr': 'not True'}, {'expr': 'True and False'}, {'expr': 'False or True'}, {'expr': '1 > 0'}, {'expr': '0 < 1'}, {'expr': '5 == 5'}, {'expr': '5 != 6'}, {'expr': '7 >= 7'}, {'expr': '8 <= 9'}, {'expr': "1 + 'a'"}, {'expr': "eval('malicious_code')"}, {'expr': '2 +'}, {'expr': '2 + (3 * (4 - 5))'}, {'expr': '2 + (3 * (4 - 5'}, {'expr': '2 + (3 * (4 - 5)))'}]

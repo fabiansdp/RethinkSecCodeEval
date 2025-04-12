@@ -1,0 +1,2 @@
+function = 'match_strings'
+test_cases = [{'text': 'example(param1)'}, {'text': 'another_example(param1, param2)'}, {'text': 'simple()'}, {'text': 'nested(inner(param))'}, {'text': 'no_parentheses'}, {'text': '(only)parentheses'}, {'text': 'multiple(parentheses())'}, {'text': 'trailing_comma(param,)'}, {'text': 'escaped\\(parentheses\\)'}, {'text': 'multi_line(\nparam\n)'}]

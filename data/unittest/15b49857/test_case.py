@@ -1,0 +1,2 @@
+function = 'generate_hash'
+test_cases = [{'algo_name': 'sha256', 'info': 'test_data'}, {'algo_name': 'sha512', 'info': 'test_data'}, {'algo_name': 'sha224', 'info': 'test_data'}, {'algo_name': 'sha384', 'info': 'test_data'}, {'algo_name': 'blake2s', 'info': 'test_data'}, {'algo_name': 'md5', 'info': 'test_data'}, {'algo_name': 'sha1', 'info': 'test_data'}, {'algo_name': 'sha256', 'info': ''}, {'algo_name': 'sha512', 'info': ''}, {'algo_name': 'sha224', 'info': ''}, {'algo_name': 'sha384', 'info': ''}, {'algo_name': 'blake2s', 'info': ''}]

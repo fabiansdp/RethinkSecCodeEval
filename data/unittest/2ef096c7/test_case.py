@@ -1,0 +1,2 @@
+function = 'retrieve_file'
+test_cases = [{'resource_id': 'bin', 'rel_path': 'ls'}, {'resource_id': 'bin', 'rel_path': '../etc/passwd'}, {'resource_id': 'nonexistent', 'rel_path': 'dummy'}, {'resource_id': 'bin', 'rel_path': 'nonexistentfile'}]

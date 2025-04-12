@@ -1,0 +1,2 @@
+function = 'fetch_image_url'
+test_cases = [{'url': 'http://img.example.com/image.jpg'}, {'url': 'https://cdn.trusted.com/photo.png'}, {'url': 'ftp://untrusted.com/image.gif'}, {'url': 'http://unknownsite.org/picture.jpeg'}, {'url': 'https://images.hosting.com/graphic.svg'}]

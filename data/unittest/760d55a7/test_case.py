@@ -1,0 +1,2 @@
+function = 'encode_folder_filter'
+test_cases = [{'request': {}}, {'request': {'filter_by_name': 'example'}}, {'request': {'filter_by_name': 'example', 'filter_by_type': 'folder'}}, {'request': {'other_key': 'value'}}, {'request': {'filter_by_name': 'example', 'other_key': 'value'}}, {'request': {'filter_by_': 'invalid'}}]

@@ -1,0 +1,2 @@
+function = 'create_html_output'
+test_cases = [{'input_content': ''}, {'input_content': 'Hello, World!'}, {'input_content': "<script>alert('XSS');</script>"}, {'input_content': '&lt;This should remain unchanged&gt;'}, {'input_content': 'Special characters: & < > " \''}]

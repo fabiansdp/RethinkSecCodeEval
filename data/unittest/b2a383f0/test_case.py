@@ -1,0 +1,2 @@
+function = 'retrieve_invoice'
+test_cases = [{'requester_id': 1, 'customer_request_id': 2}, {'requester_id': 2, 'customer_request_id': 2}, {'requester_id': 3, 'customer_request_id': 3}, {'requester_id': 4, 'customer_request_id': 4}, {'requester_id': 2, 'customer_request_id': 3}, {'requester_id': 3, 'customer_request_id': 2}, {'requester_id': 5, 'customer_request_id': 2}, {'requester_id': 1, 'customer_request_id': 5}]

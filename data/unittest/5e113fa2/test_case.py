@@ -1,0 +1,2 @@
+function = 'fetch_dependencies'
+test_cases = [{'dep_output_path': '/tmp/requirements.txt'}, {'dep_output_path': '/nonexistent/path/requirements.txt'}, {'dep_output_path': '/tmp/requirements_fail.txt'}]

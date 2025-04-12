@@ -1,0 +1,2 @@
+function = 'store_logs'
+test_cases = [{'source_logs': '/valid/source/logs', 'target_backup_dir': '/valid/target/backup'}, {'source_logs': '/nonexistent/source/logs', 'target_backup_dir': '/valid/target/backup'}, {'source_logs': '/valid/source/logs', 'target_backup_dir': '/nonexistent/target/backup'}, {'source_logs': '/nonexistent/source/logs', 'target_backup_dir': '/nonexistent/target/backup'}, {'source_logs': '', 'target_backup_dir': '/valid/target/backup'}, {'source_logs': '/valid/source/logs', 'target_backup_dir': ''}]

@@ -1,0 +1,2 @@
+function = 'write_configuration'
+test_cases = [{'config_file': '/nonexistent_directory/config.txt', 'config_data': {'key': 'value'}}, {'config_file': '/tmp/existing_config.txt', 'config_data': {'key': 'value'}}, {'config_file': '/tmp/incorrect_owner_config.txt', 'config_data': {'key': 'value'}}, {'config_file': '/tmp/insecure_permissions_config.txt', 'config_data': {'key': 'value'}}, {'config_file': '/tmp/new_config.txt', 'config_data': {'key': 'value'}}]

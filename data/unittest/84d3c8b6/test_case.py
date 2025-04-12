@@ -1,0 +1,2 @@
+function = 'decode_serialized_data'
+test_cases = [{'encoded_data': '{"key": "value"}', 'method': 'json'}, {'encoded_data': '<root><key>value</key></root>', 'method': 'xml'}, {'encoded_data': '{"key": "value"}', 'method': 'json'}, {'encoded_data': '<root><key>value</key></root>', 'method': 'xml'}]

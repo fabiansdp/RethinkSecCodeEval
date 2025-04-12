@@ -1,0 +1,2 @@
+function = 'perform_redirect'
+test_cases = [{'target_url': 'http://trusted-redirect.com/path'}, {'target_url': 'https://partner.com/another-path'}, {'target_url': 'ftp://untrusted.com/somefile'}, {'target_url': 'http://malicious-site.com'}, {'redirection_url': 'http://trusted-redirect.com/path'}, {'redirection_url': 'https://partner.com/another-path'}, {'redirection_url': 'http://example.com'}, {'redirection_url': ''}]

@@ -1,0 +1,2 @@
+function = 'get_profile_from_service'
+test_cases = [{'uuid': 'user_abc', 'sig_hash': '4e99a098d57cbf9c6f67f176106769fb'}, {'uuid': 'user_abc', 'sig_hash': 'wrong_hash'}, {'uuid': 'non_existent_user', 'sig_hash': 'any_hash'}, {'uuid': 'user_abc'}, {'uuid': 'non_existent_user'}]

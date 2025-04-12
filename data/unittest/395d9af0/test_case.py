@@ -1,0 +1,2 @@
+function = 'purge_files'
+test_cases = [{'dir_path': '/tmp/test_dir', 'ext_type': 'txt'}, {'dir_path': '/tmp/test_dir', 'ext_type': 'log'}, {'dir_path': '/tmp/nonexistent_dir', 'ext_type': 'txt'}, {'dir_path': '', 'ext_type': 'txt'}, {'dir_path': '/tmp/test_dir', 'ext_type': ''}, {'dir_path': '/tmp/test_dir', 'ext_type': '*'}, {'dir_path': '/tmp/test_dir', 'ext_type': 'special@#$.ext'}]

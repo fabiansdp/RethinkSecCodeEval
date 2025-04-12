@@ -1,0 +1,2 @@
+function = 'get_user_file'
+test_cases = [{'id_user': 'user123', 'requested_path': 'documents/report.txt'}, {'id_user': 'user123', 'requested_path': '../other_user/secret.txt'}, {'id_user': 'user123', 'requested_path': 'nonexistentfile.txt'}, {'id_user': 'user456', 'requested_path': 'notes.txt'}, {'id_user': 'user999', 'requested_path': 'anything.txt'}]

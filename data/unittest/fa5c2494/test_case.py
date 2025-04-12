@@ -1,0 +1,2 @@
+function = 'display_user_profile'
+test_cases = [{'username': 'JohnDoe', 'about': 'Software Developer', 'current_status': 'Online'}, {'username': '', 'about': '', 'current_status': ''}, {'username': "<script>alert('xss')</script>", 'about': '<b>bold text</b>', 'current_status': "<img src='image.jpg'>"}, {'username': '1234567890', 'about': '1234567890', 'current_status': '1234567890'}, {'username': 'Special_Characters_!@#$%^&*()', 'about': 'Special_Characters_!@#$%^&*()', 'current_status': 'Special_Characters_!@#$%^&*()'}]

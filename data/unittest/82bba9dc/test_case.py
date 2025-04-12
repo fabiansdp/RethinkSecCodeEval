@@ -1,0 +1,2 @@
+function = 'retrieve_large_file'
+test_cases = [{'endpoint': 'http://example.com/smallfile', 'file_destination': '/path/to/destination/smallfile'}, {'endpoint': 'http://example.com/largefile', 'file_destination': '/path/to/destination/largefile'}, {'endpoint': 'http://example.com/invalidurl', 'file_destination': '/path/to/destination/invalidfile'}, {'endpoint': 'http://example.com/largefile', 'file_destination': '/nonexistent/path/largefile'}, {'endpoint': 'http://example.com/unexpectederror', 'file_destination': '/path/to/destination/unexpectedfile'}]

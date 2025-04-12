@@ -1,0 +1,2 @@
+function = 'identify_html_tags'
+test_cases = [{'content': ''}, {'content': 'No tags here'}, {'content': '<html><body></body></html>'}, {'content': '<div><span></span><p></p></div>'}, {'content': "<a href='#'>Link</a>"}, {'content': "<img src='image.png' alt='Image'>"}, {'content': "<script>alert('Hello');</script>"}, {'content': '<style>body {background-color: lightblue;}</style>'}, {'content': '<!-- This is a comment -->'}, {'content': "<tag_with_long_name_and_attributes attr1='value1' attr2='value2'>Content</tag_with_long_name_and_attributes>"}]

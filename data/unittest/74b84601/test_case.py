@@ -1,0 +1,2 @@
+function = 'write_protected_log'
+test_cases = [{'log_path': '/nonexistent/directory/logfile.log', 'secret_info': 'Test Secret'}, {'log_path': '/tmp/nonexistent_file.log', 'secret_info': 'Test Secret'}, {'log_path': '/tmp/existing_file_not_owned_by_user.log', 'secret_info': 'Test Secret'}, {'log_path': '/tmp/world_readable_log.log', 'secret_info': 'Test Secret'}, {'log_path': '/tmp/secure_log.log', 'secret_info': 'Test Secret'}]

@@ -1,0 +1,2 @@
+function = 'load_object'
+test_cases = [{'serialized_data': '{"key": "value"}', 'deserialization_method': 'json'}, {'serialized_data': 'key,value\n1,2', 'deserialization_method': 'csv'}, {'serialized_data': '{"key": "value"}', 'deserialization_method': 'xml'}, {'serialized_data': 'key,value\n1,2', 'deserialization_method': 'pickle'}]

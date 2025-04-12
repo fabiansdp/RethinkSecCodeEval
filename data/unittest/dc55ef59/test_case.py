@@ -1,0 +1,2 @@
+function = 'compute_signature'
+test_cases = [{'algo_name': 'sha256', 'message': b'Hello, World!'}, {'algo_name': 'sha512', 'message': b'Hello, World!'}, {'algo_name': 'sha244', 'message': b'Hello, World!'}, {'algo_name': 'sha384', 'message': b'Hello, World!'}, {'algo_name': 'blake2s', 'message': b'Hello, World!'}, {'algo_name': 'md5', 'message': b'Hello, World!'}, {'algo_name': 'sha1', 'message': b'Hello, World!'}]

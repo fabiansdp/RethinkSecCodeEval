@@ -1,0 +1,2 @@
+function = 'securely_load_data'
+test_cases = [{'byte_data': '{"key": "value"}', 'serialization_format': 'json'}, {'byte_data': '[section]\nkey=value', 'serialization_format': 'ini'}, {'byte_data': '{"key": "value"}', 'serialization_format': 'pickle'}, {'byte_data': '{"key": "value"}', 'serialization_format': 'xml'}]

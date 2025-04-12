@@ -1,0 +1,2 @@
+function = 'process_json_input'
+test_cases = [{'req': {'headers': {'Content-Type': 'application/json'}, 'body': '{"key": "value"}'}}, {'req': {'headers': {'Content-Type': 'application/vnd.api+json'}, 'body': '{"key": "value"}'}}, {'req': {'headers': {'Content-Type': 'text/json'}, 'body': '{"key": "value"}'}}, {'req': {'headers': {'Content-Type': 'application/json'}, 'body': 'invalid json'}}, {'req': {'headers': {'Content-Type': 'application/vnd.api+json'}, 'body': 'invalid json'}}]

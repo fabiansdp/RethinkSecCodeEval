@@ -1,0 +1,2 @@
+function = 'update_user_email'
+test_cases = [{'request': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1', 'new_email': 'new.email@example.com'}}}, {'request': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '2', 'new_email': 'new.email@example.com'}}}, {'request': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1', 'new_email': 'new.email@example.com'}}}]

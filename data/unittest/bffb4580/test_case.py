@@ -1,0 +1,2 @@
+function = 'build_html_page'
+test_cases = [{'client_input': ''}, {'client_input': 'Hello World'}, {'client_input': "<script>alert('xss');</script>"}, {'client_input': 'Special characters: & < > " \' /'}, {'client_input': 'Line\nBreak'}, {'client_input': 'Tabs\tHere'}]

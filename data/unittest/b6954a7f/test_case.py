@@ -1,0 +1,2 @@
+function = 'find_document'
+test_cases = [{'file_path': 'example.txt'}, {'file_path': 'subdir/example.txt'}, {'file_path': '../example.txt'}, {'file_path': '/absolute/path/to/example.txt'}, {'file_path': ''}]

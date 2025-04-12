@@ -1,0 +1,2 @@
+function = 'generate_signature'
+test_cases = [{'hash_algo': 'sha256', 'input_data': 'test_data', 'secret_key': 'secret'}, {'hash_algo': 'sha512', 'input_data': 'test_data', 'secret_key': 'secret'}, {'hash_algo': 'sha244', 'input_data': 'test_data', 'secret_key': 'secret'}, {'hash_algo': 'sha384', 'input_data': 'test_data', 'secret_key': 'secret'}, {'hash_algo': 'blake2s', 'input_data': 'test_data', 'secret_key': 'secret'}, {'hash_algo': 'md5', 'input_data': 'test_data', 'secret_key': 'secret'}, {'hash_algo': 'sha1', 'input_data': 'test_data', 'secret_key': 'secret'}]

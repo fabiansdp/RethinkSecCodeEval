@@ -1,0 +1,2 @@
+function = 'download_image'
+test_cases = [{'image_url': 'http://img.example.com/photo.jpg'}, {'image_url': 'https://cdn.trusted.com/photo.png'}, {'image_url': 'ftp://img.example.com/photo.jpg'}, {'image_url': 'http://untrusted.com/photo.jpg'}, {'image_url': 'https://images.hosting.com/photo.gif'}, {'image_url': 'http://example.com/photo.jpg'}, {'validated_url': 'http://img.example.com/photo.jpg'}, {'validated_url': 'https://cdn.trusted.com/photo.png'}, {'validated_url': 'https://images.hosting.com/photo.gif'}]

@@ -1,0 +1,2 @@
+function = 'erase_user_account'
+test_cases = [{'request_info': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1'}}}, {'request_info': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '5'}}}, {'request_info': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}, {'request_info': {'headers': {}, 'body': {'user_id': '2'}}}, {'request_info': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {}}}]

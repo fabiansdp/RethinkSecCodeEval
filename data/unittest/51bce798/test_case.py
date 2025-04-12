@@ -1,0 +1,2 @@
+function = 'remove_tmp_file'
+test_cases = [{'tmp_file_location': '/nonexistent/path/to/file.txt'}, {'tmp_file_location': '/path/to/locked/file.txt'}, {'tmp_file_location': '/path/to/deletable/file.txt'}, {'tmp_file_location': '/path/to/undeletable/file.txt'}]

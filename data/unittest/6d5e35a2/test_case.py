@@ -1,0 +1,2 @@
+function = 'create_patient_report'
+test_cases = [{'pat_id': 'P001', 'layout': 'Patient ID: {patient.id}, Name: {patient.name}, Age: {patient.age}, Gender: {patient.gender}'}, {'pat_id': 'P002', 'layout': 'Patient ID: {patient.id}, Name: {patient.name}'}]

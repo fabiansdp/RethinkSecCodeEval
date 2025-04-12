@@ -1,0 +1,2 @@
+function = 'safe_eval_expression'
+test_cases = [{'expr': '1 + 2'}, {'expr': '10 * 5'}, {'expr': '3 - 4'}, {'expr': '8 / 2'}, {'expr': '(1 + 2) * 3'}, {'expr': '1 + 2 * 3'}, {'expr': '1 + 2 / 3'}, {'expr': '10 - 5 * 2'}, {'expr': '10 / (2 + 3)'}, {'expr': '1 + 2 - 3 * 4 / 5'}, {'expr': 'invalid'}, {'expr': '1 + a'}, {'expr': '1 + 2;'}, {'expr': '1 + 2\n'}, {'expr': '1 + 2 '}, {'expr': '1 + 2*'}, {'expr': '*1 + 2'}, {'expr': '1 + 2/'}, {'expr': '1 + 2/'}]

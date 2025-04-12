@@ -1,0 +1,2 @@
+function = 'store_config_data'
+test_cases = [{'config_path': '/nonexistent/directory/config.txt', 'cfg_data': {'key1': 'value1'}}, {'config_path': '/tmp/config_test.txt', 'cfg_data': {'key1': 'value1'}}, {'config_path': '/tmp/config_test.txt', 'cfg_data': {'key1': 'value1', 'key2': 'value2'}}, {'config_path': '/tmp/config_test.txt', 'cfg_data': {}}, {'config_path': '/tmp/config_test.txt', 'cfg_data': {'key1': 'value1'}}, {'config_path': '/tmp/config_test.txt', 'cfg_data': {'key1': 'value1'}}, {'config_path': '/tmp/config_test.txt', 'cfg_data': {'key1': 'value1'}}]

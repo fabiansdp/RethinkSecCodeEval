@@ -1,0 +1,2 @@
+function = 'gather_dependencies'
+test_cases = [{'output_path': 'requirements.txt'}, {'output_path': '/tmp/requirements.txt'}, {'output_path': './requirements.txt'}, {'output_path': 'nonexistent_directory/requirements.txt'}]

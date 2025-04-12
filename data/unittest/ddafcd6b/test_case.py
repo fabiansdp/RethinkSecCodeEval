@@ -1,0 +1,2 @@
+function = 'limit_api_requests'
+test_cases = [{'user_id': 'user1', 'tracker': {}}, {'user_id': 'user1', 'tracker': {'user1': (99, 1633072800.0)}}, {'user_id': 'user1', 'tracker': {'user1': (100, 1633072800.0)}}, {'user_id': 'user1', 'tracker': {'user1': (100, 1633076400.0)}}, {'user_id': 'user2', 'tracker': {'user1': (100, 1633072800.0)}}, {'user_id': 'user1', 'tracker': {'user1': (50, 1633072800.0)}}]

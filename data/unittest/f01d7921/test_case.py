@@ -1,0 +1,2 @@
+function = 'log_project_dependencies'
+test_cases = [{'dependency_file_path': 'requirements.txt'}, {'dependency_file_path': '/tmp/requirements.txt'}, {'dependency_file_path': './requirements.txt'}, {'dependency_file_path': 'nonexistent_directory/requirements.txt'}, {'dependency_file_path': 'requirements.txt'}, {'dependency_file_path': '/tmp/requirements.txt'}, {'dependency_file_path': 'requirements.txt'}, {'dependency_file_path': '/tmp/requirements.txt'}, {'dependency_file_path': 'requirements.txt'}]

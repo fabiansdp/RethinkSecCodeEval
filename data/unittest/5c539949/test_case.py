@@ -1,0 +1,2 @@
+function = 'secure_redirect_handler'
+test_cases = [{'redirect_url': 'http://trusted-redirect.com/path'}, {'redirect_url': 'https://partner.com/another-path'}, {'redirect_url': 'ftp://unauthorized-domain.com'}, {'redirect_url': 'http://trusted-redirect.com'}, {'redirect_url': 'https://notallowed.com'}]

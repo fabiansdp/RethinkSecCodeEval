@@ -1,0 +1,2 @@
+function = 'handle_api_rate_limit'
+test_cases = [{'client_id': 'client1', 'request_tracker': {}}, {'client_id': 'client1', 'request_tracker': {'client1': (99, 1672531200)}}, {'client_id': 'client1', 'request_tracker': {'client1': (100, 1672531200)}}, {'client_id': 'client1', 'request_tracker': {'client1': (100, 1672527600)}}, {'client_id': 'client2', 'request_tracker': {'client1': (50, 1672531200)}}]

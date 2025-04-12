@@ -1,0 +1,2 @@
+function = 'parse_product_xml'
+test_cases = [{'xml_data': "<root><product id='1'><name>Product1</name><price>10.99</price></product></root>"}, {'xml_data': "<root><product id='2'><name>Product2</name><price>20.99</price></product><product id='3'><name>Product3</name><price>30.99</price></product></root>"}, {'xml_data': '<root></root>'}, {'xml_data': "<root><product id='4'><name>Product4</name></product></root>"}, {'xml_data': "<root><product id='5'><price>50.99</price></product></root>"}]

@@ -1,0 +1,2 @@
+function = 'evaluate_user_code'
+test_cases = [{'code_string': '2 + 2'}, {'code_string': '-5'}, {'code_string': '"Hello, world!"'}, {'code_string': '3 * (4 + 2)'}, {'code_string': '10 == 10'}, {'code_string': 'True and False'}, {'code_string': 'not True'}, {'code_string': '5 / 0'}, {'code_string': 'import os'}, {'code_string': "os.system('ls')"}, {'code_string': "__import__('sys').exit()"}]

@@ -1,0 +1,2 @@
+function = 'get_user_info'
+test_cases = [{'profile_id': 'user_abc', 'profile_sig': '4e99a098d57cbf9c6f67f176106769fb'}, {'profile_id': 'user_xyz', 'profile_sig': '12e4b2f76650484030e4d447d0b5f723'}, {'profile_id': 'user_abc', 'profile_sig': 'incorrect_signature'}, {'profile_id': 'unknown_user', 'profile_sig': 'some_signature'}]

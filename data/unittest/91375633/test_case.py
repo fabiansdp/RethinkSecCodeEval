@@ -1,0 +1,2 @@
+function = 'show_user_profile'
+test_cases = [{'name': 'John Doe', 'bio': 'Software Developer', 'status_msg': 'Coding all day'}, {'name': '', 'bio': '', 'status_msg': ''}, {'name': "<script>alert('xss')</script>", 'bio': '<b>bold</b>', 'status_msg': '&copy; 2023'}, {'name': 'Alice', 'bio': 'Loves cats & dogs', 'status_msg': 'Available'}, {'name': 'Bob', 'bio': ' ', 'status_msg': 'Busy'}]

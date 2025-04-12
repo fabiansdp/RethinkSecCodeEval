@@ -1,0 +1,2 @@
+function = 'handle_webhook'
+test_cases = [{'webhook_link': 'https://api.service.com/webhook'}, {'webhook_link': 'http://hooks.webapp.com/trigger'}, {'webhook_link': 'https://unauthorized-domain.com/hook'}, {'webhook_link': 'http://localhost:3000/test'}, {'webhook_link': 'http://127.0.0.1/api'}, {'webhook_link': 'http://10.0.0.1/callback'}, {'webhook_link': 'http://192.168.1.1/action'}]

@@ -1,0 +1,2 @@
+function = 'modify_configuration'
+test_cases = [{'settings_filepath': 'non_existent_file.json', 'updated_settings': {'key': 'value'}}, {'settings_filepath': 'empty_file.json', 'updated_settings': {'key': 'value'}}, {'settings_filepath': 'non_empty_file.json', 'updated_settings': {'key': 'value'}}, {'settings_filepath': 'locked_file.json', 'updated_settings': {'key': 'value'}}]

@@ -1,0 +1,2 @@
+function = 'grab_html_tags'
+test_cases = [{'html_code': '<html><body></body></html>'}, {'html_code': "<div class='example'>Text</div>"}, {'html_code': "<p>Paragraph <a href='#'>Link</a></p>"}, {'html_code': "<img src='image.jpg' alt='Image'>"}, {'html_code': "<script type='text/javascript'></script>"}, {'html_code': '<style>.class { color: red; }</style>'}, {'html_code': "<meta charset='UTF-8'>"}, {'html_code': '<!-- This is a comment -->'}, {'html_code': ''}, {'html_code': 'No tags here!'}, {'html_code': '<tag1><tag2><tag3></tag3></tag2></tag1>'}]

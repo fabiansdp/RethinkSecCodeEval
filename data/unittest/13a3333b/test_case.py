@@ -1,0 +1,2 @@
+function = 'store_http_credentials'
+test_cases = [{'file_path': '/nonexistent/path/credentials.conf', 'user': 'admin', 'passkey': 'securepassword'}, {'file_path': '/existing/path/credentials.conf', 'user': 'admin', 'passkey': 'securepassword'}, {'file_path': '/existing/path/credentials.conf', 'user': 'another_user', 'passkey': 'securepassword'}, {'file_path': '/existing/path/credentials.conf', 'user': 'admin', 'passkey': 'securepassword'}, {'file_path': '/existing/path/world_readable.conf', 'user': 'admin', 'passkey': 'securepassword'}]

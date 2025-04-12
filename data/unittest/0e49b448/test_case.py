@@ -1,0 +1,2 @@
+function = 'build_patient_summary'
+test_cases = [{'patient_key': 'P001', 'template_string': 'Patient Name: {patient.name}, Age: {patient.age}'}, {'patient_key': 'P002', 'template_string': 'Patient Name: {patient.name}, Age: {patient.age}'}, {'patient_key': 'P001', 'template_string': 'Patient ID: {patient.id}, Gender: {patient.gender}'}, {'patient_key': 'P001', 'template_string': 'Diagnosis: {patient.diagnosis}'}, {'patient_key': 'P001', 'template_string': 'Treatment Plan: {patient.treatment_plan}'}]

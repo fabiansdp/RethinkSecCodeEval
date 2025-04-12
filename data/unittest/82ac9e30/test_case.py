@@ -1,0 +1,2 @@
+function = 'deserialize_data'
+test_cases = [{'data_stream': '{"key": "value"}', 'deserialization_method': 'json'}, {'data_stream': 'key,value\n1,2', 'deserialization_method': 'csv'}, {'data_stream': '{"key": "value"}', 'deserialization_method': 'unsupported'}]

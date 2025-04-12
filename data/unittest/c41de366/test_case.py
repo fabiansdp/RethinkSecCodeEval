@@ -1,0 +1,2 @@
+function = 'retrieve_config_data'
+test_cases = [{'config_filename': 'db_config.json', 'crypt_signature': 'afae23c5b1a7d5218cabc4e62357378e'}, {'config_filename': 'app_config.yaml', 'crypt_signature': '9c6b74265e0e0409e4ada1aa3bdc973d'}, {'config_filename': 'unknown_config.txt', 'crypt_signature': 'some_signature'}, {'config_filename': 'db_config.json', 'crypt_signature': 'wrong_signature'}, {'config_filename': 'app_config.yaml', 'crypt_signature': 'another_wrong_signature'}]

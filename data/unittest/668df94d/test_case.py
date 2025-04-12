@@ -1,0 +1,2 @@
+function = 'store_confidential_data'
+test_cases = [{'logging_file': '/nonexistent_directory/test.log', 'confidential_data': 'secret123'}, {'logging_file': '/tmp/test_nonexistent.log', 'confidential_data': 'secret123'}, {'logging_file': '/tmp/test_existing.log', 'confidential_data': 'secret123'}, {'logging_file': '/tmp/test_existing.log', 'confidential_data': 'another_secret'}]

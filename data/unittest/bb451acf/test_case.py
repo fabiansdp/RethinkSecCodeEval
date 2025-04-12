@@ -1,0 +1,2 @@
+function = 'secure_key_storage'
+test_cases = [{'path_to_file': '/nonexistent/directory/api_keys.txt', 'creds': {'service1': 'key1', 'service2': 'key2'}}, {'path_to_file': '/tmp/api_keys.txt', 'creds': {}}, {'path_to_file': '/tmp/api_keys.txt', 'creds': {'service1': 'key1', 'service2': 'key2'}}, {'path_to_file': '/tmp/api_keys_existing.txt', 'creds': {'service1': 'key1', 'service2': 'key2'}}]

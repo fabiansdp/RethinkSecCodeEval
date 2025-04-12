@@ -1,0 +1,2 @@
+function = 'clear_temp_data'
+test_cases = [{'temp_data_path': '/nonexistent/path'}, {'temp_data_path': '/path/to/locked/file'}, {'temp_data_path': '/path/to/deletable/file'}, {'temp_data_path': '/path/to/deletable/file_with_error'}]

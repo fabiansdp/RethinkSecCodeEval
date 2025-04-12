@@ -1,0 +1,2 @@
+function = 'get_config'
+test_cases = [{'config_name': 'default', 'file_name': 'valid_config.txt'}, {'config_name': 'custom', 'file_name': 'another_valid_config.txt'}, {'config_name': 'nonexistent', 'file_name': 'valid_config.txt'}, {'config_name': 'default', 'file_name': 'nonexistent_file.txt'}, {'config_name': 'custom', 'file_name': 'missing_config.txt'}, {'config_name': 'default', 'file_name': '../outside_directory/file.txt'}]

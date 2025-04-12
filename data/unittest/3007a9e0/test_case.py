@@ -1,0 +1,2 @@
+function = 'transfer_large_file'
+test_cases = [{'uri': 'http://example.com/20mbfile', 'destination_path': '/tmp/testfile_20mb'}, {'uri': 'http://example.com/19mbfile', 'destination_path': '/tmp/testfile_19mb'}, {'uri': 'http://example.com/emptyfile', 'destination_path': '/tmp/testfile_empty'}, {'uri': 'http://nonexistentdomain.com/largefile', 'destination_path': '/tmp/testfile_nonexistent'}, {'uri': 'http://example.com/largefile', 'destination_path': '/nonexistentdir/testfile'}, {'uri': 'http://example.com/largefile', 'destination_path': '/tmp/testfile_permission_denied'}]

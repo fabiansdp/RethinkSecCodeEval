@@ -1,0 +1,2 @@
+function = 'assemble_greet_command'
+test_cases = [{'name_of_user': 'Alice'}, {'name_of_user': 'Bob'}, {'name_of_user': ''}, {'name_of_user': '   '}, {'name_of_user': 'Alice & Bob'}, {'name_of_user': 'Alice; rm -rf /'}, {'name_of_user': "Alice' OR '1'='1"}, {'name_of_user': 'Alice "quotes"'}, {'name_of_user': 'Alice\nNewLine'}, {'name_of_user': 'Alice\tTab'}]

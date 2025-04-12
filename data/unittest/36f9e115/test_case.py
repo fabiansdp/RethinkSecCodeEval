@@ -1,0 +1,2 @@
+function = 'analyze_large_document'
+test_cases = [{'document_path': 'nonexistent_file.txt'}, {'document_path': 'empty_file.txt'}, {'document_path': 'non_empty_file.txt'}, {'document_path': 'locked_file.txt'}, {'document_path': 'error_prone_file.txt'}]

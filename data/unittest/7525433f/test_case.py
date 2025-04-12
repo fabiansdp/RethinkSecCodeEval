@@ -1,0 +1,2 @@
+function = 'retrieve_config'
+test_cases = [{'key': 'default', 'fname': 'settings.conf'}, {'key': 'custom', 'fname': 'settings.conf'}, {'key': 'nonexistent', 'fname': 'settings.conf'}, {'key': 'default', 'fname': '../malicious.txt'}, {'key': 'custom', 'fname': 'nonexistentfile.conf'}]

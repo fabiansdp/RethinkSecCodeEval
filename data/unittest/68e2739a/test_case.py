@@ -1,0 +1,2 @@
+function = 'resolve_log_file'
+test_cases = [{'dir_identifier': 'logs', 'file_relative_path': 'app.log'}, {'dir_identifier': 'logs', 'file_relative_path': '../sensitive/file.log'}, {'dir_identifier': 'nonexistent', 'file_relative_path': 'app.log'}, {'dir_identifier': 'logs', 'file_relative_path': 'nonexistent.log'}]

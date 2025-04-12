@@ -1,0 +1,2 @@
+function = 'filter_rss_feed'
+test_cases = [{'rss_feed_url': 'http://rss.trustedsource.com'}, {'rss_feed_url': 'https://feeds.provider.com'}, {'rss_feed_url': 'ftp://rss.trustedsource.com'}, {'rss_feed_url': 'http://untrustedsite.com'}, {'rss_feed_url': 'http://localhost'}, {'rss_feed_url': 'http://127.0.0.1'}, {'rss_feed_url': 'http://10.0.0.1'}, {'rss_feed_url': 'http://192.168.1.1'}]

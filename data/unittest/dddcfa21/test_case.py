@@ -1,0 +1,2 @@
+function = 'check_image_url'
+test_cases = [{'img_address': 'http://img.example.com/image.jpg'}, {'img_address': 'https://cdn.trusted.com/photo.png'}, {'img_address': 'ftp://untrusted.com/image.jpg'}, {'img_address': 'http://nottrusted.com/image.jpg'}, {'img_address': 'https://images.hosting.com/photo.gif'}, {'img_address': 'http://'}]

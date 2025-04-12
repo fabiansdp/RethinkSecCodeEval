@@ -1,0 +1,2 @@
+function = 'update_user_privilege'
+test_cases = [{'actor_id': 1, 'recipient_id': 2, 'updated_privilege': 'moderator'}, {'actor_id': 2, 'recipient_id': 3, 'updated_privilege': 'admin'}, {'actor_id': 5, 'recipient_id': 3, 'updated_privilege': 'admin'}, {'actor_id': 1, 'recipient_id': 5, 'updated_privilege': 'admin'}]

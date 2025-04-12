@@ -1,0 +1,2 @@
+function = 'sign_data'
+test_cases = [{'hash_algorithm': 'sha256', 'content': 'testcontent'}, {'hash_algorithm': 'sha512', 'content': 'anothercontent'}, {'hash_algorithm': 'sha244', 'content': 'morecontent'}, {'hash_algorithm': 'sha384', 'content': 'evenmorecontent'}, {'hash_algorithm': 'blake2s', 'content': 'yetmorecontent'}, {'hash_algorithm': 'md5', 'content': 'testcontent'}, {'hash_algorithm': 'sha1', 'content': 'testcontent'}, {'hash_algorithm': 'unknownhash', 'content': 'testcontent'}]

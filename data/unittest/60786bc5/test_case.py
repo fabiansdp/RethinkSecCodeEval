@@ -1,0 +1,2 @@
+function = 'edit_user_profile'
+test_cases = [{'user_identifier': 'user123', 'profile_information': {'name': 'John Doe', 'email': 'john.doe@example.com'}}, {'user_identifier': 'user456', 'profile_information': {'name': 'Jane Smith'}}, {'user_identifier': 'user789', 'profile_information': {'email': 'jane.smith@example.com'}}, {'user_identifier': 'nonexistentuser', 'profile_information': {'name': 'Nonexistent User', 'email': 'nonexistent@example.com'}}, {'user_identifier': 'user123', 'profile_information': {}}]

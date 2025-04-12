@@ -1,0 +1,2 @@
+function = 'refresh_config'
+test_cases = [{'config_location': 'nonexistent_config.json', 'updated_settings': {'key': 'value'}}, {'config_location': 'empty_config.json', 'updated_settings': {'key': 'value'}}, {'config_location': 'existing_config.json', 'updated_settings': {'key': 'value'}}, {'config_location': 'locked_config.json', 'updated_settings': {'key': 'value'}}]

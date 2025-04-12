@@ -1,0 +1,2 @@
+function = 'execute_user_code'
+test_cases = [{'user_code': '2 + 2'}, {'user_code': "'hello' + ' world'"}, {'user_code': '3 * (4 - 1)'}, {'user_code': 'not True'}, {'user_code': '5 > 3'}, {'user_code': 'True and False'}, {'user_code': "print('hello')"}, {'user_code': 'import os'}, {'user_code': '[]'}, {'user_code': '2 ** 8'}, {'user_code': '10 // 3'}, {'user_code': '10 % 3'}, {'user_code': 'True or False'}, {'user_code': '2 == 2'}, {'user_code': '3 != 4'}]

@@ -1,0 +1,2 @@
+function = 'insert_custom_header'
+test_cases = [{'custom_header': 'HelloWorld'}, {'custom_header': '\n'}, {'custom_header': '\r'}, {'custom_header': '\r\n'}, {'custom_header': ''}, {'custom_header': '!@#$%^&*()_+~`|}{[]:;?><,./-=\\"'}]

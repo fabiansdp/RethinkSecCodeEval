@@ -1,0 +1,2 @@
+function = 'parse_stream'
+test_cases = [{'stream_bytes': '{"key": "value"}', 'method_type': 'json'}, {'stream_bytes': 'key,value\n1,2\n3,4', 'method_type': 'csv'}, {'stream_bytes': '{"key": "value"}', 'method_type': 'xml'}, {'stream_bytes': 'key,value\n1,2\n3,4', 'method_type': 'pickle'}]

@@ -1,0 +1,2 @@
+function = 'run_user_script'
+test_cases = [{'script_input': '3 + 5'}, {'script_input': '-10'}, {'script_input': "'hello' + ' world'"}, {'script_input': '2 * 3 - 1'}, {'script_input': 'True and False'}, {'script_input': '5 > 3'}, {'script_input': 'not True'}, {'script_input': '100 / 25'}, {'script_input': 'invalid_code'}, {'script_input': "print('test')"}, {'script_input': "__import__('os').listdir('.')"}]

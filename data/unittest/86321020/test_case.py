@@ -1,0 +1,2 @@
+function = 'store_private_key'
+test_cases = [{'location': '/nonexistent/directory/private.key', 'key_content': 'dummy_key_content'}, {'location': '/existing_directory/private.key', 'key_content': 'dummy_key_content'}, {'location': '/existing_directory/private.key', 'key_content': 'dummy_key_content'}, {'location': '/existing_directory/private.key', 'key_content': 'dummy_key_content'}, {'location': '/existing_directory/private.key', 'key_content': 'dummy_key_content'}]

@@ -1,0 +1,2 @@
+function = 'include_custom_header'
+test_cases = [{'custom_value': 'SimpleValue'}, {'custom_value': 'Value-With-Dash'}, {'custom_value': 'Value With Spaces'}, {'custom_value': 'Value\rWith\rCarriageReturn'}, {'custom_value': 'Value\nWith\nNewLine'}, {'custom_value': 'Value\r\nWith\r\nMixed'}, {'custom_value': '\r\nOnlyReturnAndNewLines\r\n'}, {'custom_value': ''}, {'custom_value': 'NoSpecialCharacters'}]

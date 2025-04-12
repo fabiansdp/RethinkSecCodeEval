@@ -1,0 +1,2 @@
+function = 'append_user_header'
+test_cases = [{'user_header': 'NormalString'}, {'user_header': '\nLeading newline'}, {'user_header': 'Trailing newline\n'}, {'user_header': 'Newline\nin\nmiddle'}, {'user_header': ''}, {'user_header': '\n\n\n'}, {'user_header': 'Special!@#$%^&*()Chars\nWith\nNewlines'}]

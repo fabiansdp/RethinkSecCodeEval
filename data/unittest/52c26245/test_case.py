@@ -1,0 +1,2 @@
+function = 'retrieve_log_file'
+test_cases = [{'key_dir': 'logs', 'rel_file_path': 'example.log'}, {'key_dir': 'logs', 'rel_file_path': '../example.log'}, {'key_dir': 'nonexistent', 'rel_file_path': 'example.log'}, {'key_dir': 'logs', 'rel_file_path': '/absolute/path/example.log'}]

@@ -1,0 +1,2 @@
+function = 'gather_project_dependencies'
+test_cases = [{'req_file_path': '/path/to/requirements.txt'}, {'req_file_path': '/another/path/to/requirements.txt'}, {'req_file_path': '/nonexistent/path/to/requirements.txt'}]

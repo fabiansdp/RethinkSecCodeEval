@@ -1,0 +1,2 @@
+function = 'authenticate_message'
+test_cases = [{'message_id': 'msg_1001', 'signature': 'abcd1234efgh5678ijkl9012mnop3456'}, {'message_id': 'msg_1001', 'signature': 'wrong_signature'}, {'message_id': 'msg_1002', 'signature': '1122aabbccdd3344eeff5566gggghhhh'}, {'message_id': 'msg_1002', 'signature': 'another_wrong_signature'}, {'message_id': 'non_existent_msg', 'signature': 'some_signature'}, {'message_id': '', 'signature': 'abcd1234efgh5678ijkl9012mnop3456'}, {'message_id': 'msg_1001', 'signature': ''}]

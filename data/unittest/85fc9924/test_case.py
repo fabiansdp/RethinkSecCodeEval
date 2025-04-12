@@ -1,0 +1,2 @@
+function = 'protected_https_call'
+test_cases = [{'conn_url': 'https://httpbin.org/get', 'request_timeout': 5}, {'conn_url': 'https://httpbin.org/delay/10', 'request_timeout': 1}, {'conn_url': 'https://nonexistentwebsite.example.com', 'request_timeout': 5}, {'conn_url': 'http://insecure-website.com', 'request_timeout': 5}, {'conn_url': 'https://httpbin.org/status/404', 'request_timeout': 5}, {'conn_url': 'https://httpbin.org/status/500', 'request_timeout': 5}]

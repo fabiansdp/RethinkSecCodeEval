@@ -1,0 +1,2 @@
+function = 'generate_buyer_receipt'
+test_cases = [{'order_id': 'ORD123', 'template': 'Order ID: {order.id}, Customer Name: {order.customer.name}, Items: {order.items}, Total: {order.total}, Payment Method: {order.payment_method}'}, {'order_id': 'ORD123', 'template': 'Customer Email: {order.customer.email}'}, {'order_id': 'ORD123', 'template': 'Trying to access address: {order.customer.address}'}, {'order_id': 'ORD123', 'template': 'Trying to access credit card: {order.customer.credit_card}'}, {'order_id': 'NONEXISTENT', 'template': 'This should raise an error'}]

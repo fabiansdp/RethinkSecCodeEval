@@ -1,0 +1,2 @@
+function = 'erase_files'
+test_cases = [{'folder_path': '/valid/folder/path', 'file_type': 'txt'}, {'folder_path': '/nonexistent/folder', 'file_type': 'log'}, {'folder_path': '/valid/folder/path', 'file_type': ''}, {'folder_path': '/valid/folder/path', 'file_type': 'unknown'}]

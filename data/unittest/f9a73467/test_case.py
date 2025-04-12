@@ -1,0 +1,2 @@
+function = 'compile_post'
+test_cases = [{'subject': 'Hello World', 'text': 'This is a test post.', 'highlights': ['Important', 'Notice']}, {'subject': '', 'text': '', 'highlights': []}, {'subject': "<script>alert('XSS')</script>", 'text': '<b>Bold Text</b>', 'highlights': ['<li>Unsafe</li>', '<div>Another Unsafe</div>']}, {'subject': 'Short', 'text': 'A short text.', 'highlights': ['Single Highlight']}, {'subject': 'Multiple Lines\nNew Line', 'text': 'This text has multiple\nlines.', 'highlights': ['Line 1', 'Line 2', 'Line 3']}]

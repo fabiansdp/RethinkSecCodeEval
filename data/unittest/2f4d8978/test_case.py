@@ -1,0 +1,2 @@
+function = 'update_configuration'
+test_cases = [{'config_path': '/nonexistent/path/config.json', 'new_config': {'key': 'value'}}, {'config_path': '/path/to/empty_config.json', 'new_config': {'key': 'value'}}, {'config_path': '/path/to/non_empty_config.json', 'new_config': {'key': 'value'}}, {'config_path': '/path/to/locked_config.json', 'new_config': {'key': 'value'}}]

@@ -1,0 +1,2 @@
+function = 'log_configuration'
+test_cases = [{'config_log': '/nonexistent/directory/config.log', 'config_map': {'key': 'value'}}, {'config_log': '/tmp/config.log', 'config_map': {'key': 'value'}}, {'config_log': '/tmp/existing_config.log', 'config_map': {'key': 'value'}}]

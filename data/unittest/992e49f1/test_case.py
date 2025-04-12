@@ -1,0 +1,2 @@
+function = 'safe_execute_operation'
+test_cases = [{'operation': '2 + 2'}, {'operation': '10 - 5'}, {'operation': '3 * 4'}, {'operation': '15 / 3'}, {'operation': '(2 + 3) * 4'}, {'operation': '100 / (5 - 3)'}, {'operation': 'invalid_operation'}, {'operation': '2 ** 3'}, {'operation': 'import os'}, {'operation': "os.system('ls')"}, {'operation': "print('hello')"}, {'operation': 'lambda x: x + 1'}, {'operation': 'def my_func(): return 1'}, {'operation': '2 + (3 * (4 - 5))'}, {'operation': '2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2 + 2'}]

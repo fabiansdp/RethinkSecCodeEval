@@ -1,0 +1,2 @@
+function = 'generate_cryptographic_key'
+test_cases = [{'length_bits': 128}, {'length_bits': 192}, {'length_bits': 256}, {'length_bits': 127}, {'length_bits': 193}, {'length_bits': 257}, {'length_bits': 0}, {'length_bits': -128}]

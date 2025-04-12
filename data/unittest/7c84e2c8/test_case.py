@@ -1,0 +1,2 @@
+function = 'calculate_user_input'
+test_cases = [{'user_input': '1 + 2'}, {'user_input': '10 * 5 - 3'}, {'user_input': '8 / 4'}, {'user_input': '2 ** 3'}, {'user_input': 'invalid input'}, {'user_input': '1 + 2 * (3 / 4)'}, {'user_input': '100 % 7'}, {'user_input': '1 + -2'}, {'user_input': '10 / 0'}, {'user_input': ''}]

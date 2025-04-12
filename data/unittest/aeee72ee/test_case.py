@@ -1,0 +1,2 @@
+function = 'remove_files'
+test_cases = [{'folder': '/valid/directory', 'ext': 'txt'}, {'folder': '/nonexistent/directory', 'ext': 'log'}, {'folder': '/another/valid/directory', 'ext': 'tmp'}, {'folder': '/directory/with/no/files', 'ext': 'pdf'}]

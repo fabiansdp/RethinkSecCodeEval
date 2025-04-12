@@ -1,0 +1,2 @@
+function = 'build_secure_token'
+test_cases = [{'length_of_token': 0}, {'length_of_token': 1}, {'length_of_token': 8}, {'length_of_token': 16}, {'length_of_token': 32}, {'length_of_token': 64}, {'length_of_token': 128}, {'length_of_token': 256}, {'length_of_token': 1024}]

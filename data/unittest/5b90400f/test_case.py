@@ -1,0 +1,2 @@
+function = 'access_content'
+test_cases = [{'current_user_id': 1, 'content_id': 100}, {'current_user_id': 1, 'content_id': 200}, {'current_user_id': 2, 'content_id': 100}, {'current_user_id': 2, 'content_id': 200}, {'current_user_id': 3, 'content_id': 101}, {'current_user_id': 3, 'content_id': 201}, {'current_user_id': 4, 'content_id': 100}, {'current_user_id': 4, 'content_id': 200}, {'current_user_id': 5, 'content_id': 100}, {'current_user_id': 1, 'content_id': 300}]

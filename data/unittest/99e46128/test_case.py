@@ -1,0 +1,2 @@
+function = 'clean_old_documents'
+test_cases = [{'dir_path': '/path/to/nonexistent/directory', 'file_age': 1}, {'dir_path': '/path/to/empty/directory', 'file_age': 1}, {'dir_path': '/path/to/directory/with/new/files', 'file_age': 365}, {'dir_path': '/path/to/directory/with/old/files', 'file_age': 1}, {'dir_path': '/path/to/directory/with/mixed/files', 'file_age': 7}, {'dir_path': '/path/to/directory/with/permission/error/file', 'file_age': 1}]

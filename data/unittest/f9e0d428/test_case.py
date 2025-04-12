@@ -1,0 +1,2 @@
+function = 'securely_save_api_keys'
+test_cases = [{'path_to_file': '/nonexistent_directory/api_keys.txt', 'key_data': {'service1': 'key1'}}, {'path_to_file': '/tmp/nonexistent_file.txt', 'key_data': {'service2': 'key2'}}, {'path_to_file': '/tmp/owned_by_other_user.txt', 'key_data': {'service3': 'key3'}}, {'path_to_file': '/tmp/group_others_permissions.txt', 'key_data': {'service4': 'key4'}}, {'path_to_file': '/tmp/secure_file.txt', 'key_data': {'service5': 'key5'}}, {'path_to_file': '/tmp/exceptional_case.txt', 'key_data': {'service6': 'key6'}}]

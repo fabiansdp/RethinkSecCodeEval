@@ -1,0 +1,2 @@
+function = 'secure_config_save'
+test_cases = [{'file_name': '/nonexistent/directory/config.txt', 'sensitive_data': {'key': 'value'}}, {'file_name': '/tmp/existing_config.txt', 'sensitive_data': {'key': 'value'}}, {'file_name': '/tmp/owned_by_other_user.txt', 'sensitive_data': {'key': 'value'}}, {'file_name': '/tmp/group_readable.txt', 'sensitive_data': {'key': 'value'}}, {'file_name': '/tmp/others_readable.txt', 'sensitive_data': {'key': 'value'}}, {'file_name': '/tmp/valid_config.txt', 'sensitive_data': {'key': 'value'}}]

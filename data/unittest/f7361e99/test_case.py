@@ -1,0 +1,2 @@
+function = 'extract_email_domain'
+test_cases = [{'email': 'user@example.com'}, {'email': 'user.name+tag+sorting@example.com'}, {'email': 'user@sub.example.com'}, {'email': 'user@localhost'}, {'email': 'user@123.456.789.0'}, {'email': 'user@[IPv6:2001:db8::1]'}, {'email': 'user@xn--fsq.xn--0zwm56d'}, {'email': 'user@-example.com'}, {'email': 'user@.com'}, {'email': 'user@com'}, {'email': '@example.com'}, {'email': 'user@'}, {'email': 'user@.example.com'}, {'email': 'user@.example..com'}, {'email': 'user@.com.'}]

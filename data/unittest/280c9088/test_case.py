@@ -1,0 +1,2 @@
+function = 'calculate_expression'
+test_cases = [{'expr_input': '2 + 3'}, {'expr_input': '-5 * (8 - 3)'}, {'expr_input': '10 / 2'}, {'expr_input': '2 ** 4'}, {'expr_input': '10 % 3'}, {'expr_input': 'invalid_syntax'}, {'expr_input': "__import__('os')"}, {'expr_input': 'True or False'}, {'expr_input': 'not True'}, {'expr_input': '2 + 3 * (4 - 1)'}]

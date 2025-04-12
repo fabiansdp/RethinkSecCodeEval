@@ -1,0 +1,2 @@
+function = 'deserialize_content_stream'
+test_cases = [{'stream': '{"key": "value"}', 'stream_format': 'json'}, {'stream': '<html><body><h1>Title</h1></body></html>', 'stream_format': 'html'}, {'stream': '{"key": "value"}', 'stream_format': 'json'}, {'stream': '<div class="container"></div>', 'stream_format': 'html'}]

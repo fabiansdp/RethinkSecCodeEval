@@ -1,0 +1,2 @@
+function = 'parse_payment_xml'
+test_cases = [{'raw_invoice_xml': '<invoice><invoice_id>12345</invoice_id><client_name>John Doe</client_name><amount>100.00</amount></invoice>'}, {'raw_invoice_xml': '<invoice><invoice_id>67890</invoice_id><client_name>Jane Smith</client_name><amount>200.50</amount></invoice>'}, {'raw_invoice_xml': '<invoice><invoice_id>11111</invoice_id><client_name>Test Client</client_name><amount>50.75</amount></invoice>'}]

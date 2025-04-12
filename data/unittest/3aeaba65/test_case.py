@@ -1,0 +1,2 @@
+function = 'receive_data_packet'
+test_cases = [{'iot_id': 'device001', 'crypto_signature': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'packet_info': {}}, {'iot_id': 'device001', 'crypto_signature': 'wrong_signature', 'packet_info': {}}, {'iot_id': 'unknown_device', 'crypto_signature': 'some_signature', 'packet_info': {}}, {'iot_id': 'device001'}, {'iot_id': 'unknown_device'}]

@@ -1,0 +1,2 @@
+function = 'create_user_receipt'
+test_cases = [{'order_id': 'ORD002', 'template': 'Order ID: {order.id}\nCustomer Name: {customer.name}\nTotal: ${order.total:.2f}'}, {'order_id': 'ORD002', 'template': 'Payment Method: {order.payment_method}\nItems: {order.items}'}, {'order_id': 'ORD002', 'template': 'Email: {customer.email}'}, {'order_id': 'ORD001', 'template': 'This will raise an error as the order does not exist'}, {'order_id': 'ORD002', 'template': 'Address: {customer.address}'}, {'order_id': 'ORD002', 'template': 'Credit Card: {customer.credit_card}'}]

@@ -1,0 +1,2 @@
+function = 'create_student_summary'
+test_cases = [{'id': 'S001', 'format_string': 'Student Name: {student.name}, Course: {student.course}'}, {'id': 'S002', 'format_string': 'Student ID: {student.student_id}, Age: {student.age}'}, {'id': 'S001', 'format_string': 'Accessing GPA: {student.gpa}'}]

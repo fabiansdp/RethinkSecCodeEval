@@ -1,0 +1,2 @@
+function = 'parse_html_tags'
+test_cases = [{'html': '<html><body></body></html>'}, {'html': "<div class='test'>Hello World</div>"}, {'html': "<a href='#'>Link</a> <p>Paragraph</p>"}, {'html': 'No tags here'}, {'html': "<img src='image.jpg' alt='Image'>"}, {'html': '<strong>Bold Text</strong><em>Italic Text</em>'}, {'html': '<br><hr><p>Multiple Tags</p>'}, {'html': '<tag1><tag2><tag3></tag3></tag2></tag1>'}, {'html': ''}, {'html': '<<<>>>'}]

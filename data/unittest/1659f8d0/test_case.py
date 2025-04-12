@@ -1,0 +1,2 @@
+function = 'save_http_credentials'
+test_cases = [{'file_path': '/tmp/test_creds.txt', 'http_user': 'testuser', 'http_password': 'testpass'}, {'file_path': '/nonexistentdir/test_creds.txt', 'http_user': 'testuser', 'http_password': 'testpass'}, {'file_path': '/tmp/existing_creds.txt', 'http_user': 'testuser', 'http_password': 'testpass'}, {'file_path': '/tmp/permissions_creds.txt', 'http_user': 'testuser', 'http_password': 'testpass'}, {'file_path': '/tmp/invalid_permissions_creds.txt', 'http_user': 'testuser', 'http_password': 'testpass'}]

@@ -1,0 +1,2 @@
+function = 'produce_xml_message'
+test_cases = [{'user_entry': ''}, {'user_entry': 'Hello World'}, {'user_entry': '<tag>value</tag>'}, {'user_entry': '&amp;'}, {'user_entry': '"quotes"'}, {'user_entry': "'single quotes'"}, {'user_entry': '\nnewline\n'}, {'user_entry': '\t\ttabbed\t\t'}, {'user_entry': 'special_chars<>"&\''}, {'user_entry': '1234567890'}]

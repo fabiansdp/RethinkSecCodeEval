@@ -1,0 +1,2 @@
+function = 'calculate_expression'
+test_cases = [{'math_expr': '2 + 2'}, {'math_expr': '10 - 5'}, {'math_expr': '3 * 4'}, {'math_expr': '8 / 2'}, {'math_expr': '(3 + 5) * 2'}, {'math_expr': '10.5 + 2.5'}, {'math_expr': 'invalid!'}, {'math_expr': '2 ** 3'}, {'math_expr': '2 + 3 * (4 - 1)'}, {'math_expr': '2 + function()'}, {'math_expr': '2 + obj.attr'}, {'math_expr': 'import os'}]

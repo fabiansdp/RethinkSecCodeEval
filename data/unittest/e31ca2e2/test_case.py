@@ -1,0 +1,2 @@
+function = 'edit_doc'
+test_cases = [{'u_id': 'user111', 'u_role': 'viewer', 'doc_id': 'doc123', 'doc_owner': 'user111', 'new_body': 'Updated content'}, {'u_id': 'user999', 'u_role': 'editor', 'doc_id': 'doc123', 'doc_owner': 'user222', 'new_body': 'Updated content by editor'}, {'u_id': 'user222', 'u_role': 'viewer', 'doc_id': 'doc456', 'doc_owner': 'user222', 'new_body': 'Updated content by owner'}, {'u_id': 'user111', 'u_role': 'editor', 'doc_id': 'nonexistent_doc', 'doc_owner': 'user111', 'new_body': 'This should fail'}]

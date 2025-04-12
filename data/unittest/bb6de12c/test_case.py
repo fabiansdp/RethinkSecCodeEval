@@ -1,0 +1,2 @@
+function = 'locate_log_file'
+test_cases = [{'directory_key': 'logs', 'path_relative': 'application.log'}, {'directory_key': 'non_existent_key', 'path_relative': 'application.log'}, {'directory_key': 'logs', 'path_relative': '../outside_logs/application.log'}, {'directory_key': 'logs', 'path_relative': 'nonexistentfile.log'}]

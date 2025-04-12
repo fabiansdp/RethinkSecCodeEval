@@ -1,0 +1,2 @@
+function = 'get_html_tags'
+test_cases = [{'html_input': '<html><body></body></html>'}, {'html_input': "<div class='test'>Content</div>"}, {'html_input': "<p>Some text</p><a href='#'>Link</a>"}, {'html_input': 'No tags here'}, {'html_input': '<malformed_tag><another_malformed_tag>'}, {'html_input': ''}, {'html_input': '<<<>>>'}, {'html_input': '<tag_with_long_name_12345678901234567890123456789012345678901234567890>'}]

@@ -1,0 +1,2 @@
+function = 'build_html_output'
+test_cases = [{'client_message': 'Hello, World!'}, {'client_message': "<script>alert('XSS');</script>"}, {'client_message': ''}, {'client_message': 'This is a very long string that should test how the function handles longer inputs. It includes multiple sentences to ensure that the function can process and escape all characters correctly.'}, {'client_message': '&lt; &gt; &amp; &quot; &apos;'}, {'client_message': 'Normal text without any special characters'}]

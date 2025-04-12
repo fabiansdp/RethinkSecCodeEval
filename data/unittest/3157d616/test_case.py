@@ -1,0 +1,2 @@
+function = 'log_sensitive_data'
+test_cases = [{'log_file': '/nonexistent_directory/log.txt', 'sensitive_data': 'password123'}, {'log_file': '/tmp/nonexistent_log.txt', 'sensitive_data': 'password123'}, {'log_file': '/tmp/test_log.txt', 'sensitive_data': 'password123'}, {'log_file': '/tmp/test_log_wrong_owner.txt', 'sensitive_data': 'password123'}, {'log_file': '/tmp/test_log_world_readable.txt', 'sensitive_data': 'password123'}]

@@ -1,0 +1,2 @@
+function = 'compress_directory'
+test_cases = [{'dir_path': '/path/to/existing/directory', 'output_name': 'backup'}, {'dir_path': '/nonexistent/directory', 'output_name': 'backup'}, {'dir_path': '/path/to/existing/directory', 'output_name': ''}, {'dir_path': '/path/to/existing/directory', 'output_name': 'backup_with_special_chars!@#'}, {'dir_path': '/path/to/existing/directory', 'output_name': 'backup_with_long_name_that_exceeds_normal_file_system_limits_very_long_name_to_test_boundary_conditions'}]

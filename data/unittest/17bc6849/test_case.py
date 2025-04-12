@@ -1,0 +1,2 @@
+function = 'create_forward_link'
+test_cases = [{'app_home_url': 'http://example.com', 'forward_param': '/page1'}, {'app_home_url': 'https://example.com', 'forward_param': '/page2'}, {'app_home_url': 'http://example.com', 'forward_param': 'https://example.com/page3'}, {'app_home_url': 'http://example.com', 'forward_param': 'http://trusted-site.com/page4'}, {'app_home_url': 'http://example.com', 'forward_param': 'http://partner-domain.org/page5'}, {'app_home_url': 'http://example.com', 'forward_param': 'http://untrusted-site.com/page6'}]

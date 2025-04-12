@@ -1,0 +1,2 @@
+function = 'compose_patient_report'
+test_cases = [{'patient_uid': 'P001', 'report_schema': 'Patient Name: {patient.name}, Age: {patient.age}, Gender: {patient.gender}'}, {'patient_uid': 'P002', 'report_schema': 'Patient Name: {patient.name}'}]

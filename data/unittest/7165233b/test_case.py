@@ -1,0 +1,2 @@
+function = 'change_directory_permissions_up'
+test_cases = [{'directory': '/home/user/testdir', 'folder_permissions': 511}, {'directory': '/home/user/testdir', 'folder_permissions': 448}, {'directory': '/home/user', 'folder_permissions': 511}, {'directory': '/', 'folder_permissions': 511}]

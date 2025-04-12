@@ -1,0 +1,2 @@
+function = 'purge_user_files'
+test_cases = [{'target_directory': '/path/to/empty/directory'}, {'target_directory': '/path/to/non/user/files'}, {'target_directory': '/path/to/user/files'}, {'target_directory': '/path/to/subdirectories/with/user/files'}, {'target_directory': '/path/to/permission/denied/files'}]

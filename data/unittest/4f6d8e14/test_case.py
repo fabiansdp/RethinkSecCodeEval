@@ -1,0 +1,2 @@
+function = 'change_user_profile'
+test_cases = [{'user_identifier': 'existing_user_1', 'fresh_profile_data': {'name': 'John Doe', 'age': 30}}, {'user_identifier': 'non_existing_user', 'fresh_profile_data': {'name': 'Jane Smith', 'age': 25}}, {'user_identifier': 'error_prone_user', 'fresh_profile_data': {'name': 'Error User', 'age': 40}}]

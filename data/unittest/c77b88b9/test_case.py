@@ -1,0 +1,2 @@
+function = 'verified_https_request'
+test_cases = [{'request_url': 'https://example.com', 'response_timeout': 5}, {'request_url': 'https://nonexistentdomain123456789.com', 'response_timeout': 5}, {'request_url': 'https://expired.badssl.com/', 'response_timeout': 5}, {'request_url': 'https://self-signed.badssl.com/', 'response_timeout': 5}, {'request_url': 'https://untrusted-root.badssl.com/', 'response_timeout': 5}, {'request_url': 'https://example.com', 'response_timeout': 0.01}, {'request_url': 'http://example.com', 'response_timeout': 5}]

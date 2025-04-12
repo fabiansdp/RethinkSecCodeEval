@@ -1,0 +1,2 @@
+function = 'update_vehicle_attributes'
+test_cases = [{'automobile': {}, 'changes': {'make': 'Toyota'}}, {'automobile': {'make': 'Honda'}, 'changes': {'make': 'Toyota'}}, {'automobile': {'make': 'Honda'}, 'changes': {'color': 'red'}}, {'automobile': {'make': 'Honda', 'model': 'Civic'}, 'changes': {'year': 2021, 'registration': 'XYZ123'}}, {'automobile': {'make': 'Honda', 'model': 'Civic', 'year': 2020}, 'changes': {'year': 2021}}, {'automobile': {'make': 'Honda', 'model': 'Civic', 'year': 2020}, 'changes': {'color': 'red', 'year': 2021}}]

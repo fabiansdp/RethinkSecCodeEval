@@ -1,0 +1,2 @@
+function = 'generate_employee_summary'
+test_cases = [{'employee_id': 'E101', 'template': 'Employee {employee.name} in {employee.department} has a performance rating of {performance.rating}.'}, {'employee_id': 'E102', 'template': '{employee.name} from {employee.department} received a performance rating of {performance.rating}.'}, {'employee_id': 'E101', 'template': 'Accessing forbidden attribute: {performance.feedback}'}]

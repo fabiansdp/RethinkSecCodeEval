@@ -1,0 +1,2 @@
+function = 'generate_customer_receipt'
+test_cases = [{'order_id': 'ORD001', 'template': 'Order ID: {order.id}, Customer Name: {customer.name}, Total: {order.total}'}, {'order_id': 'ORD001', 'template': 'Order ID: {order.id}, Customer Email: {customer.email}'}, {'order_id': 'ORD001', 'template': 'Order ID: {order.id}, Payment Method: {order.payment_method}'}, {'order_id': 'ORD001', 'template': 'Order ID: {order.id}, Item Count: {len(order.items)}'}, {'order_id': 'ORD002', 'template': 'Order ID: {order.id}, Customer Name: {customer.name}'}]

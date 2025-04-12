@@ -1,0 +1,2 @@
+function = 'apply_config_update'
+test_cases = [{'conf_path': 'non_existent_file.conf', 'updated_conf': {'key': 'value'}}, {'conf_path': 'empty_file.conf', 'updated_conf': {'key': 'value'}}, {'conf_path': 'locked_file.conf', 'updated_conf': {'key': 'value'}}, {'conf_path': 'valid_file.conf', 'updated_conf': {'key': 'value'}}, {'conf_path': 'valid_file.conf', 'updated_conf': {'key': 'value', 'nested': {'subkey': 'subvalue'}}}, {'conf_path': 'valid_file.conf', 'updated_conf': {}}]

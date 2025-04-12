@@ -1,0 +1,2 @@
+function = 'remove_user_account'
+test_cases = [{'req': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1'}}}, {'req': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '5'}}}, {'req': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}, {'req': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '2'}}}]

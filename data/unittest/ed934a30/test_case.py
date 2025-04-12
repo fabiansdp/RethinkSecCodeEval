@@ -1,0 +1,2 @@
+function = 'alter_vehicle_info'
+test_cases = [{'details': {'make': 'Toyota', 'model': 'Corolla'}, 'modifications': {'year': 2021}}, {'details': {'make': 'Honda', 'model': 'Civic'}, 'modifications': {'color': 'red'}}, {'details': {}, 'modifications': {'make': 'Ford', 'model': 'Mustang', 'year': 1969, 'color': 'blue'}}, {'details': {'make': 'Tesla', 'model': 'Model S'}, 'modifications': {}}, {'details': {}, 'modifications': {}}]

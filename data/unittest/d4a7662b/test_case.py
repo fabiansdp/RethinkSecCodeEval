@@ -1,0 +1,2 @@
+function = 'encrypt_password'
+test_cases = [{'hash_algorithm': 'sha256', 'pwd': 'password123'}, {'hash_algorithm': 'sha512', 'pwd': 'securepassword'}, {'hash_algorithm': 'sha244', 'pwd': 'anotherpassword'}, {'hash_algorithm': 'sha384', 'pwd': 'testpassword'}, {'hash_algorithm': 'blake2s', 'pwd': 'examplepassword'}, {'hash_algorithm': 'md5', 'pwd': 'invalidhash'}, {'hash_algorithm': 'sha1', 'pwd': 'notsafehash'}]

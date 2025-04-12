@@ -1,0 +1,2 @@
+function = 'execute_file_handler'
+test_cases = [{'target_file_path': 'nonexistent_file.txt'}, {'target_file_path': 'empty_file.txt'}, {'target_file_path': 'locked_file.txt'}, {'target_file_path': 'ready_file.txt'}]

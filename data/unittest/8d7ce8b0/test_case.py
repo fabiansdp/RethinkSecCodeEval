@@ -1,0 +1,2 @@
+function = 'store_uploaded_file'
+test_cases = [{'input_stream': "open('test_small_file.bin', 'rb')", 'destination_path': "'output_small_file.bin'"}, {'input_stream': "open('test_large_file.bin', 'rb')", 'destination_path': "'output_large_file.bin'"}, {'input_stream': "open('test_exactly_limit_file.bin', 'rb')", 'destination_path': "'output_limit_file.bin'"}, {'input_stream': "open('nonexistent_file.bin', 'rb')", 'destination_path': "'output_error_file.bin'"}, {'input_stream': "open('test_small_file.bin', 'rb')", 'destination_path': "'/invalid/path/output_error_file.bin'"}]

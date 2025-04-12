@@ -1,0 +1,2 @@
+function = 'format_string'
+test_cases = [{'string': 'Hello, World!'}, {'string': 'Hello, {userinfo.user_name}!'}, {'string': 'Your username is: {userinfo.user_name}, but your password is protected.'}, {'string': 'Trying to access password: {userinfo.user_password}'}]

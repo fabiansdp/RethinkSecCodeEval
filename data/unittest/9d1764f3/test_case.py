@@ -1,0 +1,2 @@
+function = 'validate_webhook'
+test_cases = [{'webhook_link': 'https://api.service.com/webhook'}, {'webhook_link': 'http://hooks.webapp.com/trigger'}, {'webhook_link': 'https://unapproved.domain.com/webhook'}, {'webhook_link': 'http://localhost/somepath'}, {'webhook_link': 'http://127.0.0.1/test'}, {'webhook_link': 'http://10.0.0.1/api'}, {'webhook_link': 'http://192.168.1.1/hook'}]

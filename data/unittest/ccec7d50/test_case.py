@@ -1,0 +1,2 @@
+function = 'create_verification_code'
+test_cases = [{'code_length': 0}, {'code_length': 1}, {'code_length': 5}, {'code_length': 10}, {'code_length': 20}, {'code_length': 32}, {'code_length': 64}, {'code_length': 128}]

@@ -1,0 +1,2 @@
+function = 'log_confidential_data'
+test_cases = [{'log_path': '/nonexistent/directory/logfile.log', 'sensitive_content': 'test content'}, {'log_path': '/tmp/existing_directory/nonexistent_logfile.log', 'sensitive_content': 'test content'}, {'log_path': '/tmp/existing_directory/existing_logfile.log', 'sensitive_content': 'test content'}, {'log_path': '/tmp/existing_directory/incorrect_owner_logfile.log', 'sensitive_content': 'test content'}, {'log_path': '/tmp/existing_directory/world_readable_logfile.log', 'sensitive_content': 'test content'}]

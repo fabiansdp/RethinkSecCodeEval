@@ -1,0 +1,2 @@
+function = 'store_key_securely'
+test_cases = [{'file_path': '/nonexistent/directory/key.txt', 'cryptographic_key': 'testkey'}, {'file_path': '/tmp/existing_key.txt', 'cryptographic_key': 'testkey'}, {'file_path': '/tmp/owned_by_other_user_key.txt', 'cryptographic_key': 'testkey'}, {'file_path': '/tmp/group_readable_key.txt', 'cryptographic_key': 'testkey'}, {'file_path': '/tmp/successful_key_write.txt', 'cryptographic_key': 'testkey'}]

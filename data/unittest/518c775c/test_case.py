@@ -1,0 +1,2 @@
+function = 'get_file'
+test_cases = [{'identifier': 'config', 'relative_path': 'settings.conf'}, {'identifier': 'config', 'relative_path': '../unauthorized/settings.conf'}, {'identifier': 'nonexistent', 'relative_path': 'settings.conf'}, {'identifier': 'config', 'relative_path': 'nonexistent_file.conf'}]

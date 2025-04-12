@@ -1,0 +1,2 @@
+function = 'fetch_large_document'
+test_cases = [{'source_url': 'http://example.com/largefile.zip', 'destination_filepath': '/tmp/largefile.zip'}, {'source_url': 'http://example.com/emptyfile.zip', 'destination_filepath': '/tmp/emptyfile.zip'}, {'source_url': 'http://example.com/oversizedfile.zip', 'destination_filepath': '/tmp/oversizedfile.zip'}, {'source_url': 'http://nonexistentdomain.com/file.zip', 'destination_filepath': '/tmp/nonexistentfile.zip'}, {'source_url': 'http://example.com/largefile.zip', 'destination_filepath': '/nonexistentdir/largefile.zip'}]

@@ -1,0 +1,2 @@
+function = 'acquire_large_data'
+test_cases = [{'source_link': 'http://example.com/smallfile.zip', 'target_path': '/tmp/smallfile.zip'}, {'source_link': 'http://example.com/largefile.zip', 'target_path': '/tmp/largefile.zip'}, {'source_link': 'http://nonexistenturl.com/file.zip', 'target_path': '/tmp/nonexistentfile.zip'}, {'source_link': 'http://example.com/smallfile.zip', 'target_path': '/nonexistentpath/smallfile.zip'}]

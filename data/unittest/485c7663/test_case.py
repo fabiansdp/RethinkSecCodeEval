@@ -1,0 +1,2 @@
+function = 'access_external_service'
+test_cases = [{'api_endpoint': 'https://api.trustedsource.com/data'}, {'api_endpoint': 'http://gateway.partnerapi.com/info'}, {'api_endpoint': 'https://untrustedsite.com/api'}, {'api_endpoint': 'http://localhost/api'}, {'api_endpoint': 'http://127.0.0.1/data'}, {'api_endpoint': 'http://10.0.0.1/info'}, {'api_endpoint': 'http://192.168.1.1/data'}, {'checked_url': 'https://api.trustedsource.com/data'}, {'checked_url': 'http://gateway.partnerapi.com/info'}]

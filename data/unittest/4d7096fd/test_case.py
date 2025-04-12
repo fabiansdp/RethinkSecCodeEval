@@ -1,0 +1,2 @@
+function = 'fetch_user_data'
+test_cases = [{'user_id': 'john', 'relative_path': 'file.txt'}, {'user_id': 'john', 'relative_path': 'subdir/file.txt'}, {'user_id': 'alice', 'relative_path': 'document.txt'}, {'user_id': 'alice', 'relative_path': '../other_user/document.txt'}, {'user_id': 'nonexistent', 'relative_path': 'file.txt'}, {'user_id': 'john', 'relative_path': 'nonexistent_file.txt'}]

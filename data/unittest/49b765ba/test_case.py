@@ -1,0 +1,2 @@
+function = 'generate_password_token'
+test_cases = [{'token_length': 0}, {'token_length': 1}, {'token_length': 8}, {'token_length': 16}, {'token_length': 32}, {'token_length': 64}, {'token_length': 128}]

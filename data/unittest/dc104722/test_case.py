@@ -1,0 +1,2 @@
+function = 'record_sensitive_content'
+test_cases = [{'path_to_logfile': '/nonexistent/directory/logfile.log', 'confidential_data': 'Secret123'}, {'path_to_logfile': '/tmp/newlogfile.log', 'confidential_data': 'NewSecret123'}, {'path_to_logfile': '/tmp/other_user_file.log', 'confidential_data': 'OtherUserSecret'}, {'path_to_logfile': '/tmp/world_readable.log', 'confidential_data': 'WorldReadableSecret'}, {'path_to_logfile': '/tmp/successful_log.log', 'confidential_data': 'SuccessSecret'}, {'path_to_logfile': '/tmp/exceptional_log.log', 'confidential_data': 'ExceptionSecret'}]

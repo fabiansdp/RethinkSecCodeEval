@@ -1,0 +1,2 @@
+function = 'extract_dependencies'
+test_cases = [{'output_path': '/valid/path/requirements.txt'}, {'output_path': '/nonexistent/directory/requirements.txt'}, {'output_path': '/valid/path/requirements.lock'}, {'output_path': ''}]

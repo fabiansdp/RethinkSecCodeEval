@@ -1,0 +1,2 @@
+function = 'check_rss_source'
+test_cases = [{'source_url': 'http://rss.trustedsource.com/feed'}, {'source_url': 'https://feeds.provider.com/latest'}, {'source_url': 'ftp://newsfeed.safesite.org/invalid'}, {'source_url': 'http://localhost/feed'}, {'source_url': 'http://127.0.0.1/feed'}, {'source_url': 'http://10.0.0.1/feed'}, {'source_url': 'http://192.168.1.1/feed'}, {'source_url': 'http://untrustedsite.com/rss'}]

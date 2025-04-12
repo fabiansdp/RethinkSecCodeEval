@@ -1,0 +1,2 @@
+function = 'create_cdn_resource_link'
+test_cases = [{'cdn_url_base': 'http://cdn.example.com', 'resource_identifier': 'image123', 'type_of_resource': 'images'}, {'cdn_url_base': 'https://assets.example.net', 'resource_identifier': 'script.js', 'type_of_resource': 'scripts'}, {'cdn_url_base': 'https://static.example.org', 'resource_identifier': 'style.css', 'type_of_resource': 'styles'}, {'cdn_url_base': 'http://invalid.cdn.com', 'resource_identifier': 'file.txt', 'type_of_resource': 'files'}]

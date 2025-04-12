@@ -1,0 +1,2 @@
+function = 'make_secure_https_request'
+test_cases = [{'endpoint_url': 'https://www.google.com', 'delay': 5}, {'endpoint_url': 'https://nonexistentwebsite123456789.com', 'delay': 5}, {'endpoint_url': 'https://expired.badssl.com/', 'delay': 5}, {'endpoint_url': 'https://self-signed.badssl.com/', 'delay': 5}, {'endpoint_url': 'https://wrong.host.badssl.com/', 'delay': 5}, {'endpoint_url': 'https://untrusted-root.badssl.com/', 'delay': 5}, {'endpoint_url': 'https://www.google.com', 'delay': 0}, {'endpoint_url': 'https://www.google.com', 'delay': -1}]

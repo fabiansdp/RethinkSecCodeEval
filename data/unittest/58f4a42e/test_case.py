@@ -1,0 +1,2 @@
+function = 'compress_logs'
+test_cases = [{'source_dir': '/nonexistent/source', 'save_dir': '/existent/save'}, {'source_dir': '/existent/source', 'save_dir': '/nonexistent/save'}, {'source_dir': '/existent/source', 'save_dir': '/existent/save'}]

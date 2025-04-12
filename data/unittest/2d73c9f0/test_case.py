@@ -1,0 +1,2 @@
+function = 'retrieve_document'
+test_cases = [{'doc_path': 'example.txt'}, {'doc_path': 'subdir/example.txt'}, {'doc_path': '../example.txt'}, {'doc_path': '/absolute/path/to/example.txt'}, {'doc_path': 'nonexistent.txt'}]

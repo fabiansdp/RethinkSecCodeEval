@@ -1,0 +1,2 @@
+function = 'adjust_product_data'
+test_cases = [{'prod_info': {'name': 'Laptop', 'price': 1000}, 'change_vals': {'price': 950}}, {'prod_info': {'name': 'Laptop', 'price': 1000}, 'change_vals': {'description': 'New model'}}, {'prod_info': {'name': 'Laptop', 'price': 1000}, 'change_vals': {'stock': 50}}, {'prod_info': {'name': 'Laptop', 'price': 1000}, 'change_vals': {'invalid_field': 'should_not_change'}}, {'prod_info': {}, 'change_vals': {'price': 200}}, {'prod_info': {'name': 'Laptop'}, 'change_vals': {}}, {'prod_info': {}, 'change_vals': {}}]

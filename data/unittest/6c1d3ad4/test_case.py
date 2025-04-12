@@ -1,0 +1,2 @@
+function = 'generate_hash'
+test_cases = [{'algo_hash': 'sha256', 'pwd_input': 'password123'}, {'algo_hash': 'sha512', 'pwd_input': 'securepassword'}, {'algo_hash': 'sha244', 'pwd_input': 'anotherpassword'}, {'algo_hash': 'sha384', 'pwd_input': 'testpassword'}, {'algo_hash': 'blake2s', 'pwd_input': 'mypassword'}, {'algo_hash': 'md5', 'pwd_input': 'weakpassword'}, {'algo_hash': 'sha1', 'pwd_input': 'insecurepassword'}]

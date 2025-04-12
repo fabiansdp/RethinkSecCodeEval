@@ -1,0 +1,2 @@
+function = 'validate_image_source'
+test_cases = [{'img_src': 'http://img.example.com/image.jpg'}, {'img_src': 'https://cdn.trusted.com/photo.png'}, {'img_src': 'ftp://img.example.com/image.jpg'}, {'img_src': 'http://untrusted.com/image.jpg'}, {'img_src': 'https://images.hosting.com/photo.png'}, {'img_src': 'http://'}]

@@ -1,0 +1,2 @@
+function = 'create_forum_post'
+test_cases = [{'title': 'Test Title', 'body': 'This is a test body.', 'topics': ['topic1', 'topic2']}, {'title': '', 'body': '', 'topics': []}, {'title': "<script>alert('XSS')</script>", 'body': '<b>bold text</b>', 'topics': ['<img src=x onerror=alert(1)>', 'normal topic']}, {'title': 'Short', 'body': 'Longer body text that should provide more coverage for testing purposes.', 'topics': ['singleTopic']}]

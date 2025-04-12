@@ -1,0 +1,2 @@
+function = 'modify_user_profile'
+test_cases = [{'uid': '12345', 'updated_profile_data': {'name': 'John Doe', 'email': 'john.doe@example.com'}}, {'uid': '67890', 'updated_profile_data': {'name': 'Jane Smith', 'email': 'jane.smith@example.com'}}, {'uid': '12345', 'updated_profile_data': {}}, {'uid': 'nonexistentuser', 'updated_profile_data': {'name': 'Nonexistent User', 'email': 'nonexistent@example.com'}}, {'uid': '', 'updated_profile_data': {'name': 'Empty UID', 'email': 'emptyuid@example.com'}}, {'uid': '12345', 'updated_profile_data': {'invalid_key': 'invalid_value'}}]

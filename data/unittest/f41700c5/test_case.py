@@ -1,0 +1,2 @@
+function = 'store_user_info'
+test_cases = [{'identifier': 'user1', 'data_info': {'name': 'Alice', 'age': 30}}, {'identifier': 'user2', 'data_info': {'name': 'Bob', 'age': 25}}, {'identifier': 'user3', 'data_info': {'name': 'Charlie', 'age': 35}}, {'identifier': 'user4', 'data_info': {'name': 'David', 'age': 40}}, {'identifier': 'user5', 'data_info': {'name': 'Eve', 'age': 45}}]

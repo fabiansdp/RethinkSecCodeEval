@@ -1,0 +1,2 @@
+function = 'log_user_data'
+test_cases = [{'logfile_path': '/nonexistent/directory/logfile.log', 'sensitive_info': 'test_data'}, {'logfile_path': '/tmp/nonexistent_logfile.log', 'sensitive_info': 'test_data'}, {'logfile_path': '/tmp/test_logfile.log', 'sensitive_info': 'test_data'}, {'logfile_path': '/tmp/test_logfile.log', 'sensitive_info': 'test_data'}, {'logfile_path': '/tmp/test_logfile.log', 'sensitive_info': 'test_data'}]

@@ -1,0 +1,2 @@
+function = 'compress_logs'
+test_cases = [{'logs_directory': 'existing_logs_dir', 'destination_dir': 'existing_backup_dir'}, {'logs_directory': 'nonexistent_logs_dir', 'destination_dir': 'existing_backup_dir'}, {'logs_directory': 'existing_logs_dir', 'destination_dir': 'nonexistent_backup_dir'}, {'logs_directory': '', 'destination_dir': 'existing_backup_dir'}, {'logs_directory': 'existing_logs_dir', 'destination_dir': ''}, {'logs_directory': ' ', 'destination_dir': 'existing_backup_dir'}, {'logs_directory': 'existing_logs_dir', 'destination_dir': ' '}]

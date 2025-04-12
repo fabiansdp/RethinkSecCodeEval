@@ -1,0 +1,2 @@
+function = 'authorize_access'
+test_cases = [{'uid': 1, 'cid': 100}, {'uid': 1, 'cid': 200}, {'uid': 2, 'cid': 100}, {'uid': 2, 'cid': 200}, {'uid': 3, 'cid': 101}, {'uid': 3, 'cid': 201}, {'uid': 4, 'cid': 100}, {'uid': 4, 'cid': 200}, {'uid': 5, 'cid': 100}, {'uid': 1, 'cid': 300}]

@@ -1,0 +1,2 @@
+function = 'fetch_translation_mapping'
+test_cases = [{'xml_input': "<root><translation id='1'>Hello</translation></root>"}, {'xml_input': "<root><translation id='2'>World</translation><translation id='3'>Test</translation></root>"}, {'xml_input': "<root><translation id='4'></translation></root>"}, {'xml_input': '<root></root>'}]

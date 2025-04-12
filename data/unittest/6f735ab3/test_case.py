@@ -1,0 +1,2 @@
+function = 'update_vehicle_info'
+test_cases = [{'vehicle': {'make': 'Toyota', 'model': 'Corolla'}, 'updates': {'year': 2021}}, {'vehicle': {'make': 'Honda', 'model': 'Civic'}, 'updates': {'color': 'red'}}, {'vehicle': {}, 'updates': {'make': 'Ford', 'model': 'Mustang'}}, {'vehicle': {'make': 'BMW', 'model': 'X5'}, 'updates': {'registration': 'XYZ123', 'color': 'blue'}}, {'vehicle': {'make': 'Audi', 'model': 'A4'}, 'updates': {}}]

@@ -1,0 +1,2 @@
+function = 'cache_user_data'
+test_cases = [{'user_id': 'user1', 'user_data': {'name': 'Alice', 'age': 30}}, {'user_id': 'user2', 'user_data': {'name': 'Bob', 'age': 25}}, {'user_id': 'user3', 'user_data': {'name': 'Charlie', 'age': 35}}, {'user_id': 'user4', 'user_data': {'name': 'David', 'age': 40}}, {'user_id': 'user5', 'user_data': {'name': 'Eve', 'age': 45}}]

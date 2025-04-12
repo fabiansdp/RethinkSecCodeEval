@@ -1,0 +1,2 @@
+function = 'bytes_to_obj'
+test_cases = [{'data_bytes': '{"key": "value"}', 'format_name': 'json'}, {'data_bytes': '<root><key>value</key></root>', 'format_name': 'xml'}, {'data_bytes': '{"key": "value"}', 'format_name': 'json'}, {'data_bytes': '<root><key>value</key></root>', 'format_name': 'xml'}, {'data_bytes': '{"key": "value"}', 'format_name': 'unsupported'}]

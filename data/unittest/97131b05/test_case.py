@@ -1,0 +1,2 @@
+function = 'update_user_profile'
+test_cases = [{'user_id': '123', 'new_profile_data': {'name': 'John Doe', 'email': 'john.doe@example.com'}}, {'user_id': '456', 'new_profile_data': {}}, {'user_id': '789', 'new_profile_data': {'name': 'Jane Doe', 'email': 'jane.doe@example.com', 'age': '30'}}, {'user_id': '000', 'new_profile_data': {'name': 'Invalid User'}}, {'user_id': '999', 'new_profile_data': {'name': 'Another User', 'email': 'another.user@example.com'}}]

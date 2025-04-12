@@ -1,0 +1,2 @@
+function = 'inject_custom_header'
+test_cases = [{'header_content': 'SimpleValue'}, {'header_content': 'Value-With-Dash'}, {'header_content': 'Value With Space'}, {'header_content': 'Value\rWith\rCarriage\rReturn'}, {'header_content': 'Value\nWith\nNew\nLine'}, {'header_content': 'Value\r\nWith\r\nMixed\nEndings'}, {'header_content': ''}, {'header_content': '\r\n'}, {'header_content': ' \t \n \r '}]

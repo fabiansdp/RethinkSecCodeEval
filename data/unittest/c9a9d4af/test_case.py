@@ -1,0 +1,2 @@
+function = 'retrieve_domain_from_email'
+test_cases = [{'email_address': 'test@example.com'}, {'email_address': 'user.name+tag+sorting@example.com'}, {'email_address': 'user@sub.example.com'}, {'email_address': 'user@localhost'}, {'email_address': 'user@[IPv6:2001:db8::1]'}, {'email_address': 'plainaddress'}, {'email_address': '@missingusername.com'}, {'email_address': 'username@.com'}, {'email_address': 'username@com'}, {'email_address': 'username@domain..com'}]

@@ -1,0 +1,2 @@
+function = 'handle_user_expression'
+test_cases = [{'expression': '1 + 2'}, {'expression': '3 * (4 - 5)'}, {'expression': '10 / 2'}, {'expression': '5 - 3'}, {'expression': 'invalid'}, {'expression': '1/0'}, {'expression': '2**3'}, {'expression': '2 + 2 * 2'}, {'expression': '   1+2   '}, {'expression': ''}]

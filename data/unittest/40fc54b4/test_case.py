@@ -1,0 +1,2 @@
+function = 'evaluate_arith_expression'
+test_cases = [{'input_expr': '2 + 2'}, {'input_expr': '10 - 5'}, {'input_expr': '3 * 7'}, {'input_expr': '15 / 3'}, {'input_expr': '(2 + 3) * 4'}, {'input_expr': '-10'}, {'input_expr': '+20'}, {'input_expr': '10 ** 2'}, {'input_expr': '20 % 3'}, {'input_expr': '10 // 3'}, {'input_expr': 'invalid_expression'}, {'input_expr': "1 + 'a'"}, {'input_expr': '2 / 0'}, {'input_expr': "__import__('os')"}]

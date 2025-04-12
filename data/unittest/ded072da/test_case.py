@@ -1,0 +1,2 @@
+function = 'process_file_upload'
+test_cases = [{'file_stream': "io.BytesIO(b'x' * 8192)", 'file_destination': "'test_file_1.bin'"}, {'file_stream': "io.BytesIO(b'x' * (50 * 1024 * 1024 - 1))", 'file_destination': "'test_file_2.bin'"}, {'file_stream': "io.BytesIO(b'x' * (50 * 1024 * 1024 + 1))", 'file_destination': "'test_file_3.bin'"}, {'file_stream': "io.BytesIO(b'')", 'file_destination': "'test_file_4.bin'"}, {'file_stream': "io.BytesIO(b'x' * 8192)", 'file_destination': "'non_existent_directory/test_file_5.bin'"}]

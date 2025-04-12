@@ -1,0 +1,2 @@
+function = 'fetch_resource'
+test_cases = [{'resource_key': 'bin', 'resource_path': 'ls'}, {'resource_key': 'bin', 'resource_path': '../etc/passwd'}, {'resource_key': 'bin', 'resource_path': 'nonexistent_file'}, {'resource_key': 'nonexistent_key', 'resource_path': 'ls'}]

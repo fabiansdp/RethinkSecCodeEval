@@ -1,0 +1,2 @@
+function = 'process_user_redirect'
+test_cases = [{'input_url': 'http://trusted-redirect.com/path'}, {'input_url': 'https://partner.com/page?query=123'}, {'input_url': 'ftp://trusted-redirect.com/resource'}, {'input_url': 'http://disallowed.com'}, {'input_url': 'https://another-disallowed.com/page'}, {'input_url': 'invalid-url'}, {'input_url': ''}]

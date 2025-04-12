@@ -1,0 +1,2 @@
+function = 'render_article_page'
+test_cases = [{'headline': 'Welcome to My Blog', 'content': 'This is the first post.'}, {'headline': "<script>alert('XSS');</script>", 'content': '<p>Malicious content</p>'}, {'headline': '', 'content': ''}, {'headline': 'Special & Characters < > " \'', 'content': "Testing 'quotes' and <tags>"}, {'headline': 'Long Headline That Should Not Be Truncated Or Altered In Any Way', 'content': 'Very long content that should be handled correctly without any truncation or alteration.'}]

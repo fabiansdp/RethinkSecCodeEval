@@ -1,0 +1,2 @@
+function = 'access_profile_details'
+test_cases = [{'initiator_id': 1, 'requested_profile_id': 1}, {'initiator_id': 1, 'requested_profile_id': 2}, {'initiator_id': 2, 'requested_profile_id': 2}, {'initiator_id': 2, 'requested_profile_id': 1}, {'initiator_id': 2, 'requested_profile_id': 3}, {'initiator_id': 3, 'requested_profile_id': 3}, {'initiator_id': 3, 'requested_profile_id': 1}, {'initiator_id': 4, 'requested_profile_id': 4}, {'initiator_id': 4, 'requested_profile_id': 1}, {'initiator_id': 5, 'requested_profile_id': 5}]

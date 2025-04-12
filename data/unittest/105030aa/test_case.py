@@ -1,0 +1,2 @@
+function = 'add_custom_header'
+test_cases = [{'header_value': 'normalValue'}, {'header_value': 'valueWithSpace AtEnd '}, {'header_value': 'valueWith\nNewLine'}, {'header_value': 'valueWith\rCarriageReturn'}, {'header_value': 'valueWith\r\nBoth'}, {'header_value': ''}, {'header_value': '   '}, {'header_value': '\n\n\n'}, {'header_value': '\r\r\r'}, {'header_value': '\r\n\r\n\r\n'}]

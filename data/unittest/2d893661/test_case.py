@@ -1,0 +1,2 @@
+function = 'erase_temp_file'
+test_cases = [{'tmp_file_path': '/nonexistent/file/path'}, {'tmp_file_path': '/path/to/locked/file'}, {'tmp_file_path': '/path/to/deletable/file'}, {'tmp_file_path': '/path/to/error/file'}]

@@ -1,0 +1,2 @@
+function = 'remove_user_profile'
+test_cases = [{'request_data': {'headers': {'X-CSRF-Token': 'wrong_token'}, 'body': {'user_id': '1'}}}, {'request_data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '5'}}}, {'request_data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {'user_id': '1'}}}, {'request_data': {'headers': {}, 'body': {'user_id': '2'}}}, {'request_data': {'headers': {'X-CSRF-Token': 'secure_csrf_token'}, 'body': {}}}]

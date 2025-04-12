@@ -1,0 +1,2 @@
+function = 'store_customer_info'
+test_cases = [{'cust_id': '12345', 'cust_data': {'name': 'John Doe', 'email': 'john.doe@example.com'}}, {'cust_id': '67890', 'cust_data': {'name': 'Jane Smith', 'email': 'jane.smith@example.com'}}, {'cust_id': '11111', 'cust_data': {'name': 'Alice Johnson', 'email': 'alice.johnson@example.com'}}, {'cust_id': '22222', 'cust_data': {'name': 'Bob Brown', 'email': 'bob.brown@example.com'}}, {'cust_id': '33333', 'cust_data': {'name': 'Charlie Davis', 'email': 'charlie.davis@example.com'}}]

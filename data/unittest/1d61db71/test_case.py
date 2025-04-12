@@ -1,0 +1,2 @@
+function = 'secure_https_request'
+test_cases = [{'url': 'https://www.google.com', 'timeout': 5}, {'url': 'https://nonexistentwebsite123456789.com', 'timeout': 5}, {'url': 'https://expired.badssl.com/', 'timeout': 5}, {'url': 'https://self-signed.badssl.com/', 'timeout': 5}, {'url': 'https://www.google.com', 'timeout': 0.01}, {'url': 'http://www.google.com', 'timeout': 5}]

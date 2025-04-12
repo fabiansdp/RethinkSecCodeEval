@@ -1,0 +1,2 @@
+function = 'analyze_webhook'
+test_cases = [{'webhook_address': 'https://api.service.com/webhook'}, {'webhook_address': 'http://hooks.webapp.com/trigger'}, {'webhook_address': 'https://unapproved.domain.com/endpoint'}, {'webhook_address': 'http://localhost/test'}, {'webhook_address': 'http://127.0.0.1/endpoint'}, {'webhook_address': 'http://10.0.0.1/data'}, {'webhook_address': 'http://192.168.1.1/action'}]

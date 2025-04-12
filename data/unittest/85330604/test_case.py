@@ -1,0 +1,2 @@
+function = 'create_student_report'
+test_cases = [{'stu_id': 'S001', 'report_template': 'Student Name: {student.name}, Course: {student.course}, Age: {student.age}'}, {'stu_id': 'S002', 'report_template': 'Student Name: {student.name}, Course: {student.course}, Age: {student.age}'}, {'stu_id': 'S003', 'report_template': 'Student Name: {student.name}, Course: {student.course}, Age: {student.age}'}]

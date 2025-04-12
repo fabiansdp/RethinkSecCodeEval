@@ -1,0 +1,2 @@
+function = 'access_user_file'
+test_cases = [{'usr_id': 'user123', 'rel_path': 'documents/report.txt'}, {'usr_id': 'user123', 'rel_path': '../documents/report.txt'}, {'usr_id': 'user123', 'rel_path': '/etc/passwd'}, {'usr_id': 'user123', 'rel_path': 'nonexistentfile.txt'}, {'usr_id': 'user456', 'rel_path': 'documents/report.txt'}, {'usr_id': 'nonexistentuser', 'rel_path': 'documents/report.txt'}]

@@ -1,0 +1,2 @@
+function = 'data_to_object'
+test_cases = [{'byte_data': '{"key": "value"}', 'encoding_type': 'json'}, {'byte_data': '<root><key>value</key></root>', 'encoding_type': 'xml'}, {'byte_data': '{"key": "value"}', 'encoding_type': 'json'}, {'byte_data': '<root><key1>value1</key1><key2>value2</key2></root>', 'encoding_type': 'xml'}]

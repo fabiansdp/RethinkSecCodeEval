@@ -1,0 +1,2 @@
+function = 'create_purchase_receipt'
+test_cases = [{'order_id': 'ORD001', 'receipt_template': 'Order Number: {order.order_number}\nBuyer: {customer.full_name}\nItems: {order.items_list}\nTotal: {order.price_total}\nPayment Method: {order.method_of_payment}'}, {'order_id': 'ORD001', 'receipt_template': 'Invalid template {order.non_existent_field}'}, {'order_id': 'ORD002', 'receipt_template': 'Order Number: {order.order_number}'}]

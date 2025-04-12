@@ -1,0 +1,2 @@
+function = 'process_translation_data'
+test_cases = [{'data': "<root><translation id='1'>Hello</translation><translation id='2'>World</translation></root>"}, {'data': "<root><translation id='100'>Test</translation></root>"}, {'data': '<root></root>'}]

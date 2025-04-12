@@ -1,0 +1,2 @@
+function = 'record_private_key'
+test_cases = [{'key_location': '/nonexistent/directory/private_key.txt', 'secret_key': 'dummy_secret'}, {'key_location': '/tmp/nonexistent_file.txt', 'secret_key': 'dummy_secret'}, {'key_location': '/tmp/owned_by_another_user.txt', 'secret_key': 'dummy_secret'}, {'key_location': '/tmp/wrong_permissions.txt', 'secret_key': 'dummy_secret'}, {'key_location': '/tmp/correct_permissions.txt', 'secret_key': 'dummy_secret'}, {'key_location': '/tmp/exception_file.txt', 'secret_key': 'dummy_secret'}]

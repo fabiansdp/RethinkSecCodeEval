@@ -1,0 +1,2 @@
+function = 'modify_product_details'
+test_cases = [{'product': {'name': 'Laptop', 'price': 1000}, 'data': {'price': 999}}, {'product': {'name': 'Laptop', 'description': 'Old Laptop'}, 'data': {'description': 'Brand new Laptop'}}, {'product': {'name': 'Laptop', 'stock': 10}, 'data': {'stock': 5}}, {'product': {'name': 'Laptop'}, 'data': {'color': 'black'}}, {'product': {'name': 'Laptop'}, 'data': {}}, {'product': {'name': 'Laptop'}, 'data': {'price': 800, 'description': 'Used Laptop', 'stock': 2, 'weight': '2kg'}}]

@@ -1,0 +1,2 @@
+function = 'manage_data_packet'
+test_cases = [{'io_device_id': 'device001', 'crypto_signature': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'packet_data': {}}, {'io_device_id': 'device001', 'crypto_signature': 'wrong_signature', 'packet_data': {}}, {'io_device_id': 'non_existent_device', 'crypto_signature': 'some_signature', 'packet_data': {}}]

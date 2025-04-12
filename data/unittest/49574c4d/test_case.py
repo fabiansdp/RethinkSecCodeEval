@@ -1,0 +1,2 @@
+function = 'extract_html_elements'
+test_cases = [{'document': ''}, {'document': 'No tags here'}, {'document': '<html>'}, {'document': '<div><p>Test</p></div>'}, {'document': "<a href='http://example.com'>Example</a>"}, {'document': "<img src='image.png' alt='Image'>"}, {'document': '<br><hr><b>Bold</b>'}, {'document': "<script>alert('Hello');</script>"}, {'document': '<style>body { background-color: lightblue; }</style>'}, {'document': '<!-- This is a comment -->'}, {'document': '<tag1><tag2><tag3></tag3></tag2></tag1>'}]

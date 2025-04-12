@@ -1,0 +1,2 @@
+function = 'build_greeting_script'
+test_cases = [{'user_fullname': 'John Doe'}, {'user_fullname': 'Jane Smith-Jones'}, {'user_fullname': "Alice O'Connor"}, {'user_fullname': 'Bob (The Builder)'}, {'user_fullname': 'Charlie & Co.'}, {'user_fullname': 'David "Danger" Nelson'}, {'user_fullname': "Eve 'The Hacker'"}, {'user_fullname': 'Frank "Evil" \'O\' Connor'}, {'user_fullname': ''}, {'user_fullname': '   '}, {'user_fullname': 'Multiple    Spaces'}, {'user_fullname': 'SpecialChars!@#$%^&*()_+-=[]{}|;\':",.<>?/~`'}]

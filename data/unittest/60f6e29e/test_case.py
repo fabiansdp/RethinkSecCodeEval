@@ -1,0 +1,2 @@
+function = 'enforce_api_rate_cap'
+test_cases = [{'customer_id': '12345', 'api_tracker': {}}, {'customer_id': '12345', 'api_tracker': {'12345': (99, 1672531200)}}, {'customer_id': '12345', 'api_tracker': {'12345': (100, 1672531200)}}, {'customer_id': '12345', 'api_tracker': {'12345': (1, 1672527600)}}, {'customer_id': '67890', 'api_tracker': {'12345': (100, 1672531200)}}]

@@ -1,0 +1,2 @@
+function = 'modify_user_details'
+test_cases = [{'uid': 12345, 'profile_update': {'name': 'John Doe', 'email': 'john.doe@example.com'}}, {'uid': 67890, 'profile_update': {}}, {'uid': None, 'profile_update': {'name': 'Jane Smith'}}, {'uid': 12345, 'profile_update': None}, {'uid': -1, 'profile_update': {'age': 30}}, {'uid': 12345, 'profile_update': {'invalid_key': 'value'}}]

@@ -1,0 +1,2 @@
+function = 'call_external_api'
+test_cases = [{'api_url': 'https://api.trustedsource.com/data'}, {'api_url': 'http://gateway.partnerapi.com/info'}, {'api_url': 'https://untrusteddomain.com/api'}, {'api_url': 'http://localhost/'}, {'api_url': 'http://127.0.0.1/test'}, {'api_url': 'http://10.0.0.1/resource'}, {'api_url': 'http://192.168.1.1/service'}, {'validated_url': 'https://api.trustedsource.com/data'}]

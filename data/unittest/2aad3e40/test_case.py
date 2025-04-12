@@ -1,0 +1,2 @@
+function = 'remove_old_files'
+test_cases = [{'folder': '/path/to/folder', 'max_days': 30}, {'folder': '/path/to/folder', 'max_days': 0}, {'folder': '/path/to/folder', 'max_days': -5}, {'folder': '/nonexistent/folder', 'max_days': 30}, {'folder': '/path/to/folder', 'max_days': 1}]

@@ -1,0 +1,2 @@
+function = 'generate_backup'
+test_cases = [{'target_directory': '/valid/path', 'tar_name': 'backup'}, {'target_directory': '/nonexistent/path', 'tar_name': 'backup'}, {'target_directory': '', 'tar_name': 'backup'}, {'target_directory': '/valid/path', 'tar_name': ''}, {'target_directory': '/valid/path', 'tar_name': 'backup_with_special_chars!@#'}]

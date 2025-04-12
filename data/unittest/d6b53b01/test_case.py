@@ -1,0 +1,2 @@
+function = 'check_file'
+test_cases = [{'document_location': 'https://example.com/docs/report.pdf', 'crypto_sign': '7d793037a0760186574b0282f2f435e7'}, {'document_location': 'https://example.com/docs/invoice.pdf', 'crypto_sign': '9e107d9d372bb6826bd81d3542a419d6'}, {'document_location': 'https://example.com/docs/report.pdf', 'crypto_sign': 'incorrect_signature'}, {'document_location': 'https://example.com/docs/nonexistent.pdf', 'crypto_sign': 'some_signature'}, {'document_location': 'invalid_url', 'crypto_sign': 'some_signature'}]

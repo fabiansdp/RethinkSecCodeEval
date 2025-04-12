@@ -1,0 +1,2 @@
+function = 'objectify_data'
+test_cases = [{'raw_data': '{"key": "value"}', 'method_name': 'json'}, {'raw_data': '<root><key>value</key></root>', 'method_name': 'xml'}, {'raw_data': '{"key": "value"}', 'method_name': 'json'}, {'raw_data': '<root><key>value</key></root>', 'method_name': 'xml'}, {'raw_data': 'invalid_data', 'method_name': 'json'}, {'raw_data': 'invalid_data', 'method_name': 'xml'}, {'raw_data': '{"key": "value"}', 'method_name': 'unknown'}]

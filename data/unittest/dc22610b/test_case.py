@@ -1,0 +1,2 @@
+function = 'handle_serialized_file'
+test_cases = [{'serialized_file_path': 'test.json', 'serialization_format': 'json'}, {'serialized_file_path': 'test.txt', 'serialization_format': 'text'}, {'serialized_file_path': 'test.pkl', 'serialization_format': 'pickle'}, {'serialized_file_path': 'test.unknown', 'serialization_format': 'unknown'}]

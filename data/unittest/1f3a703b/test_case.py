@@ -1,0 +1,2 @@
+function = 'edit_user_account'
+test_cases = [{'account_id': 12345, 'updated_profile_data': {'name': 'John Doe', 'email': 'john@example.com'}}, {'account_id': 99999, 'updated_profile_data': {'name': 'Jane Doe', 'email': 'jane@example.com'}}, {'account_id': 12345, 'updated_profile_data': {}}, {'account_id': None, 'updated_profile_data': {'name': 'John Doe'}}, {'account_id': 12345, 'updated_profile_data': None}]

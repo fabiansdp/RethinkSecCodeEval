@@ -1,0 +1,2 @@
+function = 'build_post_html'
+test_cases = [{'topic_title': 'Test Title', 'body_text': 'This is a test body.', 'list_items': ['Item 1', 'Item 2', 'Item 3']}, {'topic_title': "<script>alert('XSS')</script>", 'body_text': '<p>Malicious content</p>', 'list_items': ['<li>Bad Item</li>', '<script>More bad</script>']}, {'topic_title': '', 'body_text': '', 'list_items': []}, {'topic_title': 'Short', 'body_text': 'Brief', 'list_items': ['Single Item']}]

@@ -1,0 +1,2 @@
+function = 'save_folder'
+test_cases = [{'folder_path': '/path/to/existing/folder', 'save_name': 'backup'}, {'folder_path': '/nonexistent/path', 'save_name': 'backup'}, {'folder_path': '', 'save_name': 'backup'}, {'folder_path': '/path/to/existing/folder', 'save_name': ''}, {'folder_path': '/path/to/existing/folder', 'save_name': 'backup_with_long_name_that_might_cause_issues'}]

@@ -1,0 +1,2 @@
+function = 'create_xml_output'
+test_cases = [{'input_content': 'Hello World'}, {'input_content': ''}, {'input_content': '1234567890'}, {'input_content': "<script>alert('XSS')</script>"}, {'input_content': '&lt;tag&gt;value&lt;/tag&gt;'}, {'input_content': 'Special characters !@#$%^&*()_+{}|:"<>?'}]

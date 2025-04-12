@@ -1,0 +1,2 @@
+function = 'retrieve_profile_data'
+test_cases = [{'profile_id': 'user123', 'file_request': 'document.txt'}, {'profile_id': 'user456', 'file_request': 'image.png'}, {'profile_id': 'user123', 'file_request': 'nonexistent_file.txt'}, {'profile_id': 'user789', 'file_request': 'document.txt'}, {'profile_id': 'user123', 'file_request': '../outside_directory/file.txt'}]

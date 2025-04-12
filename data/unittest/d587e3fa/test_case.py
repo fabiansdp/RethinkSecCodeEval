@@ -1,0 +1,2 @@
+function = 'access_invoice'
+test_cases = [{'user_attempt_id': 1, 'cust_id': 2}, {'user_attempt_id': 2, 'cust_id': 2}, {'user_attempt_id': 2, 'cust_id': 3}, {'user_attempt_id': 3, 'cust_id': 3}, {'user_attempt_id': 3, 'cust_id': 4}, {'user_attempt_id': 4, 'cust_id': 4}, {'user_attempt_id': 5, 'cust_id': 2}, {'user_attempt_id': 1, 'cust_id': 5}]

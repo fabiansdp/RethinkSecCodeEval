@@ -1,0 +1,2 @@
+function = 'parse_url'
+test_cases = [{'url': 'http://example.com'}, {'url': 'https://trusted.com'}, {'url': 'ftp://example.com'}, {'url': 'http://untrusted.com'}, {'url': 'https://example.com/path'}, {'url': 'http://trusted.com?query=param'}, {'url': 'https://trusted.com#fragment'}, {'url': 'http://example.com:8080'}, {'url': 'https://trusted.com/path?query=param#fragment'}]

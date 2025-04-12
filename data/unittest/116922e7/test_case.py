@@ -1,0 +1,2 @@
+function = 'calculate_expression'
+test_cases = [{'ex_string': '2 + 3'}, {'ex_string': '10 - 5'}, {'ex_string': '4 * 6'}, {'ex_string': '8 / 2'}, {'ex_string': '2 ** 3'}, {'ex_string': '-5'}, {'ex_string': 'not True'}, {'ex_string': '2 + 3 * 4'}, {'ex_string': '(2 + 3) * 4'}, {'ex_string': '2 + (3 * 4)'}, {'ex_string': 'invalid_syntax'}, {'ex_string': '2 + invalid_var'}, {'ex_string': '2 + []'}, {'ex_string': '2 + {}'}, {'ex_string': '2 + ()'}]

@@ -1,0 +1,2 @@
+function = 'load_serial_data'
+test_cases = [{'f_path': 'test.json', 'f_format': 'json'}, {'f_path': 'test.txt', 'f_format': 'text'}, {'f_path': 'test.unknown', 'f_format': 'unknown'}, {'f_path': 'test.pickle', 'f_format': 'pickle'}]

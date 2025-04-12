@@ -1,0 +1,2 @@
+function = 'call_external_api'
+test_cases = [{'url_to_inspect': 'http://api.trustedsource.com/data'}, {'url_to_inspect': 'https://gateway.partnerapi.com/info'}, {'url_to_inspect': 'http://invaliddomain.com/api'}, {'url_to_inspect': 'http://localhost/api'}, {'url_to_inspect': 'http://127.0.0.1/test'}, {'url_to_inspect': 'http://10.0.0.1/resource'}, {'url_to_inspect': 'http://192.168.1.1/service'}, {'validated_url': 'http://api.trustedsource.com/data'}, {'validated_url': 'https://gateway.partnerapi.com/info'}]

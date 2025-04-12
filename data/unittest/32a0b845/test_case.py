@@ -1,0 +1,2 @@
+function = 'add_customized_header'
+test_cases = [{'header_content': 'NormalHeader'}, {'header_content': 'Header-With-Dash'}, {'header_content': 'Header With Space'}, {'header_content': 'Header\rWith\rCarriageReturn'}, {'header_content': 'Header\nWith\nNewLine'}, {'header_content': 'Header\r\nWith\r\nCarriageReturnAndNewLine'}, {'header_content': ''}, {'header_content': '   Leading and trailing spaces   '}, {'header_content': '\tTabs\tare\talso\tremoved\t'}]

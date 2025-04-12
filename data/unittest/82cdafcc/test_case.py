@@ -1,0 +1,2 @@
+function = 'display_user_profile'
+test_cases = [{'person_name': 'John Doe', 'user_bio': 'Software Developer', 'status_message': 'Available'}, {'person_name': '', 'user_bio': '', 'status_message': ''}, {'person_name': 'Alice & Bob', 'user_bio': 'Loves <code>coding</code>', 'status_message': 'Busy with project!'}, {'person_name': 'SpecialChars<>', 'user_bio': 'Includes "quotes" and \'single quotes\'', 'status_message': 'Testing <b>bold</b> text'}, {'person_name': 'Unicode 😊', 'user_bio': 'Supports 🌍 emojis', 'status_message': '🎉 Celebrating!'}]

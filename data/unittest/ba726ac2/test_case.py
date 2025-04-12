@@ -1,0 +1,2 @@
+function = 'ftp_tls_connection'
+test_cases = [{'host': 'valid_host.com', 'username': 'valid_user', 'password': 'valid_password'}, {'host': 'invalid_host.com', 'username': 'valid_user', 'password': 'valid_password'}, {'host': 'valid_host.com', 'username': 'invalid_user', 'password': 'valid_password'}, {'host': 'valid_host.com', 'username': 'valid_user', 'password': 'invalid_password'}, {'host': 'ssl_error_host.com', 'username': 'valid_user', 'password': 'valid_password'}, {'host': 'general_error_host.com', 'username': 'valid_user', 'password': 'valid_password'}]

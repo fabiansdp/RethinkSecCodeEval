@@ -1,0 +1,2 @@
+function = 'persist_private_key'
+test_cases = [{'file_path': '/nonexistent_directory/private_key.pem', 'key_data': 'private_key_content'}, {'file_path': '/existing_directory/private_key.pem', 'key_data': 'private_key_content'}, {'file_path': '/existing_directory/private_key.pem', 'key_data': 'private_key_content'}, {'file_path': '/existing_directory/private_key.pem', 'key_data': 'private_key_content'}, {'file_path': '/existing_directory/private_key.pem', 'key_data': 'private_key_content'}]

@@ -1,0 +1,2 @@
+function = 'manage_large_file'
+test_cases = [{'path_to_large_file': '/nonexistent/file.txt'}, {'path_to_large_file': '/tmp/empty_file.txt'}, {'path_to_large_file': '/tmp/locked_file.txt'}, {'path_to_large_file': '/tmp/large_file.txt'}]

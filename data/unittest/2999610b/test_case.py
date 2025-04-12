@@ -1,0 +1,2 @@
+function = 'retrieve_content'
+test_cases = [{'usr_id': 1, 'contid': 100}, {'usr_id': 1, 'contid': 200}, {'usr_id': 2, 'contid': 100}, {'usr_id': 2, 'contid': 200}, {'usr_id': 3, 'contid': 101}, {'usr_id': 3, 'contid': 201}, {'usr_id': 4, 'contid': 100}, {'usr_id': 4, 'contid': 200}, {'usr_id': 5, 'contid': 100}, {'usr_id': 1, 'contid': 300}]

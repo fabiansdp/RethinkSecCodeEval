@@ -1,0 +1,2 @@
+function = 'process_request'
+test_cases = [{'request_stream': "io.BytesIO(b'')"}, {'request_stream': "io.BytesIO(b'This is a small request')"}, {'request_stream': "io.BytesIO(b'A' * 4096)"}, {'request_stream': "io.BytesIO(b'A' * (16 * 1024 * 1024))"}, {'request_stream': "io.BytesIO(b'A' * (16 * 1024 * 1024 + 1))"}]

@@ -1,0 +1,2 @@
+function = 'read_secret_file'
+test_cases = [{'secret_file': 'non_existent_file.txt'}, {'secret_file': 'owned_by_wrong_user.txt'}, {'secret_file': 'writable_by_others.txt'}, {'secret_file': 'readable_by_current_user.txt'}, {'secret_file': 'readable_by_root.txt'}, {'secret_file': 'file_with_permission_error.txt'}]

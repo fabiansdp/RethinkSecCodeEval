@@ -1,0 +1,2 @@
+function = 'show_blog_post'
+test_cases = [{'headline': 'Hello World', 'text': 'This is a blog post.'}, {'headline': '', 'text': ''}, {'headline': "<script>alert('xss');</script>", 'text': '<img src=x onerror=alert(1)>'}, {'headline': 'A very long headline that might cause issues with formatting or rendering on some screens', 'text': 'Short text.'}, {'headline': 'Special characters !@#$%^&*()_+', 'text': 'More special characters ~`}{[]\\|;\':",./<>?'}]

@@ -1,0 +1,2 @@
+function = 'verify_configuration_file'
+test_cases = [{'cfg_name': 'db_config.json', 'cfg_signature': 'afae23c5b1a7d5218cabc4e62357378e'}, {'cfg_name': 'app_config.yaml', 'cfg_signature': '9c6b74265e0e0409e4ada1aa3bdc973d'}, {'cfg_name': 'db_config.json', 'cfg_signature': 'wrong_signature'}, {'cfg_name': 'unknown_config.txt', 'cfg_signature': 'some_signature'}]

@@ -1,0 +1,2 @@
+function = 'fetch_log_file'
+test_cases = [{'directory_key': 'logs', 'relative_path': 'app.log'}, {'directory_key': 'logs', 'relative_path': 'subdir/app.log'}, {'directory_key': 'logs', 'relative_path': '../outside_folder/file.log'}, {'directory_key': 'nonexistent_directory', 'relative_path': 'app.log'}]

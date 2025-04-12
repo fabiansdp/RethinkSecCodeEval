@@ -1,0 +1,2 @@
+function = 'view_content'
+test_cases = [{'actor_user_id': 1, 'resource_id': 100}, {'actor_user_id': 1, 'resource_id': 200}, {'actor_user_id': 2, 'resource_id': 100}, {'actor_user_id': 2, 'resource_id': 200}, {'actor_user_id': 3, 'resource_id': 101}, {'actor_user_id': 3, 'resource_id': 201}, {'actor_user_id': 4, 'resource_id': 101}, {'actor_user_id': 4, 'resource_id': 201}, {'actor_user_id': 5, 'resource_id': 100}, {'actor_user_id': 1, 'resource_id': 300}]

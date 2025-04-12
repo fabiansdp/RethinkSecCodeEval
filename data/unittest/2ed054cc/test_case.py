@@ -1,0 +1,2 @@
+function = 'deserialize_data'
+test_cases = [{'raw_data': '{"name": "Alice", "age": 30}', 'serialization_format': 'json'}, {'raw_data': '<person><name>Alice</name><age>30</age></person>', 'serialization_format': 'xml'}, {'raw_data': '{"name": "Bob", "age": 25}', 'serialization_format': 'json'}, {'raw_data': '<person><name>Bob</name><age>25</age></person>', 'serialization_format': 'xml'}, {'raw_data': '{"name": "Charlie", "age": 35}', 'serialization_format': 'json'}]

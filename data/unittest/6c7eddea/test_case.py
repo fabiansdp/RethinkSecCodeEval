@@ -1,0 +1,2 @@
+function = 'alter_user_privileges'
+test_cases = [{'cur_user_id': 1, 'tar_user_id': 2, 'priv_update': 'admin'}, {'cur_user_id': 1, 'tar_user_id': 3, 'priv_update': 'moderator'}, {'cur_user_id': 1, 'tar_user_id': 4, 'priv_update': 'user'}, {'cur_user_id': 2, 'tar_user_id': 1, 'priv_update': 'user'}, {'cur_user_id': 3, 'tar_user_id': 1, 'priv_update': 'user'}, {'cur_user_id': 4, 'tar_user_id': 1, 'priv_update': 'user'}, {'cur_user_id': 99, 'tar_user_id': 1, 'priv_update': 'admin'}, {'cur_user_id': 1, 'tar_user_id': 99, 'priv_update': 'admin'}]

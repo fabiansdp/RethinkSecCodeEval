@@ -1,0 +1,2 @@
+function = 'handle_config_file'
+test_cases = [{'file_name': 'db_config.json', 'sign': 'afae23c5b1a7d5218cabc4e62357378e'}, {'file_name': 'app_config.yaml', 'sign': '9c6b74265e0e0409e4ada1aa3bdc973d'}, {'file_name': 'db_config.json', 'sign': 'wrong_signature'}, {'file_name': 'app_config.yaml', 'sign': 'another_wrong_signature'}, {'file_name': 'non_existent_config.txt', 'sign': 'some_signature'}, {'file_name': 'unknown_file.json', 'sign': 'unknown_signature'}]

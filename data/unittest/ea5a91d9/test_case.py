@@ -1,0 +1,2 @@
+function = 'save_secrets'
+test_cases = [{'secret_file': '/nonexistent/directory/secret.txt', 'keys': {'service1': 'key1'}}, {'secret_file': '/tmp/secret.txt', 'keys': {'service1': 'key1'}}, {'secret_file': '/tmp/owned_by_other_user_secret.txt', 'keys': {'service1': 'key1'}}, {'secret_file': '/tmp/group_others_perm_secret.txt', 'keys': {'service1': 'key1'}}, {'secret_file': '/tmp/success_secret.txt', 'keys': {'service1': 'key1'}}, {'secret_file': '/tmp/exception_secret.txt', 'keys': {'service1': 'key1'}}]

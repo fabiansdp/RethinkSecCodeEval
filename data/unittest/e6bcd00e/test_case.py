@@ -1,0 +1,2 @@
+function = 'analyze_json_request'
+test_cases = [{'incoming_request': {'headers': {'Content-Type': 'application/json'}, 'body': '{"key": "value"}'}}, {'incoming_request': {'headers': {'Content-Type': 'application/vnd.api+json'}, 'body': '{"key": "value"}'}}, {'incoming_request': {'headers': {'Content-Type': 'text/json'}, 'body': '{"key": "value"}'}}, {'incoming_request': {'headers': {'Content-Type': 'application/json'}, 'body': 'invalid json'}}, {'incoming_request': {'headers': {'Content-Type': 'application/vnd.api+json'}, 'body': 'invalid json'}}]

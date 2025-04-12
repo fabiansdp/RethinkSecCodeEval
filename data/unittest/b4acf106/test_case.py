@@ -1,0 +1,2 @@
+function = 'generate_xml_response'
+test_cases = [{'user_content': ''}, {'user_content': 'Hello World'}, {'user_content': "<script>alert('xss');</script>"}, {'user_content': '&quot;Double Quotes&quot;'}, {'user_content': "'Single Quotes'"}, {'user_content': 'New\nLine'}, {'user_content': 'Tab\tSeparated'}, {'user_content': 'Mixed <>&"\''}, {'user_content': 'Long text to check how the function handles large inputs. This text is intentionally long to see if there are any issues with processing longer strings.'}]

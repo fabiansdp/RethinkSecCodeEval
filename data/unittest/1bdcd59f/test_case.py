@@ -1,0 +1,2 @@
+function = 'path_check'
+test_cases = [{'u': 'http://example.com'}, {'u': 'https://example.co.uk'}, {'u': 'example.org/path/to/resource'}, {'u': 'ftp://example.com'}, {'u': 'http://example.com/path with spaces'}]

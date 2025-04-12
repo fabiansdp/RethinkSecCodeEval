@@ -1,0 +1,2 @@
+function = 'compute_expression_safely'
+test_cases = [{'user_expr': '2 + 2'}, {'user_expr': '-1 * 3'}, {'user_expr': 'True and False'}, {'user_expr': '5 > 3'}, {'user_expr': '10'}, {'user_expr': '2 ** 3'}, {'user_expr': 'not True'}, {'user_expr': '2 + 2 * 2'}, {'user_expr': 'invalid_syntax'}, {'user_expr': '2 / 0'}, {'user_expr': "__import__('os')"}]

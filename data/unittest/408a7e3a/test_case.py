@@ -1,0 +1,2 @@
+function = 'create_greeting_command'
+test_cases = [{'username': 'Alice'}, {'username': 'Bob123'}, {'username': 'Charlie_Doe'}, {'username': 'user@domain.com'}, {'username': 'user name with spaces'}, {'username': "user'with'single'quotes"}, {'username': 'user"with"double"quotes'}, {'username': 'user;with;semicolon'}, {'username': 'user&with&symbol'}, {'username': ''}]

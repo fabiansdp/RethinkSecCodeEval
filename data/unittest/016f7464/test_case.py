@@ -1,0 +1,2 @@
+function = 'discard_files'
+test_cases = [{'dir_path': '/valid/directory', 'ext': 'txt'}, {'dir_path': '/nonexistent/directory', 'ext': 'txt'}, {'dir_path': '/valid/directory', 'ext': 'unknownext'}, {'dir_path': '/valid/directory', 'ext': ''}]

@@ -1,0 +1,2 @@
+function = 'retrieve_log_path'
+test_cases = [{'log_dir': 'logs', 'relative_path': 'application.log'}, {'log_dir': 'non_existent_directory', 'relative_path': 'application.log'}, {'log_dir': 'logs', 'relative_path': '../outside_logs/application.log'}, {'log_dir': 'logs', 'relative_path': 'non_existent_file.log'}]

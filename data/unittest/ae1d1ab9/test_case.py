@@ -1,0 +1,2 @@
+function = 'change_config'
+test_cases = [{'cfg_path': '/nonexistent/file/path', 'new_cfg': {'key': 'value'}}, {'cfg_path': '/tmp/empty_file.txt', 'new_cfg': {'key': 'value'}}, {'cfg_path': '/tmp/non_empty_file.txt', 'new_cfg': {'key': 'value'}}, {'cfg_path': '/tmp/locked_file.txt', 'new_cfg': {'key': 'value'}}]

@@ -1,0 +1,2 @@
+function = 'update_directory_permissions'
+test_cases = [{'target_dir': '/home/user/testdir', 'desired_permissions': 511}, {'target_dir': '/home/user/testdir', 'desired_permissions': 448}, {'target_dir': '/home/user', 'desired_permissions': 511}, {'target_dir': '/home/user', 'desired_permissions': 448}, {'target_dir': '/home/user/testdir/subdir', 'desired_permissions': 511}, {'target_dir': '/home/user/testdir/subdir', 'desired_permissions': 448}]

@@ -1,0 +1,2 @@
+function = 'load_user_file'
+test_cases = [{'uname': 'paul', 'filepath': 'file.txt'}, {'uname': 'paul', 'filepath': '/../file.txt'}, {'uname': 'steve', 'filepath': 'documents/report.pdf'}, {'uname': 'nonexistent', 'filepath': 'file.txt'}, {'uname': 'paul', 'filepath': 'nonexistentfile.txt'}]

@@ -1,0 +1,2 @@
+function = 'access_user_file'
+test_cases = [{'user_id': 'john', 'file_location': 'example.txt'}, {'user_id': 'john', 'file_location': '../example.txt'}, {'user_id': 'alice', 'file_location': 'documents/report.pdf'}, {'user_id': 'bob', 'file_location': 'example.txt'}, {'user_id': 'john', 'file_location': 'nonexistentfile.txt'}]

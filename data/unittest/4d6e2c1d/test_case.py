@@ -1,0 +1,2 @@
+function = 'store_configuration_file'
+test_cases = [{'path_to_config': '/nonexistent/directory/config.txt', 'config_details': {'key1': 'value1'}}, {'path_to_config': '/tmp/existing_config.txt', 'config_details': {'key1': 'value1'}}, {'path_to_config': '/tmp/existing_config.txt', 'config_details': {'key1': 'value1'}}, {'path_to_config': '/tmp/existing_config_wrong_owner.txt', 'config_details': {'key1': 'value1'}}, {'path_to_config': '/tmp/existing_config_wrong_permissions.txt', 'config_details': {'key1': 'value1'}}]

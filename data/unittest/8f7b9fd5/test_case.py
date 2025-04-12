@@ -1,0 +1,2 @@
+function = 'process_packet'
+test_cases = [{'device': 'device001', 'packet_signature': '89ebf76ae45bfcf6dd7f2aa3de8b20b3', 'data_packet': {'temperature': 22.5, 'humidity': 60}}, {'device': 'device002', 'packet_signature': '1dcfa479db7aae3d40b3984cdf202de6', 'data_packet': {'temperature': 22.5, 'humidity': 60}}, {'device': 'device001', 'packet_signature': 'wrong_signature', 'data_packet': {'temperature': 22.5, 'humidity': 60}}, {'device': 'untrusted_device', 'packet_signature': 'some_signature', 'data_packet': {'temperature': 22.5, 'humidity': 60}}]

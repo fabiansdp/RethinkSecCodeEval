@@ -1,0 +1,2 @@
+function = 'save_service_credentials'
+test_cases = [{'credentials_file': '/tmp/nonexistentdir/credentials.txt', 'api_user': 'testuser', 'api_pass': 'testpass'}, {'credentials_file': '/tmp/existingfile.txt', 'api_user': 'testuser', 'api_pass': 'testpass'}, {'credentials_file': '/tmp/ownedbyotheruser.txt', 'api_user': 'testuser', 'api_pass': 'testpass'}, {'credentials_file': '/tmp/worldaccessible.txt', 'api_user': 'testuser', 'api_pass': 'testpass'}, {'credentials_file': '/tmp/securefile.txt', 'api_user': 'testuser', 'api_pass': 'testpass'}]

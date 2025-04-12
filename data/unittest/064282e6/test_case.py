@@ -1,0 +1,2 @@
+function = 'retrieve_user_data'
+test_cases = [{'uid': 'user_abc', 'sig': '4e99a098d57cbf9c6f67f176106769fb'}, {'uid': 'user_abc', 'sig': 'wrong_signature'}, {'uid': 'user_not_exist', 'sig': 'some_signature'}, {'uid': 'user_xyz', 'sig': '12e4b2f76650484030e4d447d0b5f723'}]

@@ -1,0 +1,2 @@
+function = 'insert_custom_header'
+test_cases = [{'user_header': 'NormalHeaderValue'}, {'user_header': 'Value\nWithNewLine'}, {'user_header': 'Value\rWithCarriageReturn'}, {'user_header': 'Value\r\nWithBoth'}, {'user_header': ''}, {'user_header': '   LeadingAndTrailingSpaces   '}, {'user_header': 'Special!@#$%^&*()Characters'}]

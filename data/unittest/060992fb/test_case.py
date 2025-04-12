@@ -1,0 +1,2 @@
+function = 'api_rate_control'
+test_cases = [{'cid': 'client1', 'tracker': {}}, {'cid': 'client1', 'tracker': {'client1': (99, 1672531200)}}, {'cid': 'client1', 'tracker': {'client1': (100, 1672531200)}}, {'cid': 'client1', 'tracker': {'client1': (100, 1672527600)}}, {'cid': 'client2', 'tracker': {'client1': (50, 1672531200)}}, {'cid': 'client1', 'tracker': {'client1': (1, 1672531200)}}]

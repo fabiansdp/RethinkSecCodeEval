@@ -1,0 +1,2 @@
+function = 'modify_vehicle_data'
+test_cases = [{'vehicle_info': {'make': 'Toyota', 'model': 'Corolla'}, 'modifications': {'year': 2021}}, {'vehicle_info': {'make': 'Honda', 'model': 'Civic'}, 'modifications': {'color': 'red'}}, {'vehicle_info': {}, 'modifications': {'make': 'Ford', 'model': 'Mustang', 'year': 2020}}, {'vehicle_info': {'registration': 'XYZ123'}, 'modifications': {'registration': 'ABC456'}}, {'vehicle_info': {'make': 'BMW'}, 'modifications': {}}, {'vehicle_info': {'make': 'Audi', 'model': 'A4'}, 'modifications': {'year': 2022, 'color': 'blue'}}]

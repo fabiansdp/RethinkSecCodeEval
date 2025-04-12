@@ -1,0 +1,2 @@
+function = 'fetch_profile_data'
+test_cases = [{'requester_id': 1, 'profile_id': 1}, {'requester_id': 1, 'profile_id': 2}, {'requester_id': 2, 'profile_id': 2}, {'requester_id': 2, 'profile_id': 1}, {'requester_id': 2, 'profile_id': 3}, {'requester_id': 3, 'profile_id': 3}, {'requester_id': 3, 'profile_id': 1}, {'requester_id': 4, 'profile_id': 4}, {'requester_id': 5, 'profile_id': 1}, {'requester_id': 1, 'profile_id': 5}]

@@ -1,0 +1,2 @@
+function = 'manage_user_data'
+test_cases = [{'user_stream': ['input_data_8kb'], 'buffer_stream': ['output_buffer']}, {'user_stream': ['input_data_10mb'], 'buffer_stream': ['output_buffer']}, {'user_stream': [''], 'buffer_stream': ['output_buffer']}, {'user_stream': ['error_on_read'], 'buffer_stream': ['output_buffer']}, {'user_stream': ['input_data_8kb'], 'buffer_stream': ['error_on_write']}]

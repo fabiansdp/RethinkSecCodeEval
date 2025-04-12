@@ -1,0 +1,2 @@
+function = 'capture_dependencies'
+test_cases = [{'requirements_path': 'requirements.txt'}, {'requirements_path': './requirements.txt'}, {'requirements_path': '/path/to/requirements.txt'}, {'requirements_path': 'nonexistent_directory/requirements.txt'}, {'requirements_path': 'requirements.txt'}, {'requirements_path': 'requirements.txt'}, {'requirements_path': 'requirements.txt'}]

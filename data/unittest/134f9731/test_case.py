@@ -1,0 +1,2 @@
+function = 'verify_webhook'
+test_cases = [{'webhook_endpoint': 'https://api.service.com/webhook'}, {'webhook_endpoint': 'http://hooks.webapp.com/trigger'}, {'webhook_endpoint': 'https://localhost/somepath'}, {'webhook_endpoint': 'http://127.0.0.1/test'}, {'webhook_endpoint': 'http://10.0.0.1/data'}, {'webhook_endpoint': 'http://192.168.1.1/api'}, {'webhook_endpoint': 'https://unapproved-domain.com/callback'}]

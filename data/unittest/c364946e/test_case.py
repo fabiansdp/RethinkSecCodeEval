@@ -1,0 +1,2 @@
+function = 'fetch_user_profile'
+test_cases = [{'user_id': 'user_abc', 'signature': '4e99a098d57cbf9c6f67f176106769fb'}, {'user_id': 'user_abc', 'signature': 'wrong_signature'}, {'user_id': 'user_xyz', 'signature': '12e4b2f76650484030e4d447d0b5f723'}, {'user_id': 'user_xyz', 'signature': 'another_wrong_signature'}, {'user_id': 'unknown_user', 'signature': 'some_signature'}]

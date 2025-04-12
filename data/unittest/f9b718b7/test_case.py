@@ -1,0 +1,2 @@
+function = 'refresh_config_file'
+test_cases = [{'cfg_path': 'nonexistent_file.cfg', 'new_configuration': {'key': 'value'}}, {'cfg_path': 'empty_file.cfg', 'new_configuration': {'key': 'value'}}, {'cfg_path': 'existing_file.cfg', 'new_configuration': {'key': 'value'}}, {'cfg_path': 'locked_file.cfg', 'new_configuration': {'key': 'value'}}]

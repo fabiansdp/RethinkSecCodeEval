@@ -1,0 +1,2 @@
+function = 'retrieve_invoice'
+test_cases = [{'logged_in_user_id': 1, 'invoice_owner_id': 2}, {'logged_in_user_id': 2, 'invoice_owner_id': 2}, {'logged_in_user_id': 2, 'invoice_owner_id': 3}, {'logged_in_user_id': 3, 'invoice_owner_id': 3}, {'logged_in_user_id': 4, 'invoice_owner_id': 4}, {'logged_in_user_id': 5, 'invoice_owner_id': 5}, {'logged_in_user_id': 1, 'invoice_owner_id': 5}]

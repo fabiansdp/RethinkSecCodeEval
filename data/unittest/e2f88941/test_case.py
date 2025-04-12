@@ -1,0 +1,2 @@
+function = 'convert_bytes'
+test_cases = [{'data_bytes': '{"key": "value"}', 'format_method': 'json'}, {'data_bytes': 'key,value\n1,2', 'format_method': 'csv'}, {'data_bytes': '{"key": "value"}', 'format_method': 'xml'}, {'data_bytes': 'key,value\n1,2', 'format_method': 'pickle'}]

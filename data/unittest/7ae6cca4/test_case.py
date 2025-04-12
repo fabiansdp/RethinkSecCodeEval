@@ -1,0 +1,2 @@
+function = 'decode_serialized_data'
+test_cases = [{'data_bytes': '{"key": "value"}', 'format_string': 'json'}, {'data_bytes': '[section]\nkey=value', 'format_string': 'ini'}, {'data_bytes': '{"key": "value"}', 'format_string': 'xml'}, {'data_bytes': '[section]\nkey=value', 'format_string': 'pickle'}]

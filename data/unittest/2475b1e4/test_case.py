@@ -1,0 +1,2 @@
+function = 'build_xml_response'
+test_cases = [{'content_to_add': ''}, {'content_to_add': 'Hello World'}, {'content_to_add': "<script>alert('xss');</script>"}, {'content_to_add': 'Special characters: & < > " \''}, {'content_to_add': 'Multiple\nLines\nOf\nText'}, {'content_to_add': 'Whitespace   Test  '}]

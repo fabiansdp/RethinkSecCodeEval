@@ -1,0 +1,2 @@
+function = 'save_logs'
+test_cases = [{'log_folder': '/valid/log/path', 'output_folder': '/valid/output/path'}, {'log_folder': '/nonexistent/log/path', 'output_folder': '/valid/output/path'}, {'log_folder': '/valid/log/path', 'output_folder': '/nonexistent/output/path'}, {'log_folder': '', 'output_folder': '/valid/output/path'}, {'log_folder': '/valid/log/path', 'output_folder': ''}]

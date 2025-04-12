@@ -1,0 +1,2 @@
+function = 'adjust_directory_rights'
+test_cases = [{'folder': "Path('/mock/user-owned-folder')", 'permissions': '0o755'}, {'folder': "Path('/mock/user-owned-folder')", 'permissions': '0o777'}, {'folder': "Path('/mock/non-user-owned-folder')", 'permissions': '0o755'}, {'folder': "Path('/mock/user-owned-folder-with-wrong-perms')", 'permissions': '0o755'}, {'folder': "Path('/mock/user-owned-folder-with-correct-perms')", 'permissions': '0o755'}, {'folder': "Path('/mock/user-owned-subfolder')", 'permissions': '0o755'}]

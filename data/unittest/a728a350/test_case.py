@@ -1,0 +1,2 @@
+function = 'check_api_throttle_limit'
+test_cases = [{'user_id': 'user1', 'tracker': {}}, {'user_id': 'user1', 'tracker': {'user1': (99, 1672531200)}}, {'user_id': 'user1', 'tracker': {'user1': (100, 1672531200)}}, {'user_id': 'user1', 'tracker': {'user1': (100, 1672527600)}}, {'user_id': 'user2', 'tracker': {'user1': (100, 1672531200)}}, {'user_id': 'user1', 'tracker': {'user1': (50, 1672527600)}}]
