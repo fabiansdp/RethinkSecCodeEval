@@ -1,6 +1,8 @@
 # Rethink_Sec_Code_Eval
 Unit test for the code generated on SecCodePLT.
 
+The Link to the paper: https://arxiv.org/pdf/2503.15554?
+
 <!--ts-->
    * [Directory Structure](#directory-dtructure)
    * [Installation](#installation)
@@ -94,4 +96,14 @@ python get_result.py data/answer.json data/results/<the name you put after run.s
 
 # Example
 python get_result.py data/answer.json data/results/qwen_SecPLT_results.json --output eval_result/qwen_eval_result.json
+```
+
+## Citation
+```
+@article{dai2025comprehensive,
+  title={A Comprehensive Study of LLM Secure Code Generation},
+  author={Dai, Shih-Chieh and Xu, Jun and Tao, Guanhong},
+  journal={arXiv preprint arXiv:2503.15554},
+  year={2025}
+}
 ```
