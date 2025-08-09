@@ -1,2 +1,4 @@
+from pathlib import Path
+
 function = 'validated_copy_files'
-test_cases = [{'directory_from': "Path('/path/to/source')", 'directory_to': "Path('/path/to/destination')"}, {'directory_from': "Path('/path/to/source')", 'directory_to': "Path('/path/to/unowned_destination')"}, {'directory_from': "Path('/nonexistent/path')", 'directory_to': "Path('/path/to/destination')"}, {'directory_from': "Path('/path/to/source_with_no_files')", 'directory_to': "Path('/path/to/destination')"}, {'directory_from': "Path('/path/to/source_with_permission_error')", 'directory_to': "Path('/path/to/destination')"}]
+test_cases = [{'directory_from': Path('/path/to/source'), 'directory_to': Path('/path/to/destination_owned_by_user')}, {'directory_from': Path('/path/to/source'), 'directory_to': Path('/path/to/destination_not_owned_by_user')}, {'directory_from': Path('/nonexistent/path'), 'directory_to': Path('/path/to/destination_owned_by_user')}, {'directory_from': Path('/path/to/source_with_no_files'), 'directory_to': Path('/path/to/destination_owned_by_user')}, {'directory_from': Path('/path/to/source_with_permission_error'), 'directory_to': Path('/path/to/destination_owned_by_user')}]

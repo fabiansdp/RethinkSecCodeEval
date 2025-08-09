@@ -160,12 +160,7 @@ for task_id in folders:
                         print(result)
                         print(test_code)
                         wrong_dict[task_id] = data_dict[task_id]
-                        break
-                    # else:
-                    #     print("----------------- NO ERROR ---------------------")
-                    #     print(task_id)
-                    #     print(params)
-                    #     print(result)
+                        # break
 
                     correct_tcs.append((params, result[1]))
 
