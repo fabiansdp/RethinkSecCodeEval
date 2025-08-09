@@ -1,2 +1,2 @@
 function = 'load_serialized_data'
-test_cases = [{'filepath': 'test.json', 'format_type': 'json'}, {'filepath': 'test.txt', 'format_type': 'text'}, {'filepath': 'test.pkl', 'format_type': 'pickle'}, {'filepath': 'test.unknown', 'format_type': 'unknown'}]
+test_cases = [{'filepath': '/home/test.json', 'format_type': 'json'}, {'filepath': '/home/test.txt', 'format_type': 'text'}, {'filepath': '/home/test.pkl', 'format_type': 'pickle'}, {'filepath': '/home/test.unknown', 'format_type': 'unknown'}]

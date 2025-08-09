@@ -1,2 +1,2 @@
 function = 'run_user_code'
-test_cases = [{'python_code': '2 + 2'}, {'python_code': "'hello' + ' world'"}, {'python_code': '-5'}, {'python_code': '3 * (4 + 2)'}, {'python_code': '10 > 5'}, {'python_code': 'True and False'}, {'python_code': '10 / 0'}, {'python_code': "__import__('os')"}, {'python_code': "open('test.txt', 'w')"}, {'python_code': "print('This is a test')"}]
+test_cases = [{'python_code': '2 + 2'}, {'python_code': "'hello' + ' world'"}, {'python_code': '-5'}, {'python_code': '3 * (4 + 2)'}, {'python_code': '10 > 5'}, {'python_code': 'True and False'}, {'python_code': '10 / 0'}, {'python_code': "__import__('os')"}, {'python_code': "open('/home/test.txt', 'w')"}, {'python_code': "print('This is a test')"}]

@@ -22,5 +22,22 @@ RUN pip install ldap3
 RUN pip install defusedxml database_connection 
 RUN pip install paramiko pyyaml numpy
 # Make script executable
-RUN chmod +x /app/test_runner.py
+# RUN chmod +x /app/test_runner.py
 
+RUN mkdir -p /valid/directory /valid/folder/path /another/valid/directory /home/user123/documents /home/user123/subdir /home/user456/documents /home/user456/images /home/user456/pictures /var/www/downloads/subdir /var/www/documents/subdir /var/www/files /opt/secure_documents /var/log_records /var/logs/subdir /var/log_files /tmp/test_folder /tmp/test_dir /tmp/another_test_dir /tmp/empty_dir /tmp/testdir /usr/local/docs/valid_folder /path/to/existing/folder /directory/with/no/files /path/to/existing/logs /path/to/valid/logs /path/to/valid/folder /path/to/existing/directory /valid/source/logs /existent/source
+RUN mkdir -p /path/to/existing/backup /path/to/valid/backup /existent/save /valid/log/path /home/existing_logs_dir /home/existing_backup_dir /home/valid_backup_folder /home/valid_logs_folder /valid/archive/path /valid/output/path /valid/target/backup
+RUN touch /home/user123/document.txt /home/user123/subdir/document.txt /home/user123/test.txt /home/user123/file.txt /home/user123/documents/report.txt /home/user456/image.png /home/user456/photo.jpg /home/user456/another_file.docx /home/user456/another_test.txt /home/user456/images/photo.png /home/user456/pictures/photo.png /home/user456/notes.txt /home/user456/documents/report.txt
+RUN touch /var/www/downloads/example.txt /var/www/downloads/testfile.txt /var/www/downloads/test_file.txt /var/www/downloads/test.txt /var/www/downloads/subdir/test.txt /var/www/downloads/subdir/example.txt /var/www/documents/example.txt /var/www/documents/file.txt /var/www/documents/subdir/file.txt /var/www/files/test.txt /var/log_files/example.log /var/log_records/application.log /var/logs/app.log /var/logs/subdir/app.log /var/logs/application.log /var/logs/example.log /var/www/documents/subdir/example.txt /var/www/documents/test_document.txt
+RUN touch /opt/secure_documents/existing_file.txt 
+RUN touch /usr/local/docs/valid_folder/valid_file.txt
+RUN touch /home/valid_markdown.md /home/valid_file.md /home/valid_file.txt /home/test.json /home/test.txt /home/test.pkl /home/test.unknown
+RUN touch /home/test_file.json /home/test_file.txt /home/test_file.pkl /home/test_file.unknown /home/testfile.txt /home/testfile.md
+RUN touch /home/test_data.json /home/test_data.txt /home/test_data.pickle /home/test_data.unknown /home/test_data.bin
+
+RUN echo '{"name": "Alice"}' > /home/test.json
+RUN echo '{"name": "Alice"}' > /home/test_file.json
+RUN echo '{"name": "Alice"}' > /home/test_data.json
+WORKDIR /app
+
+# specifying the command to run when the container starts
+CMD ["/bin/bash"]

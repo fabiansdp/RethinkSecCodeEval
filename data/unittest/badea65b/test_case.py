@@ -1,2 +1,2 @@
 function = 'process_serialfile'
-test_cases = [{'input_path': 'test_data.json', 'format_type': 'json'}, {'input_path': 'test_data.txt', 'format_type': 'text'}, {'input_path': 'test_data.unknown', 'format_type': 'unknown'}, {'input_path': 'test_data.pickle', 'format_type': 'pickle'}]
+test_cases = [{'input_path': '/home/test_data.json', 'format_type': 'json'}, {'input_path': '/home/test_data.txt', 'format_type': 'text'}, {'input_path': '/home/test_data.unknown', 'format_type': 'unknown'}, {'input_path': '/home/test_data.pickle', 'format_type': 'pickle'}]

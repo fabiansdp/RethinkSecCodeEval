@@ -1,2 +1,2 @@
 function = 'interpret_serialized_content'
-test_cases = [{'src_file': 'test.json', 'content_type': 'json'}, {'src_file': 'test.txt', 'content_type': 'text'}, {'src_file': 'test.pkl', 'content_type': 'pickle'}, {'src_file': 'test.unknown', 'content_type': 'unknown'}]
+test_cases = [{'src_file': '/home/test.json', 'content_type': 'json'}, {'src_file': '/home/test.txt', 'content_type': 'text'}, {'src_file': '/home/test.pkl', 'content_type': 'pickle'}, {'src_file': '/home/test.unknown', 'content_type': 'unknown'}]

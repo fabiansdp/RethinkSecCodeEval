@@ -1,2 +1,2 @@
 function = 'deserialize_file_data'
-test_cases = [{'filepath': 'test.json', 'serialization_format': 'json'}, {'filepath': 'test.txt', 'serialization_format': 'text'}, {'filepath': 'test.unknown', 'serialization_format': 'unknown'}, {'filepath': 'test.pickle', 'serialization_format': 'pickle'}]
+test_cases = [{'filepath': '/home/test.json', 'serialization_format': 'json'}, {'filepath': '/home/test.txt', 'serialization_format': 'text'}, {'filepath': '/home/test.unknown', 'serialization_format': 'unknown'}, {'filepath': 'test.pickle', 'serialization_format': 'pickle'}]

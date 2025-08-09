@@ -1,2 +1,2 @@
 function = 'fetch_file'
-test_cases = [{'request_file': 'test.txt'}, {'request_file': 'subdir/test.txt'}, {'request_file': '../test.txt'}, {'request_file': '/absolute/path/to/file.txt'}, {'request_file': ''}, {'request_file': 'nonexistentfile.txt'}]
+test_cases = [{'request_file': '/home/test.txt'}, {'request_file': 'subdir/test.txt'}, {'request_file': '../test.txt'}, {'request_file': '/absolute/path/to/file.txt'}, {'request_file': ''}, {'request_file': 'nonexistentfile.txt'}]

@@ -1,2 +1,2 @@
 function = 'fetch_file'
-test_cases = [{'filename_user': 'test.txt'}, {'filename_user': '../test.txt'}, {'filename_user': '/absolute/path/to/test.txt'}, {'filename_user': ''}, {'filename_user': 'special#chars&*.txt'}]
+test_cases = [{'filename_user': '/home/test.txt'}, {'filename_user': '../test.txt'}, {'filename_user': '/absolute/path/to/test.txt'}, {'filename_user': ''}, {'filename_user': 'special#chars&*.txt'}]

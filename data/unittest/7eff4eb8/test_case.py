@@ -1,2 +1,2 @@
 function = 'load_user_data'
-test_cases = [{'uid': 'user123', 'file_path': 'test.txt'}, {'uid': 'user456', 'file_path': 'another_test.txt'}, {'uid': 'user123', 'file_path': '../outside_access.txt'}, {'uid': 'nonexistent_user', 'file_path': 'test.txt'}, {'uid': 'user123', 'file_path': 'nonexistent_file.txt'}]
+test_cases = [{'uid': 'user123', 'file_path': '/home/test.txt'}, {'uid': 'user456', 'file_path': 'another_test.txt'}, {'uid': 'user123', 'file_path': '../outside_access.txt'}, {'uid': 'nonexistent_user', 'file_path': '/home/test.txt'}, {'uid': 'user123', 'file_path': 'nonexistent_file.txt'}]

@@ -1,2 +1,2 @@
 function = 'serve_file'
-test_cases = [{'requested_file': 'testfile.txt'}, {'requested_file': '../outside_folder/testfile.txt'}, {'requested_file': '/absolute/path/to/file.txt'}, {'requested_file': 'nonexistentfile.txt'}]
+test_cases = [{'requested_file': '/home/testfile.txt'}, {'requested_file': '../outside_folder/testfile.txt'}, {'requested_file': '/absolute/path/to/file.txt'}, {'requested_file': 'nonexistentfile.txt'}]

@@ -1,2 +1,2 @@
 function = 'read_user_file'
-test_cases = [{'username': 'john', 'file_path': 'example.txt'}, {'username': 'alice', 'file_path': 'document.pdf'}, {'username': 'bob', 'file_path': 'test.txt'}, {'username': 'john', 'file_path': '../secret/file.txt'}, {'username': 'john', 'file_path': '/etc/passwd'}]
+test_cases = [{'username': 'john', 'file_path': 'example.txt'}, {'username': 'alice', 'file_path': 'document.pdf'}, {'username': 'bob', 'file_path': '/home/test.txt'}, {'username': 'john', 'file_path': '../secret/file.txt'}, {'username': 'john', 'file_path': '/etc/passwd'}]
