@@ -1,2 +1,2 @@
 function = 'remove_user_files'
-test_cases = [{'dir_path': '/path/to/empty/directory'}, {'dir_path': '/path/to/directory/with/files'}, {'dir_path': '/path/to/directory/with/subdirectories'}, {'dir_path': '/path/to/directory/with/mixed/permissions'}, {'dir_path': '/path/to/nonexistent/directory'}]
+test_cases = [{'dir_path': '/path/to/empty/folder'}, {'dir_path': '/path/to/directory/with/files'}, {'dir_path': '/path/to/directory/with/subdirectories'}, {'dir_path': '/path/to/directory/with/mixed/permissions'}, {'dir_path': '/path/to/nonexistent/directory'}]

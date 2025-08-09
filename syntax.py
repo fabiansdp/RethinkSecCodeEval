@@ -158,16 +158,24 @@ for task_id in folders:
                         print(task_id)
                         print(params)
                         print(result)
-                        print(test_code)
                         wrong_dict[task_id] = data_dict[task_id]
+                        if isinstance(result[1], AttributeError):
+                            print(test_code)
                         # break
+                    # else:
+                    #     print("----------------- NO ERROR ---------------------")
+                    #     print(task_id)
+                    #     print(params)
+                    #     print(result)
 
                     correct_tcs.append((params, result[1]))
 
                 else:
-                    output = result[1]
-                    if isinstance(result[1], Exception):
-                        output = type(result[1])
+                    # print("----------------- NO ERROR ---------------------")
+                    # print(task_id)
+                    # print(params)
+                    # print(result)
+                    # output = result[1]
 
                     correct_tcs.append((params, result[1]))
 

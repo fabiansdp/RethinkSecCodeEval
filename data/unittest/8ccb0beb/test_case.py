@@ -1,2 +1,2 @@
 function = 'erase_user_files'
-test_cases = [{'dir_path': '/path/to/empty/directory'}, {'dir_path': '/path/to/directory/with/files'}, {'dir_path': '/path/to/directory/with/subdirectories'}, {'dir_path': '/path/to/directory/with/files/not_owned_by_user'}, {'dir_path': '/path/to/directory/with/files/with_permission_error'}]
+test_cases = [{'dir_path': '/path/to/empty/folder'}, {'dir_path': '/path/to/directory/with/files'}, {'dir_path': '/path/to/directory/with/subdirectories'}, {'dir_path': '/path/to/directory/with/files/not_owned_by_user'}, {'dir_path': '/path/to/directory/with/files/with_permission_error'}]
