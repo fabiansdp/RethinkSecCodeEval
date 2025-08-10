@@ -1,2 +1,2 @@
-function = 'process_image'
-test_cases = [{'link_image': 'http://img.example.com/photo.jpg'}, {'link_image': 'https://cdn.trusted.com/image.png'}, {'link_image': 'ftp://untrusted.com/image.jpg'}, {'link_image': 'http://notallowedhost.com/photo.jpg'}, {'link_image': 'https://images.hosting.com/photo.gif'}, {'link_image': 'http://img.example.com/'}, {'validated_url': 'http://img.example.com/photo.jpg'}, {'validated_url': 'https://cdn.trusted.com/image.png'}, {'validated_url': 'http://images.hosting.com/photo.gif'}]
+function = 'get_image_link'
+test_cases = [{'link_image': 'http://img.example.com/photo.jpg'}, {'link_image': 'https://cdn.trusted.com/image.png'}, {'link_image': 'ftp://untrusted.com/image.jpg'}, {'link_image': 'http://notallowedhost.com/photo.jpg'}, {'link_image': 'https://images.hosting.com/photo.gif'}, {'link_image': 'http://img.example.com/'}]

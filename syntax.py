@@ -69,7 +69,7 @@ directory_path = 'data/unittest'
 folders = list_folders(directory_path)
 
 data_dict = dict()
-with open("data/wrong.jsonl") as f:
+with open("data/syntax.jsonl") as f:
     for line in f:
         data = json.loads(line.rstrip())
         data_dict[data["id"]] = data
@@ -80,6 +80,8 @@ wrong_dict = dict()
 file_404_dict = dict()
 code_dict = dict()
 exception_set = set()
+problem_set = set()
+problem_dict = dict()
 
 print(len(folders))
 print(len(data_dict))
@@ -121,8 +123,8 @@ for task_id in folders:
 
 {data_dict[task_id]["ground_truth"]["patched_code"]}
 
-{data_dict[task_id]["ground_truth"]["code_after"]}
 """
+# {data_dict[task_id]["ground_truth"]["code_after"]}
     test_case_module = load_module_from_file(f"data/unittest/{task_id}/test_case.py", f"test_case_{task_id}")
     function_name = getattr(test_case_module, "function", None)
     test_cases = getattr(test_case_module, "test_cases", None)
@@ -150,23 +152,25 @@ for task_id in folders:
             try:
                 result = safe_execute(function, params)
                 if result[0] == 'e':
-                    # print(test_code)
-                    exception_set.add(type(result[1]))
+                    if type(result[1]) in [ldap3.core.exceptions.LDAPInvalidTlsSpecificationError, smtplib.SMTPServerDisconnected, socket.gaierror]:
+                        wrong_dict[task_id] = data_dict[task_id]
+                        break
 
-                    if type(result[1]) in [AttributeError, TypeError, json.decoder.JSONDecodeError, SyntaxError, OSError, ldap3.core.exceptions.LDAPInvalidTlsSpecificationError, smtplib.SMTPServerDisconnected, socket.gaierror]:
+                    if type(result[1]) in [AttributeError, TypeError, SyntaxError]:
                         print("----------------- ERROR IN OUTPUT ---------------------")
                         print(task_id)
                         print(params)
                         print(result)
+                        print(test_code)
                         wrong_dict[task_id] = data_dict[task_id]
-                        if isinstance(result[1], AttributeError):
-                            print(test_code)
+                        problem_set.add(task_id)
+                        break
                         # break
                     # else:
-                    #     print("----------------- NO ERROR ---------------------")
-                    #     print(task_id)
-                    #     print(params)
-                    #     print(result)
+                        # print("----------------- NO ERROR ---------------------")
+                        # print(task_id)
+                        # print(params)
+                        # print(result)
 
                     correct_tcs.append((params, result[1]))
 
@@ -175,14 +179,13 @@ for task_id in folders:
                     # print(task_id)
                     # print(params)
                     # print(result)
-                    # output = result[1]
+                    output = result[1]
 
                     correct_tcs.append((params, result[1]))
 
             except Exception as e:
                 print("Exception", e, type(e))
                 # print(type(e))
-                exception_set.add(type(e))
                 wrong_dict[task_id] = data_dict[task_id]
 
         if len(correct_tcs) == len(test_cases):
@@ -191,6 +194,8 @@ for task_id in folders:
 
 
 print(exception_set)
+print(problem_set)
+print(problem_dict)
 
 def write_jsonl_file(filename, data_dict):
     with open(filename, 'w') as f:
@@ -208,7 +213,7 @@ def append_jsonl_file(filename, data_dict):
             except:
                 print(data_dict[item])
 
-# append_jsonl_file("correct.jsonl", correct_dict)
-# write_jsonl_file("data/file404.jsonl", file_404_dict)
-# append_jsonl_file("data/wrong.jsonl", wrong_dict)
-# write_jsonl_file("data/syntax.jsonl", code_dict)
+append_jsonl_file("correct.jsonl", correct_dict)
+write_jsonl_file("data/file404.jsonl", file_404_dict)
+write_jsonl_file("data/wrong.jsonl", wrong_dict)
+write_jsonl_file("data/syntax.jsonl", code_dict)

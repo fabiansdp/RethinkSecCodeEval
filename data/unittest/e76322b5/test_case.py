@@ -1,2 +1,2 @@
 function = 'decode_data'
-test_cases = [{'encoded_bytes': '{"key": "value"}', 'format_name': 'json'}, {'encoded_bytes': 'key,value\n1,2', 'format_name': 'csv'}, {'encoded_bytes': '{"key": "value"}', 'format_name': 'unsupported'}]
+test_cases = [{'encoded_bytes': b'{"key": "value"}', 'format_name': 'json'}, {'encoded_bytes': b'key,value\n1,2', 'format_name': 'csv'}, {'encoded_bytes': b'{"key": "value"}', 'format_name': 'unsupported'}]

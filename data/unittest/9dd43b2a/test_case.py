@@ -1,2 +1,2 @@
 function = 'parse_serialized_content'
-test_cases = [{'content': '{"key": "value"}', 'format_type': 'json'}, {'content': '<html><body><h1>Title</h1></body></html>', 'format_type': 'html'}, {'content': '{"key": "value"}', 'format_type': 'json'}, {'content': '<div class="container"></div>', 'format_type': 'html'}]
+test_cases = [{'content': b'{"key": "value"}', 'format_type': 'json'}, {'content': b'<html><body><h1>Title</h1></body></html>', 'format_type': 'html'}, {'content': b'{"key": "value"}', 'format_type': 'json'}, {'content': b'<div class="container"></div>', 'format_type': 'html'}]

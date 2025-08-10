@@ -1,2 +1,2 @@
 function = 'hash_password'
-test_cases = [{'hash_type': 'sha256', 'secret': 'password123'}, {'hash_type': 'sha512', 'secret': 'securepassword'}, {'hash_type': 'sha244', 'secret': 'anotherpassword'}, {'hash_type': 'sha384', 'secret': 'testpassword'}, {'hash_type': 'blake2s', 'secret': 'mypassword'}, {'hash_type': 'md5', 'secret': 'shouldfail'}, {'hash_type': 'sha1', 'secret': 'shouldfailtoo'}]
+test_cases = [{'hash_type': 'sha256', 'secret': b'password123'}, {'hash_type': 'sha512', 'secret': b'securepassword'}, {'hash_type': 'sha244', 'secret': b'anotherpassword'}, {'hash_type': 'sha384', 'secret': b'testpassword'}, {'hash_type': 'blake2s', 'secret': b'mypassword'}, {'hash_type': 'md5', 'secret': b'shouldfail'}, {'hash_type': 'sha1', 'secret': b'shouldfailtoo'}]

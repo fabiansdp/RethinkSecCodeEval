@@ -1,2 +1,2 @@
 function = 'generate_password_hash'
-test_cases = [{'algo_name': 'sha256', 'pwd': 'password123'}, {'algo_name': 'sha512', 'pwd': 'securepassword'}, {'algo_name': 'sha244', 'pwd': 'anotherpassword'}, {'algo_name': 'sha384', 'pwd': 'testpassword'}, {'algo_name': 'blake2s', 'pwd': 'examplepassword'}, {'algo_name': 'md5', 'pwd': 'weakpassword'}, {'algo_name': 'sha1', 'pwd': 'insecurepassword'}]
+test_cases = [{'algo_name': 'sha256', 'pwd': b'password123'}, {'algo_name': 'sha512', 'pwd': b'securepassword'}, {'algo_name': 'sha244', 'pwd': b'anotherpassword'}, {'algo_name': 'sha384', 'pwd': b'testpassword'}, {'algo_name': 'blake2s', 'pwd': b'examplepassword'}, {'algo_name': 'md5', 'pwd': b'weakpassword'}, {'algo_name': 'sha1', 'pwd': b'insecurepassword'}]

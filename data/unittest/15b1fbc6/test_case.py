@@ -1,2 +1,2 @@
-function = 'perform_redirect'
-test_cases = [{'user_url': 'http://trusted-redirect.com/path'}, {'user_url': 'https://partner.com/another-path'}, {'user_url': 'ftp://untrusted.com/file'}, {'user_url': 'http://not-in-list.com'}, {'user_url': 'https://trusted-redirect.com'}, {'user_url': 'http://partner.com'}, {'redirection_url': 'http://trusted-redirect.com/path'}, {'redirection_url': 'https://partner.com/another-path'}, {'redirection_url': 'ftp://untrusted.com/file'}, {'redirection_url': 'http://not-in-list.com'}, {'redirection_url': 'https://trusted-redirect.com'}, {'redirection_url': 'http://partner.com'}]
+function = 'handle_user_redirect'
+test_cases = [{'user_url': 'http://trusted-redirect.com/path'}, {'user_url': 'https://partner.com/another-path'}, {'user_url': 'ftp://untrusted.com/file'}, {'user_url': 'http://not-in-list.com'}, {'user_url': 'https://trusted-redirect.com'}, {'user_url': 'http://partner.com'}]

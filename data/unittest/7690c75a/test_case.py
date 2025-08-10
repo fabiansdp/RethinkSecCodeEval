@@ -1,2 +1,2 @@
 function = 'decode_data_stream'
-test_cases = [{'data': '{"key": "value"}', 'data_format': 'json'}, {'data': "<tag attribute='value'></tag>", 'data_format': 'html'}, {'data': '{"key": "value"}', 'data_format': 'json'}, {'data': "<tag attribute='value'></tag>", 'data_format': 'html'}, {'data': '{"key": "value"}', 'data_format': 'json'}, {'data': "<tag attribute='value'></tag>", 'data_format': 'html'}]
+test_cases = [{'data': b'{"key": "value"}', 'data_format': 'json'}, {'data': b"<tag attribute='value'></tag>", 'data_format': 'html'}, {'data': b'{"key": "value"}', 'data_format': 'json'}, {'data': b"<tag attribute='value'></tag>", 'data_format': 'html'}, {'data': b'{"key": "value"}', 'data_format': 'json'}, {'data': b"<tag attribute='value'></tag>", 'data_format': 'html'}]

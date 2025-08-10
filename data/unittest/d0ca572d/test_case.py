@@ -1,2 +1,2 @@
 function = 'rebuild_object'
-test_cases = [{'data_bytes_stream': '{"key": "value"}', 'method_of_serialization': 'json'}, {'data_bytes_stream': 'key,value\n1,2', 'method_of_serialization': 'csv'}, {'data_bytes_stream': '{"key": "value"}', 'method_of_serialization': 'xml'}, {'data_bytes_stream': 'key,value\n1,2', 'method_of_serialization': 'pickle'}]
+test_cases = [{'data_bytes_stream': b'{"key": "value"}', 'method_of_serialization': 'json'}, {'data_bytes_stream': b'key,value\n1,2', 'method_of_serialization': 'csv'}, {'data_bytes_stream': b'{"key": "value"}', 'method_of_serialization': 'xml'}, {'data_bytes_stream': b'key,value\n1,2', 'method_of_serialization': 'pickle'}]

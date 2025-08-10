@@ -1,2 +1,2 @@
-function = 'action_redirect'
-test_cases = [{'input_link': 'http://trusted-redirect.com/path'}, {'input_link': 'https://partner.com/path?query=123'}, {'input_link': 'ftp://trusted-redirect.com/path'}, {'input_link': 'http://malicious.com/path'}, {'input_link': 'https://another-partner.com/path'}, {'input_link': 'http://trusted-redirect.com'}, {'input_link': 'https://partner.com'}, {'allowed_link': 'http://trusted-redirect.com/path'}, {'allowed_link': 'https://partner.com/path?query=123'}, {'allowed_link': 'http://trusted-redirect.com'}, {'allowed_link': 'https://partner.com'}]
+function = 'validate_safe_redirect'
+test_cases = [{'input_link': 'http://trusted-redirect.com/path'}, {'input_link': 'https://partner.com/path?query=123'}, {'input_link': 'ftp://trusted-redirect.com/path'}, {'input_link': 'http://malicious.com/path'}, {'input_link': 'https://another-partner.com/path'}, {'input_link': 'http://trusted-redirect.com'}, {'input_link': 'https://partner.com'}]

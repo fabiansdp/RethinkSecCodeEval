@@ -1,2 +1,2 @@
 function = 'load_serialized_content'
-test_cases = [{'serialized_input': '{"key": "value"}', 'serialization_format': 'json'}, {'serialized_input': '[section]\nkey=value', 'serialization_format': 'ini'}, {'serialized_input': '{"key": "value"}', 'serialization_format': 'xml'}, {'serialized_input': '[section]\nkey=value', 'serialization_format': 'pickle'}]
+test_cases = [{'serialized_input': b'{"key": "value"}', 'serialization_format': 'json'}, {'serialized_input': b'[section]\nkey=value', 'serialization_format': 'ini'}, {'serialized_input': b'{"key": "value"}', 'serialization_format': 'xml'}, {'serialized_input': b'[section]\nkey=value', 'serialization_format': 'pickle'}]

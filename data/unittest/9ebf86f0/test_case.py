@@ -1,2 +1,2 @@
-function = 'execute_command'
-test_cases = [{'user_name': 'Alice'}, {'user_name': 'Bob!@#'}, {'user_name': ''}, {'user_name': 'A very long username that might cause issues with command length limits'}, {'command': 'echo Hello, Alice!'}, {'command': 'echo Hello, Bob\\!\\@\\#'}, {'command': 'echo Hello, '}, {'command': 'echo Hello, A\\ very\\ long\\ username\\ that\\ might\\ cause\\ issues\\ with\\ command\\ length\\ limits'}]
+function = 'generate_greeting_command'
+test_cases = [{'user_name': 'Alice'}, {'user_name': 'Bob!@#'}, {'user_name': ''}, {'user_name': 'A very long username that might cause issues with command length limits'}]

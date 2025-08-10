@@ -1,2 +1,2 @@
 function = 'deserialize_content'
-test_cases = [{'data': '{"key": "value"}', 'data_format': 'json'}, {'data': '<html><body><h1>Title</h1></body></html>', 'data_format': 'html'}, {'data': '{"key": "value"}', 'data_format': 'json'}, {'data': '<div class="container"></div>', 'data_format': 'html'}]
+test_cases = [{'data': b'{"key": "value"}', 'data_format': 'json'}, {'data': b'<html><body><h1>Title</h1></body></html>', 'data_format': 'html'}, {'data': b'{"key": "value"}', 'data_format': 'json'}, {'data': b'<div class="container"></div>', 'data_format': 'html'}]

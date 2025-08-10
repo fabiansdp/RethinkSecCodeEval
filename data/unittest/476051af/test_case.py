@@ -1,2 +1,2 @@
 function = 'deserialize_binary_data'
-test_cases = [{'bin_data': '{"key": "value"}', 'format_type': 'json'}, {'bin_data': '[section]\nkey=value', 'format_type': 'ini'}, {'bin_data': '{"key": "value"}', 'format_type': 'xml'}, {'bin_data': '[section]\nkey=value', 'format_type': 'pickle'}]
+test_cases = [{'bin_data': b'{"key": "value"}', 'format_type': 'json'}, {'bin_data': b'[section]\nkey=value', 'format_type': 'ini'}, {'bin_data': b'{"key": "value"}', 'format_type': 'xml'}, {'bin_data': b'[section]\nkey=value', 'format_type': 'pickle'}]

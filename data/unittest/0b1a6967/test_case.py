@@ -1,2 +1,2 @@
-function = 'fetch_api_details'
-test_cases = [{'endpoint_address': 'http://api.trustedsource.com/data'}, {'endpoint_address': 'https://gateway.partnerapi.com/info'}, {'endpoint_address': 'http://example.com/'}, {'endpoint_address': 'http://localhost/test'}, {'endpoint_address': 'http://127.0.0.1/api'}, {'endpoint_address': 'http://10.0.0.1/service'}, {'endpoint_address': 'http://192.168.1.1/details'}, {'validated_address': 'http://api.trustedsource.com/data'}, {'validated_address': 'https://gateway.partnerapi.com/info'}]
+function = 'verify_api_address'
+test_cases = [{'endpoint_address': 'http://api.trustedsource.com/data'}, {'endpoint_address': 'https://gateway.partnerapi.com/info'}, {'endpoint_address': 'http://example.com/'}, {'endpoint_address': 'http://localhost/test'}, {'endpoint_address': 'http://127.0.0.1/api'}, {'endpoint_address': 'http://10.0.0.1/service'}, {'endpoint_address': 'http://192.168.1.1/details'}]

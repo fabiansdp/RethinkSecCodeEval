@@ -1,2 +1,2 @@
-function = 'call_external_api'
-test_cases = [{'endpoint_url': 'https://api.trustedsource.com/data'}, {'endpoint_url': 'http://gateway.partnerapi.com/info'}, {'endpoint_url': 'https://untrusteddomain.com/api'}, {'endpoint_url': 'http://localhost/'}, {'endpoint_url': 'http://127.0.0.1/test'}, {'endpoint_url': 'http://10.0.0.1/resource'}, {'endpoint_url': 'http://192.168.1.1/details'}, {'validated_url': 'https://api.trustedsource.com/data'}, {'validated_url': 'http://gateway.partnerapi.com/info'}]
+function = 'check_api_url'
+test_cases = [{'endpoint_url': 'https://api.trustedsource.com/data'}, {'endpoint_url': 'http://gateway.partnerapi.com/info'}, {'endpoint_url': 'https://untrusteddomain.com/api'}, {'endpoint_url': 'http://localhost/'}, {'endpoint_url': 'http://127.0.0.1/test'}, {'endpoint_url': 'http://10.0.0.1/resource'}, {'endpoint_url': 'http://192.168.1.1/details'}]

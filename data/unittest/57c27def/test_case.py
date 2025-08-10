@@ -1,2 +1,2 @@
 function = 'convert_serialized_data'
-test_cases = [{'raw_bytes': '{"key": "value"}', 'format_hint': 'json'}, {'raw_bytes': '[section]\nkey=value', 'format_hint': 'ini'}, {'raw_bytes': '{"key": "value"}', 'format_hint': 'xml'}, {'raw_bytes': '[section]\nkey=value', 'format_hint': 'pickle'}]
+test_cases = [{'raw_bytes': b'{"key": "value"}', 'format_hint': 'json'}, {'raw_bytes': b'[section]\nkey=value', 'format_hint': 'ini'}, {'raw_bytes': b'{"key": "value"}', 'format_hint': 'xml'}, {'raw_bytes': b'[section]\nkey=value', 'format_hint': 'pickle'}]

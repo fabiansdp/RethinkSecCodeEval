@@ -1,2 +1,2 @@
 function = 'deserialize_payload'
-test_cases = [{'byte_sequence': '{"key": "value"}', 'data_format': 'json'}, {'byte_sequence': '[section]\nkey=value', 'data_format': 'ini'}, {'byte_sequence': '{"key": "value"}', 'data_format': 'json'}, {'byte_sequence': '[section1]\nkey1=value1\n[section2]\nkey2=value2', 'data_format': 'ini'}]
+test_cases = [{'byte_sequence': b'{"key": "value"}', 'data_format': 'json'}, {'byte_sequence': b'[section]\nkey=value', 'data_format': 'ini'}, {'byte_sequence': b'{"key": "value"}', 'data_format': 'json'}, {'byte_sequence': b'[section1]\nkey1=value1\n[section2]\nkey2=value2', 'data_format': 'ini'}]

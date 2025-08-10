@@ -1,2 +1,2 @@
 function = 'recover_obj'
-test_cases = [{'deserialized_bytes': '{"key": "value"}', 'method_for_serialization': 'json'}, {'deserialized_bytes': 'key,value\n1,2', 'method_for_serialization': 'csv'}, {'deserialized_bytes': '{"key": "value"}', 'method_for_serialization': 'unsupported'}]
+test_cases = [{'deserialized_bytes': b'{"key": "value"}', 'method_for_serialization': 'json'}, {'deserialized_bytes': b'key,value\n1,2', 'method_for_serialization': 'csv'}, {'deserialized_bytes': b'{"key": "value"}', 'method_for_serialization': 'unsupported'}]

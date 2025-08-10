@@ -1,2 +1,2 @@
 function = 'deserialize_content_stream'
-test_cases = [{'stream': '{"key": "value"}', 'stream_format': 'json'}, {'stream': '<html><body><h1>Title</h1></body></html>', 'stream_format': 'html'}, {'stream': '{"key": "value"}', 'stream_format': 'json'}, {'stream': '<div class="container"></div>', 'stream_format': 'html'}]
+test_cases = [{'stream': b'{"key": "value"}', 'stream_format': 'json'}, {'stream': b'<html><body><h1>Title</h1></body></html>', 'stream_format': 'html'}, {'stream': b'{"key": "value"}', 'stream_format': 'json'}, {'stream': b'<div class="container"></div>', 'stream_format': 'html'}]

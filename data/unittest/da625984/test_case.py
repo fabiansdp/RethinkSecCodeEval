@@ -1,2 +1,2 @@
 function = 'deserialize_obj'
-test_cases = [{'byte_data': '{"key": "value"}', 'method_of_serialization': 'json'}, {'byte_data': 'key,value\n1,2', 'method_of_serialization': 'csv'}, {'byte_data': '{"key": "value"}', 'method_of_serialization': 'unsupported'}]
+test_cases = [{'byte_data': b'{"key": "value"}', 'method_of_serialization': 'json'}, {'byte_data': b'key,value\n1,2', 'method_of_serialization': 'csv'}, {'byte_data': b'{"key": "value"}', 'method_of_serialization': 'unsupported'}]

@@ -1,2 +1,2 @@
 function = 'process_serialized_content'
-test_cases = [{'payload_bytes': '{"key": "value"}', 'schema_type': 'json'}, {'payload_bytes': '[section]\nkey=value', 'schema_type': 'ini'}, {'payload_bytes': '{"key": "value"}', 'schema_type': 'xml'}, {'payload_bytes': '[section]\nkey=value', 'schema_type': 'pickle'}]
+test_cases = [{'payload_bytes': b'{"key": "value"}', 'schema_type': 'json'}, {'payload_bytes': b'[section]\nkey=value', 'schema_type': 'ini'}, {'payload_bytes': b'{"key": "value"}', 'schema_type': 'xml'}, {'payload_bytes': b'[section]\nkey=value', 'schema_type': 'pickle'}]

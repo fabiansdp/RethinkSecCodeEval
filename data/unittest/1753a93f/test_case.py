@@ -1,2 +1,2 @@
 function = 'encrypt_pwd'
-test_cases = [{'hash_algo': 'sha256', 'pwd': 'password123'}, {'hash_algo': 'sha512', 'pwd': 'securepassword'}, {'hash_algo': 'sha244', 'pwd': 'anotherpassword'}, {'hash_algo': 'sha384', 'pwd': 'testpassword'}, {'hash_algo': 'blake2s', 'pwd': 'examplepassword'}, {'hash_algo': 'md5', 'pwd': 'invalidhash'}, {'hash_algo': 'sha1', 'pwd': 'notsafehash'}]
+test_cases = [{'hash_algo': 'sha256', 'pwd': b'password123'}, {'hash_algo': 'sha512', 'pwd': b'securepassword'}, {'hash_algo': 'sha244', 'pwd': b'anotherpassword'}, {'hash_algo': 'sha384', 'pwd': b'testpassword'}, {'hash_algo': 'blake2s', 'pwd': b'examplepassword'}, {'hash_algo': 'md5', 'pwd': b'invalidhash'}, {'hash_algo': 'sha1', 'pwd': b'notsafehash'}]

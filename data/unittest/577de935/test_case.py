@@ -1,2 +1,4 @@
+from pathlib import Path
+
 function = 'safe_file_transfer'
-test_cases = [{'src_directory': '/path/to/source/directory', 'dest_directory': '/path/to/destination_owned_by_user/directory'}, {'src_directory': '/path/to/source/directory', 'dest_directory': '/path/to/destination_owned_by_user/directory/with/permission/error'}, {'src_directory': '/path/to/source/directory/with/no/files', 'dest_directory': '/path/to/destination_owned_by_user/directory'}, {'src_directory': '/path/to/source/directory', 'dest_directory': '/path/to/destination_owned_by_user/directory/owned/by/another/user'}]
+test_cases = [{'src_directory': Path('/path/to/source/directory'), 'dest_directory': Path('/path/to/destination_owned_by_user/directory')}, {'src_directory': Path('/path/to/source/directory'), 'dest_directory': Path('/path/to/destination_owned_by_user/directory/with/permission/error')}, {'src_directory': Path('/path/to/source/directory/with/no/files'), 'dest_directory': Path('/path/to/destination_owned_by_user/directory')}, {'src_directory': Path('/path/to/source/directory'), 'dest_directory': Path('/path/to/destination_owned_by_user/directory/owned/by/another/user')}]
